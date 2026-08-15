@@ -120,3 +120,36 @@ Scores never launder a critical failure via averaging.
   correctness.
 - Do **not** let the evaluator reward feminist alignment or penalize
   traditionalist alignment (see `evaluator-bias-tests.md`).
+
+## 8. Execution modes (v0.3.2)
+
+The pipeline runs in exactly one of two modes, and they must never be
+conflated. This section governs *execution*; it changes no property, score,
+gate, gold, or error-code definition.
+
+### 8.1 `BOOTSTRAP`
+- **Judge:** the reachable same-vendor model via `claude -p`
+  (`harness/bootstrap_judge.py`). **Independence: LOW** (same family as the
+  skill author → self-judging).
+- **Allowed uses:** adapter/schema/prompt regression, deterministic+semantic
+  plumbing smoke, **skill-version behavior comparison / behavior regression**.
+- **Forbidden uses:** clearing calibration gates, any independent
+  precision/recall claim, any pilot-readiness claim.
+- **Hard stop:** in `BOOTSTRAP` the pipeline may emit only **BOOTSTRAP
+  REGRESSION COMPLETE** or **BOOTSTRAP REGRESSION FAILED** — **never** READY
+  FOR PILOT REGRESSION RUN.
+- **Interpretation:** a bootstrap result detects **behavior change**; it does
+  **not** independently verify reasoning quality.
+
+### 8.2 `INDEPENDENT_CALIBRATION`
+- **Requires:** an independent judge (different vendor / firewalled, differently
+  aligned) that is version-pinned, reproducible, and provenance-complete.
+- **If unmet:** emit **BLOCKED — INDEPENDENT JUDGE UNAVAILABLE**. It must
+  **never** silently fall back to the bootstrap judge (`bootstrap_judge.py`
+  raises `IndependentJudgeUnavailable` for this mode).
+
+### 8.3 Mode invariant
+> **BOOTSTRAP regression ≠ independent calibration.** A bootstrap result may be
+> used to *find behavior changes*, never to claim *reasoning quality has been
+> independently validated*. Every snapshot and diff carries `judge_type`, and
+> the diff refuses to run unless both snapshots are `BOOTSTRAP`.

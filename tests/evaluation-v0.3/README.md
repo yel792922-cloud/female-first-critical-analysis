@@ -27,6 +27,27 @@ The three layers are **kept separate on purpose**: what can be checked by rule
 is never handed to a judge, and what needs judgment is never faked by keyword
 matching.
 
+## Execution modes (v0.3.2)
+
+Two modes, never conflated (full definition in `SPEC.md §8`):
+
+- **`BOOTSTRAP`** — judge = `claude -p` (same-vendor, **independence LOW**).
+  Use for **behavior regression** across skill/reference/trigger changes. Its
+  only verdicts are **BOOTSTRAP REGRESSION COMPLETE / FAILED** — it is
+  *hard-stopped* from ever claiming pilot readiness or independent calibration.
+- **`INDEPENDENT_CALIBRATION`** — requires an independent, version-pinned,
+  reproducible judge. Unavailable here → **BLOCKED — INDEPENDENT JUDGE
+  UNAVAILABLE**; it never falls back to bootstrap.
+
+> **BOOTSTRAP regression ≠ independent calibration.** A bootstrap result finds
+> *behavior changes*; it does **not** prove reasoning quality was independently
+> verified.
+
+Bootstrap regression tooling: `harness/bootstrap_judge.py` (mode-guarded
+judge), `harness/snapshot.py` (judge a skill version's outputs → snapshot),
+`harness/regression_diff.py` (BASELINE vs CURRENT, critical-property deltas
+first). A real end-to-end run is in `reports/bootstrap-regression-v0.3.2.md`.
+
 ## Layout
 
 ```

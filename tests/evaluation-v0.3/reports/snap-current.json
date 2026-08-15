@@ -1,0 +1,104 @@
+{
+  "label": "current",
+  "manifest": "../fixtures/regression/current-manifest.json",
+  "judge_type": "BOOTSTRAP",
+  "skill_version": "current-demo",
+  "items": [
+    {
+      "case_id": "REG-NR-01",
+      "ok": true,
+      "verdicts": {
+        "P01": "FAIL",
+        "P02": "FAIL",
+        "P10": "FAIL"
+      },
+      "flagged_ecodes": [
+        "E01",
+        "E13",
+        "E05"
+      ],
+      "critical_flags": [
+        "E01",
+        "E13",
+        "E05"
+      ],
+      "provenance": {
+        "mode": "BOOTSTRAP",
+        "judge_type": "BOOTSTRAP",
+        "adapter": "claude-cli-print",
+        "independence_level": "LOW (same vendor/family; alias model)",
+        "judge_model_alias": "DEFAULT",
+        "model_version": "UNKNOWN (alias, not pinned)",
+        "prompt_version": "bootstrap_judge.py@v0.3.2",
+        "runtime": "UNKNOWN",
+        "temperature": "UNKNOWN (not exposed by CLI)",
+        "reproducible": false,
+        "mock": false,
+        "skill_version": "current-demo",
+        "git_commit": "3e58db9",
+        "case_id": "REG-NR-01",
+        "fixture_hash": "6b1b73af890b",
+        "timestamp": "2026-08-15T14:07:28Z",
+        "secs": 7.9
+      }
+    },
+    {
+      "case_id": "REG-STABLE-01",
+      "ok": true,
+      "verdicts": {
+        "P04": "PASS",
+        "P05": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "provenance": {
+        "mode": "BOOTSTRAP",
+        "judge_type": "BOOTSTRAP",
+        "adapter": "claude-cli-print",
+        "independence_level": "LOW (same vendor/family; alias model)",
+        "judge_model_alias": "DEFAULT",
+        "model_version": "UNKNOWN (alias, not pinned)",
+        "prompt_version": "bootstrap_judge.py@v0.3.2",
+        "runtime": "UNKNOWN",
+        "temperature": "UNKNOWN (not exposed by CLI)",
+        "reproducible": false,
+        "mock": false,
+        "skill_version": "current-demo",
+        "git_commit": "3e58db9",
+        "case_id": "REG-STABLE-01",
+        "fixture_hash": "1713cb0e6d4f",
+        "timestamp": "2026-08-15T14:07:34Z",
+        "secs": 6.5
+      }
+    },
+    {
+      "case_id": "REG-IMPROVE-01",
+      "ok": true,
+      "verdicts": {
+        "P12": "PASS",
+        "P04": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "provenance": {
+        "mode": "BOOTSTRAP",
+        "judge_type": "BOOTSTRAP",
+        "adapter": "claude-cli-print",
+        "independence_level": "LOW (same vendor/family; alias model)",
+        "judge_model_alias": "DEFAULT",
+        "model_version": "UNKNOWN (alias, not pinned)",
+        "prompt_version": "bootstrap_judge.py@v0.3.2",
+        "runtime": "UNKNOWN",
+        "temperature": "UNKNOWN (not exposed by CLI)",
+        "reproducible": false,
+        "mock": false,
+        "skill_version": "current-demo",
+        "git_commit": "3e58db9",
+        "case_id": "REG-IMPROVE-01",
+        "fixture_hash": "e4e275ec29dd",
+        "timestamp": "2026-08-15T14:07:40Z",
+        "secs": 6.1
+      }
+    }
+  ]
+}

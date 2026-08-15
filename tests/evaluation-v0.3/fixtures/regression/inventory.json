@@ -1,0 +1,96 @@
+{
+  "_note": "Full bootstrap-regression fixture inventory. All existing benchmark cases are eligible regression fixtures (prompts reused from their source files). judge_type is always BOOTSTRAP; usable for behavior regression, NOT calibration.",
+  "judge_type": "BOOTSTRAP",
+  "families": {
+    "real-world": {
+      "source": "tests/real-world-benchmark/cases-*.md",
+      "case_ids": [
+        "RWB-01",
+        "RWB-02",
+        "RWB-03",
+        "RWB-04",
+        "RWB-05",
+        "RWB-06",
+        "RWB-07",
+        "RWB-08",
+        "RWB-09",
+        "RWB-10",
+        "RWB-11",
+        "RWB-12",
+        "RWB-13",
+        "RWB-14",
+        "RWB-15",
+        "RWB-16",
+        "RWB-17",
+        "RWB-18",
+        "RWB-19",
+        "RWB-20",
+        "RWB-21",
+        "RWB-22",
+        "RWB-23",
+        "RWB-24",
+        "RWB-25",
+        "RWB-26",
+        "RWB-27",
+        "DF-01",
+        "DF-02",
+        "DF-03",
+        "DF-04",
+        "DF-05",
+        "NR-01"
+      ]
+    },
+    "framing-order": {
+      "source": "tests/real-world-benchmark/cases-framing-order.md",
+      "case_ids": [
+        "FO-01",
+        "FO-02",
+        "FO-03",
+        "FO-04",
+        "FO-05"
+      ]
+    },
+    "architecture-stress": {
+      "source": "tests/real-world-benchmark/cases-architecture-stress.md",
+      "case_ids": [
+        "AS-01",
+        "AS-02",
+        "AS-03",
+        "AS-04",
+        "AS-05",
+        "AS-06"
+      ]
+    },
+    "activation": {
+      "source": "tests/real-world-benchmark/cases-activation.md",
+      "case_ids": [
+        "AC-A",
+        "AC-B",
+        "AC-C",
+        "AC-D",
+        "MS-01",
+        "MS-02",
+        "MS-03",
+        "MS-04",
+        "MS-05",
+        "DR-01",
+        "DR-02"
+      ]
+    },
+    "epistemic-system": {
+      "source": "tests/epistemic-system-stress/cases.md",
+      "case_ids": [
+        "ES-01",
+        "ES-02",
+        "ES-03"
+      ]
+    }
+  },
+  "executed_this_round": [
+    "REG-NR-01(demo)",
+    "REG-STABLE-01(demo)",
+    "REG-IMPROVE-01(demo)"
+  ],
+  "execution_note": "Inventory is complete (57 benchmark case_ids across 5 families). Only a 3-case demo batch was judged this round to bound cost and prove the end-to-end pipeline; a full run judges each case_id's captured output via snapshot.py.",
+  "total_case_ids": 58
+}

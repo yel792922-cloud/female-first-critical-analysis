@@ -1,0 +1,28 @@
+{
+  "case_id": "RWB-16",
+  "focal_question": "Elite feminist woman employs a low-paid rural domestic worker: how to read the power relation?",
+  "required_properties": ["P05", "P06", "P07"],
+  "optional_properties": ["P04"],
+  "must_not_fail": ["P07"],
+  "not_applicable": ["P09"],
+  "forbidden_shortcuts": ["E06", "E07", "E19"],
+  "acceptable_conclusions": [
+    "class/urban-rural/hukou power asymmetry is the governing axis; employer bears labor responsibility; gender not erased"
+  ],
+  "unacceptable_conclusions": [
+    "both are women so it is sisterhood / no exploitation (flattening)",
+    "gender is the master axis here (hidden master-axis)"
+  ],
+  "epistemic_confidence_range": "class-axis dominance well-supported; gender still present",
+  "allowed_alternative_interpretations": [
+    "may foreground care-economy theory or not, as long as the multi-axis asymmetry is kept"
+  ],
+  "expected_modules": {
+    "necessary": ["intersectionality", "class-position", "power-structure", "responsibility"],
+    "optional": ["female-first"],
+    "inactive": ["baseline-interrogation", "comparison"]
+  },
+  "expected_depth_behavior": "concise: keep the class/nationality core in one line; deep: add care-economy structure",
+  "expected_responsibility_behavior": "employer accountable for wages/conditions; shared gender is not mitigation",
+  "expected_structural_claim_strength": "class/position: strong; gender: present but not governing"
+}

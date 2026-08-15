@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "female-first/evaluation-v0.3/evaluation-schema.json",
+  "title": "Evaluation result",
+  "type": "object",
+  "required": ["case_id", "skill_version", "layers", "verdict"],
+  "additionalProperties": false,
+  "properties": {
+    "case_id": { "type": "string" },
+    "skill_version": { "type": "string" },
+    "layers": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "deterministic": {
+          "type": "object",
+          "required": ["passed", "checks"],
+          "properties": {
+            "passed": { "type": "boolean" },
+            "checks": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["name", "status"],
+                "properties": {
+                  "name": { "type": "string" },
+                  "status": { "type": "string", "enum": ["PASS", "FAIL", "N-A"] },
+                  "detail": { "type": "string" }
+                }
+              }
+            },
+            "shortcut_preflags": {
+              "type": "array",
+              "description": "Heuristic candidate signals routed to Layer 2. NOT verdicts.",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "e_code": { "type": "string" },
+                  "span": { "type": "string" },
+                  "note": { "type": "string" }
+                }
+              }
+            }
+          }
+        },
+        "property_judge": {
+          "type": "object",
+          "description": "Per-property semantic verdicts. status ADAPTER_PENDING when no judge run.",
+          "additionalProperties": {
+            "type": "object",
+            "required": ["status"],
+            "properties": {
+              "status": { "type": "string", "enum": ["PASS", "PARTIAL", "FAIL", "N-A", "ADAPTER_PENDING"] },
+              "evidence": { "type": "string" },
+              "e_codes": { "type": "array", "items": { "type": "string" } }
+            }
+          }
+        },
+        "pairwise": {
+          "type": "object",
+          "properties": {
+            "compared_with": { "type": "string" },
+            "axis": { "type": "string", "enum": ["concise-deep", "agency-structure", "version", "argument-reconstruction", "model-model"] },
+            "result": { "type": "string", "enum": ["STABLE", "STABLE-WITH-ELABORATION", "REASONING-REFINEMENT", "POSSIBLE-DRIFT", "MATERIAL-DRIFT", "ADAPTER_PENDING"] },
+            "stability": {
+              "type": "object",
+              "additionalProperties": { "type": "boolean" },
+              "description": "core_judgment/causal_strength/uncertainty/agency/responsibility/structural/module_set stable?"
+            }
+          }
+        }
+      }
+    },
+    "score": {
+      "type": "object",
+      "properties": {
+        "property_normalized": { "type": "number", "minimum": 0, "maximum": 1 },
+        "rwb_16pt": { "type": "integer" },
+        "epistemic_20pt": { "type": "integer" }
+      }
+    },
+    "critical_failures": { "type": "array", "items": { "type": "string" } },
+    "verdict": { "type": "string", "enum": ["PASS", "PARTIAL", "FAIL", "ADAPTER_PENDING"] }
+  }
+}

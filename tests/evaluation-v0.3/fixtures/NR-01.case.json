@@ -1,0 +1,11 @@
+{
+  "case_id": "NR-01",
+  "source": "tests/real-world-benchmark/cases-null-result.md",
+  "family": "regression",
+  "prompt": "一句话/展开均可：一名女性创业者一轮融资失败后发文说'投资圈根本不给女性机会，我被歧视了'，除自述与转发外无其他信息。这是不是性别歧视？",
+  "language": "zh",
+  "requested_depth": "default",
+  "case_complexity": "moderate",
+  "mode": "standard",
+  "gold_ref": "tests/evaluation-v0.3/calibration/gold/NR-01.json"
+}

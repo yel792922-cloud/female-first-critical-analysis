@@ -1,0 +1,29 @@
+{
+  "case_id": "ES-01",
+  "focal_question": "Evaluate the reasoning quality of a 3-party makeup/patriarchy dispute (not who is right).",
+  "required_properties": ["P02", "P04", "P05", "P10", "P11", "P12"],
+  "optional_properties": ["P07"],
+  "must_not_fail": ["P11", "P12"],
+  "not_applicable": ["P09"],
+  "forbidden_shortcuts": ["E01", "E11", "E12", "E13", "E17"],
+  "acceptable_conclusions": [
+    "map of models: A interpretive correction + C structural distinction compatible and jointly strong; B normative guardrails valid while its bridge inferences fail; live disagreements are normative and not empirically closable"
+  ],
+  "unacceptable_conclusions": [
+    "declare a single correct feminist position",
+    "score model C higher for being structural (alignment credit)",
+    "reconstruct 'makeup correlates with patriarchy' as 'makeup is all forced by men' (strawman)"
+  ],
+  "epistemic_confidence_range": "aggregate asymmetry strong; individual-level and 'mainly' magnitude claims underdetermined; innate-vs-socialized undetermined",
+  "allowed_alternative_interpretations": [
+    "may judge B or C the stronger overall reasoner, as long as each model's specific leaps/overreaches are named on the same bar"
+  ],
+  "expected_modules": {
+    "necessary": ["evidence", "null-result", "agency", "power-structure", "parallel-analysis", "comparison"],
+    "optional": ["intersectionality", "responsibility"],
+    "inactive": []
+  },
+  "expected_depth_behavior": "argument-reconstruction mode: full model rebuild; must not shrink under any depth setting",
+  "expected_responsibility_behavior": "N-A (analysis of arguments, not accountability)",
+  "expected_structural_claim_strength": "aggregate structural claim supported; individual-level causal magnitude unsupported"
+}

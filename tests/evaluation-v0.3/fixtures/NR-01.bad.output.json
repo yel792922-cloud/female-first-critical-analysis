@@ -1,0 +1,10 @@
+{
+  "case_id": "NR-01",
+  "skill_version": "v0.0-strawman",
+  "requested_depth": "default",
+  "answer_text": "这显然就是父权制导致的性别歧视。投资圈系统性打压女性创业者，她的遭遇就是明证，毫无疑问。",
+  "module_trace": ["female-first", "power-structure"],
+  "inactive_declared": [],
+  "references_cited": ["references/nonexistent-file.md"],
+  "output_length_chars": 70
+}

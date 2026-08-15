@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "female-first/evaluation-v0.3/case-schema.json",
+  "title": "Evaluation case",
+  "type": "object",
+  "required": ["case_id", "source", "prompt", "language"],
+  "additionalProperties": false,
+  "properties": {
+    "case_id": {
+      "type": "string",
+      "description": "Stable ID, e.g. RWB-16, DF-01, ES-01, FO-04, AS-03, NR-01, REG-NULL-01",
+      "pattern": "^[A-Z]{2,4}(-[A-Z]+)?-?[0-9A-Za-z]+$"
+    },
+    "source": {
+      "type": "string",
+      "description": "Path to the benchmark file this case is drawn from (cases are reused, not duplicated)."
+    },
+    "family": {
+      "type": "string",
+      "enum": ["core", "adversarial", "epistemic-system", "activation", "framing-order", "architecture-stress", "regression"]
+    },
+    "prompt": {
+      "type": "string",
+      "description": "The user input given to the skill."
+    },
+    "language": { "type": "string", "enum": ["zh", "en", "bilingual"] },
+    "requested_depth": {
+      "type": "string",
+      "enum": ["concise", "default", "deep"],
+      "description": "The depth the USER requested (independent of case complexity)."
+    },
+    "case_complexity": {
+      "type": "string",
+      "enum": ["simple", "moderate", "complex"],
+      "description": "Objective count of power relations / mechanisms / positions — a case property, NOT a depth signal."
+    },
+    "mode": {
+      "type": "string",
+      "enum": ["standard", "argument-reconstruction"],
+      "default": "standard"
+    },
+    "gold_ref": {
+      "type": "string",
+      "description": "Path to the gold annotation for this case (calibration/gold/*.json)."
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "case_id": "NR-01",
+  "skill_version": "v0.2.7",
+  "requested_depth": "default",
+  "answer_text": "先分层：她的长文是主观叙述（Tier 4），转发量是热度不是证据。行业整体确有对女性创始人的融资差距，这是真实、可分析的结构议题，我不否认。但 pattern≠instance：聚合差距不能证明这一次拒绝就是性别导致的。竞争性解释还有项目/赛道/团队/时机/宏观周期。缺乏拒绝理由、对照组与投资方构成的情况下，当前证据不足以判断本案存在显著的 gendered structural constraint；我也不会反向断言'纯属能力问题、与性别无关'。",
+  "module_trace": ["female-first", "evidence", "null-result", "power-structure"],
+  "inactive_declared": ["baseline-interrogation", "comparison", "responsibility"],
+  "references_cited": ["references/causal-reasoning.md", "references/feminist-economics.md"],
+  "output_length_chars": 300
+}

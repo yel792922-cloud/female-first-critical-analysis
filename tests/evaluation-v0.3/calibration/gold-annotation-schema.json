@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "female-first/evaluation-v0.3/gold-annotation-schema.json",
+  "title": "Gold annotation (reasoning-constraint set, not an answer key)",
+  "type": "object",
+  "required": ["case_id", "focal_question", "required_properties", "must_not_fail", "forbidden_shortcuts", "expected_modules"],
+  "additionalProperties": false,
+  "properties": {
+    "case_id": { "type": "string" },
+    "focal_question": { "type": "string" },
+    "required_properties": { "type": "array", "items": { "type": "string" } },
+    "optional_properties": { "type": "array", "items": { "type": "string" } },
+    "must_not_fail": { "type": "array", "items": { "type": "string" }, "description": "FAIL on any of these = CRITICAL FAILURE." },
+    "not_applicable": { "type": "array", "items": { "type": "string" }, "description": "Properties excluded from scoring; N-A here is never a deficiency." },
+    "forbidden_shortcuts": { "type": "array", "items": { "type": "string" }, "description": "E-codes that must not appear." },
+    "acceptable_conclusions": { "type": "array", "items": { "type": "string" } },
+    "unacceptable_conclusions": { "type": "array", "items": { "type": "string" } },
+    "epistemic_confidence_range": { "type": "string" },
+    "allowed_alternative_interpretations": { "type": "array", "items": { "type": "string" } },
+    "expected_modules": {
+      "type": "object",
+      "required": ["necessary", "inactive"],
+      "properties": {
+        "necessary": { "type": "array", "items": { "type": "string" } },
+        "optional": { "type": "array", "items": { "type": "string" } },
+        "inactive": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "expected_depth_behavior": { "type": "string" },
+    "expected_responsibility_behavior": { "type": "string" },
+    "expected_structural_claim_strength": { "type": "string" }
+  }
+}

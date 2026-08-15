@@ -163,7 +163,9 @@ correct life," all four at once.
   Intersectionality Invocation, Comparison discipline, Class/Position Power,
   Parallel Analysis) + Activation Architecture calibration + architecture
   audit + **full dual-mode validation pass** *(current)*
-- **v0.3** — automated evaluation harness
+- **v0.3** — automated reasoning-property evaluation harness *(offline
+  scaffold landed: `tests/evaluation-v0.3/` — deterministic layer runnable;
+  semantic + pairwise layers specified behind an execution adapter, not faked)*
 - **v0.4** — domain-specific references
 - **v1.0** — stabilized core axioms
 

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "female-first/evaluation-v0.3/output-schema.json",
+  "title": "Skill output capture",
+  "description": "A captured skill response for a case. The prose answer is the deliverable; the trace fields let the deterministic layer check activation/sufficiency without an LLM.",
+  "type": "object",
+  "required": ["case_id", "skill_version", "answer_text"],
+  "additionalProperties": false,
+  "properties": {
+    "case_id": { "type": "string" },
+    "skill_version": { "type": "string", "description": "e.g. v0.2.7" },
+    "requested_depth": { "type": "string", "enum": ["concise", "default", "deep"] },
+    "answer_text": { "type": "string", "description": "The full user-facing answer." },
+    "module_trace": {
+      "type": "array",
+      "description": "Modules the skill treated as ACTIVE for this case (self-declared). Used by deterministic P13/P14 checks.",
+      "items": {
+        "type": "string",
+        "enum": ["female-first", "evidence", "null-result", "baseline-interrogation",
+                 "agency", "power-structure", "responsibility", "intersectionality",
+                 "class-position", "comparison", "parallel-analysis"]
+      }
+    },
+    "inactive_declared": {
+      "type": "array",
+      "description": "Modules explicitly judged inactive/irrelevant for this case.",
+      "items": { "type": "string" }
+    },
+    "references_cited": {
+      "type": "array",
+      "description": "reference files the answer relied on; checked against the real references/ directory for dangling refs.",
+      "items": { "type": "string" }
+    },
+    "self_audit": {
+      "type": "object",
+      "description": "Optional self-check block; required only when mode demands it.",
+      "additionalProperties": { "type": "boolean" }
+    },
+    "output_length_chars": { "type": "integer", "minimum": 0 }
+  }
+}

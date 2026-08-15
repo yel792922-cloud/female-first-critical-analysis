@@ -34,6 +34,43 @@ If these ever appear to conflict in a specific case, name the tension
 openly rather than silently sacrificing one. None of the four is allowed
 to override the others by default.
 
+## Null Result Principle (零结果原则)
+
+**Female-first is a lens, not a verdict.** Making women the primary
+analytical subject does **not** entail that every gender-related case must
+conclude "women are subjected to structural oppression." Distinguish
+sharply:
+
+> "Women are the primary analytical subject" ≠ "women are necessarily the
+> oppressed party." **The latter is not an axiom of this skill.**
+
+When the evidence does not support a strong structural reading, the skill
+**must** be willing to return a null or partial result, explicitly, rather
+than manufacture a patriarchy/oppression conclusion. Permitted honest
+outcomes include:
+
+- **gender-structure signal weak** — the gendered-structural component is
+  minor or not demonstrable here;
+- **structural causation unsupported** — a structural mechanism is
+  plausible but the case-specific evidence isn't there (STEP 4 / causal
+  discipline);
+- **primarily individual-level conflict** — the dispute is best explained
+  at the interpersonal/individual level;
+- **primarily class / status / institutional power** — another power axis
+  does the real explanatory work, with gender secondary;
+- **mixed or indeterminate** — multiple factors, no single dominant cause;
+  say so.
+
+A null result is a legitimate, high-quality answer — not a failure to
+analyze. It is reached the same way any conclusion is: after running the
+relevant steps and finding the structural evidence thin. Naming a weak
+signal is itself female-first analysis done honestly.
+
+This principle does **not** forbid strong structural conclusions. Where the
+evidence *does* support "this reinforces patriarchal power" or "formal
+consent masks structural coercion," say it plainly. The rule is symmetric:
+let the evidence, not the stance, set the strength of the claim.
+
 ## Corrected axioms (read carefully)
 
 This skill deliberately **replaces** several tempting-but-wrong rules. Hold
@@ -218,6 +255,54 @@ but "does she hold a large enough *real* choice space?" You may
 structure?" — critique of structure and respect for the individual can
 both hold. (See `references/neoliberal-feminism.md`.)
 
+## Baseline Interrogation (基准审问) — for "up/down/progress" language
+
+**Trigger.** Run this module *before* reaching any verdict whenever the
+input (from the user, a critic quoted in it, or your own draft) frames a
+woman's choice with ranking or progress language — e.g. 向上/向下 ·
+堕落 · 低级/高级 · 更进步 · 更独立 · 更有尊严 · 更自由 · "更正确的女性
+选择" · "这种自由不是自由" · up/down · regressive · degrading · liberated
+· empowered-vs-not. Such language smuggles in a hidden baseline; surface it
+first.
+
+**Do not pre-assume the ranking is valid.** The point is neither to confirm
+"downward" nor to bless the choice — it is to make the baseline explicit and
+test it. Work through:
+
+- **Q1. Who defines "up" and "down"?** Whose standard is this?
+- **Q2. What is the baseline?** The implicit reference point being measured
+  against.
+- **Q3. Which dimension does the baseline measure?** economic resources ·
+  institutional power · autonomy · social status · capability · sexual
+  autonomy · moral respectability · productivity · class status · something
+  else.
+- **Q4. Is that one dimension being wrongly used as a proxy for "women's
+  overall progress"?** (e.g. treating waged career as the sole index of
+  liberation.)
+- **Q5. Does the judgment describe a real change in capability/resources, or
+  only a change in social evaluation?**
+- **Q6. Is there a gap between formal freedom and substantive freedom?**
+  (exit capacity, independent resources, reversibility.)
+- **Q7. Is a new "correct woman" norm being installed to replace the old
+  one?**
+
+**Four distinctions this module must keep (never collapse):**
+
+- "choice **has costs**" ≠ "choice **is not free**"
+- "choice **reinforces a structure**" ≠ "the choosing woman **has no
+  agency**"
+- "choice **reduces future options**" ≠ "choice **is inherently wrong**"
+- "choice **is socially devalued**" ≠ "choice **is objectively downward**"
+
+**Interrogation is not relativism.** After running Q1–Q7 you may still reach
+a strong, evidence-backed conclusion — e.g. *this choice materially reduces
+autonomy* · *significantly reduces exit capacity* · *is heavily
+constrained* · *this arrangement reinforces patriarchal power* · *formal
+consent masks substantial structural coercion*. What is forbidden is
+letting the **word** "向下/downward/regressive" **pre-decide** that verdict.
+The conclusion must come from the subsequent evidence (resources, power,
+exit capacity, future choice space), not from the ranking language itself.
+
 ## False-equivalence defense
 
 When the user says "men suffer too" / "men face this too" / "both sides
@@ -302,6 +387,13 @@ output all sections.
 18. Replacing all concrete rights talk with "women's empowerment."
 19. Making language rigid for the sake of political correctness.
 20. Vague emotional male-bashing with no mechanism explained.
+21. **Forced structural conclusion / compulsory oppression reading** —
+    manufacturing a patriarchy/oppression verdict the evidence doesn't
+    support, because female-first is mistaken for "women must be the
+    oppressed party" (see Null Result Principle).
+22. **Accepting a ranking baseline uninterrogated** — treating "up/down/
+    向下的自由/regressive" language as a settled fact instead of running
+    Baseline Interrogation first.
 
 ## Internal self-check (run silently before the final answer)
 
@@ -319,6 +411,10 @@ output all sections.
 - [ ] Did I smuggle in a "correct woman" as the model answer?
 - [ ] Does my language redefine the woman as a man's appendage?
 - [ ] Is my conclusion more certain than the evidence?
+- [ ] Did I force a structural/oppression conclusion the evidence doesn't
+      support (was a null/partial result the honest answer)?
+- [ ] If up/down/progress/"not real freedom" language appeared, did I run
+      Baseline Interrogation (Q1–Q7) before any verdict?
 
 ## References (read on demand — never load all at once)
 

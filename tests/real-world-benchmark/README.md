@@ -55,10 +55,12 @@ intersectionality · anti-paternalism · causal discipline.
 | `cases-intra-women.md` | RWB-16 … RWB-18 | E 女性内部差异 |
 | `cases-rhetoric-traps.md` | RWB-19 … RWB-25 | F 典型话术陷阱 |
 | `cases-downward-freedom.md` | DF-01 … DF-05 | 专项:"向下的自由不是自由" |
+| `cases-null-result.md` | NR-01 | 专项:证据不足时的零结果 |
 | `scorecard.md` | — | 8-dimension scoring rubric |
 | `results-v0.2-initial.md` | — | Initial live run of 5 hardest cases |
+| `results-v0.2.1-rerun.md` | — | Re-run after Null-Result + Baseline-Interrogation edits |
 
-**30 cases total** (25 thematic + 5 downward-freedom).
+**31 cases total** (25 thematic + 5 downward-freedom + 1 null-result).
 
 Tags used on cases: `opposite-valid` (opposite conclusions can both pass),
 `intra-gender-power`, `downward-freedom`, `stance-immunity`,

@@ -53,7 +53,7 @@ intersectionality · anti-paternalism · causal discipline.
 | `cases-lifestyle-family.md` | RWB-01 … RWB-09 | A 生活方式 · B 婚恋与家庭 |
 | `cases-sexwork-career.md` | RWB-10 … RWB-15 | C 性劳动与商业化 · D 职业与社会地位 |
 | `cases-intra-women.md` | RWB-16 … RWB-18 | E 女性内部差异 |
-| `cases-rhetoric-traps.md` | RWB-19 … RWB-26 | F 典型话术陷阱 + 男性受害者对照 |
+| `cases-rhetoric-traps.md` | RWB-19 … RWB-27 | F 典型话术陷阱 + 男性受害者对照 + 合法比较 |
 | `cases-downward-freedom.md` | DF-01 … DF-05 | 专项:"向下的自由不是自由" |
 | `cases-null-result.md` | NR-01 | 专项:证据不足时的零结果 |
 | `scorecard.md` | — | 8-dimension scoring rubric |
@@ -61,8 +61,9 @@ intersectionality · anti-paternalism · causal discipline.
 | `results-v0.2.1-rerun.md` | — | Re-run after Null-Result + Baseline-Interrogation edits |
 | `results-v0.2.2-rerun.md` | — | Re-run after Responsibility-Principle edit |
 | `results-v0.2.3-rerun.md` | — | Re-run after Intersectionality-Invocation edit |
+| `results-v0.2.4-rerun.md` | — | Re-run after Comparison-Discipline edit |
 
-**32 cases total** (26 thematic + 5 downward-freedom + 1 null-result).
+**33 cases total** (27 thematic + 5 downward-freedom + 1 null-result).
 
 Tags used on cases: `opposite-valid` (opposite conclusions can both pass),
 `intra-gender-power`, `downward-freedom`, `stance-immunity`,

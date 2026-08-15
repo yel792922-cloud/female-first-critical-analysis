@@ -216,3 +216,47 @@ not expansion.
    outside lifestyle cases.
 4. Only *after* tuning stabilizes: consider v0.3 automated evaluation (out of
    scope now).
+
+## 11. Activation architecture (added v0.2.7)
+
+Audit of the Activation Architecture module (`SKILL.md` → Activation
+Architecture). The design goal being audited: *not* "maximize feminist
+analysis on every question," but "**with women as the primary analytical
+subject, invoke enough analysis to avoid material distortion, at the depth
+the user actually requested.**"
+
+### 11.1 Checks
+
+| Check | Finding |
+|---|---|
+| Activation wrongly bound to **topic category**? | **No.** Module Activation Rule keys on *trigger + necessity*, not "this is a beauty/marriage/sex-work topic → run the beauty/marriage/sex-work bundle." |
+| **Requested depth** overridden by **case complexity**? | **No.** The three-variable model + activation matrix make complexity and requested depth independent axes; AC-A/B and AC-C/D confirm identical cases scale with the *request*, not the case. |
+| **Output length** auto-decided by **module count**? | **No.** Variable C (output) is separate from A (modules) and B (depth); meta-rule "brevity ≠ superficiality" + failure mode #31 enforce it. |
+| Minimal Sufficient Analysis degenerated into a **"short-answer mode"**? | **No.** Redefined as "minimum machinery to avoid a *materially misleading* answer, while allowing the user to request more depth." MS-01…05 show it does not shorten output; it protects correctness. |
+| **Depth inflation** (auto-deep on complex cases)? | **No** — failure mode #30 names it; AC-C (complex+shallow) stays brief. |
+| **Module checklist behavior** (all-on under "深度分析")? | **No** — DR-01/02 show deep requests activate only relevant modules; irrelevant ones stay inactive. |
+
+### 11.2 The three-variable model vs. the old ladder
+
+The earlier Minimal Sufficient Analysis meta-rule ("depth scales to the
+case") carried an **implicit complexity→depth binding** — a latent ladder.
+v0.2.7 removes it: **A (which modules) · B (how deep) · C (how long)** are
+independent, and *case complexity ≠ requested analytical depth* is stated
+outright. This is a **calibration** of activation, not a new principle.
+
+### 11.3 Residual
+
+- The **Necessary vs. Optional** boundary is interpretive (criterion: "would
+  omitting this materially mislead?"). This is correctly a judgment, not a
+  lookup table — but it is the one place activation quality depends on the
+  model's discernment. Watch it in a larger sample.
+- No new architecture risk introduced; the dependency graph (§2) and conflict
+  table (§4) are unchanged by this round (activation is orthogonal to the
+  reasoning principles it governs).
+
+### 11.4 Verdict
+
+Activation architecture is **calibrated and decoupled**. Combined with §10's
+principle-completeness finding, the skill is now **principle-complete *and*
+activation-calibrated**. Next stage: validation at larger sample size, then
+(only later) v0.3 automation.

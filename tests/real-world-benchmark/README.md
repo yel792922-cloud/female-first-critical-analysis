@@ -58,6 +58,7 @@ intersectionality · anti-paternalism · causal discipline.
 | `cases-null-result.md` | NR-01 | 专项:证据不足时的零结果 |
 | `cases-framing-order.md` | FO-01 … FO-05 | 专项:A/B 顺序偏差(Agency ∥ Structure) |
 | `cases-architecture-stress.md` | AS-01 … AS-06 | 专项:多轴权力位置压力测试 |
+| `cases-activation.md` | AC-A…D · MS-01…05 · DR-01…02 | 专项:激活架构(复杂度×请求深度解耦) |
 | `scorecard.md` | — | 8-dimension scoring rubric |
 | `results-v0.2-initial.md` | — | Initial live run of 5 hardest cases |
 | `results-v0.2.1-rerun.md` | — | Re-run after Null-Result + Baseline-Interrogation edits |
@@ -65,6 +66,7 @@ intersectionality · anti-paternalism · causal discipline.
 | `results-v0.2.3-rerun.md` | — | Re-run after Intersectionality-Invocation edit |
 | `results-v0.2.4-rerun.md` | — | Re-run after Comparison-Discipline edit |
 | `results-v0.2.5-rerun.md` | — | A/B framing-order re-run after Parallel-Analysis edit |
+| `results-v0.2.7-activation.md` | — | Activation-calibration run (6 activation metrics) |
 
 **33 scored cases** (27 thematic + 5 downward-freedom + 1 null-result), plus
 **5 framing-order pairs** (FO-01…05) and **6 architecture stress cases**

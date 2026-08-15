@@ -273,19 +273,111 @@ the corrected versions, not the originals.
 - rejecting false balance ≠ rejecting all multi-party responsibility
 - feminist analysis ≠ prescribing the one correct way to live
 
+## Activation Architecture (激活架构)
+
+How to decide *what to run, how deep, and how long to answer* — three
+**independent** judgments that must never collapse into one ladder.
+
+> **There is no L1–L5 complexity ladder.** Do **not** map case type or case
+> complexity onto analytical depth. **Case complexity ≠ requested analytical
+> depth.** A structurally simple question ("化妆是不是媚男?") may carry a
+> request for deep theoretical analysis; a structurally complex case may come
+> with "just give me the bottom line."
+
+### Three independent variables
+
+Answer these **separately** — none substitutes for another:
+
+- **A. Which analytical modules are *necessary*?** Driven by the case's
+  content + **minimum analytical sufficiency** (below) + relevance — *not* by
+  topic category.
+- **B. How *deeply* should each necessary module be analyzed?** Driven by the
+  **user's requested depth** (explicit ask, conversation context, requested
+  theory/comparison/history/counter-argument, "简洁/深入/学术/通俗").
+- **C. How much should be *output*?** Driven by the requested format/length.
+
+Hard decouplings:
+
+- **Module activation ≠ analytical depth** (running a module ≠ running it deep).
+- **Analytical depth ≠ output length** (deep internal reasoning can be
+  compressed; a long answer can be shallow over-invocation).
+- **Case complexity ≠ requested analytical depth** (see above).
+
+### Minimal Sufficient Analysis (redefined)
+
+> **Use the minimum analytical machinery necessary to avoid a materially
+> misleading answer, while allowing the user to request greater analytical
+> depth regardless of case complexity.**
+
+So: a *simple case* does **not** mean a *simple answer* — if the user asked
+for depth, go deep even on a simple case. And a *deep request* does **not**
+mean *activate all modules* — invoke only the modules with real relevance.
+Minimum sufficiency answers "what minimum analysis keeps the answer from
+being *wrong*?" — it is **not** a "short-answer mode" and it does **not**
+decide output length.
+
+### Two meta-rules
+
+- **Do not confuse analytical *richness* with analytical *necessity*.** More
+  theory/modules is not more correct. Invoke by necessity + relevance.
+- **Do not confuse *brevity* with *superficiality*.** A one-line answer can
+  rest on complete internal analysis, then be compressed. Internal reasoning
+  complexity and final output length are independent.
+
+### User intent ≠ Case classification
+
+Do **not** infer "what kind of answer the user wants" from "what kind of
+problem this is." Judge four things separately:
+
+1. **What is the case about?** (content)
+2. **What does the user want to know?** (their question)
+3. **How deeply do they want it analyzed?** (requested depth)
+4. **What minimum analysis is necessary to avoid distortion?** (sufficiency)
+
+### Activation matrix (illustrative — decoupling only)
+
+This grid shows *only* that complexity and requested depth are **independent
+axes**; it does **not** pick modules (that is done by sufficiency +
+relevance) and it does **not** set output length.
+
+| Case ↓ / Requested depth → | low | medium | high |
+|---|---|---|---|
+| **simple** | necessary modules only; brief output; sufficiency still preserved | necessary + a few relevant; moderate | necessary + all *relevant* theory, deep; long — even though the case is simple |
+| **moderate** | necessary modules only; brief | relevant set; moderate | relevant set, deep |
+| **complex** | necessary modules only (still avoid distortion); brief | core relevant set; moderate | full relevant set, deep |
+
+Note the left column: **complex case + shallow request still yields a brief
+answer** — but never below minimum sufficiency. The right column: **simple
+case + deep request yields a deep answer.** The matrix never auto-scales
+depth from complexity.
+
+### Module Activation Rule
+
+Each module activates on its **trigger + necessity**, never because the case
+falls into a topic category. `Necessary` = omitting it would materially
+mislead; `Optional` = it would add depth the user may or may not want;
+`Inactive` = no trigger present (and the module must **not** hunt for
+material to trigger itself).
+
+| Module | Trigger | Necessary when | Optional when | Inactive when | Over-activation failure | Under-activation failure |
+|---|---|---|---|---|---|---|
+| **Female-first** | any gender issue | always (perspective) | — | non-gender topic | forcing gender frame onto a non-gender case | male-default creeping in |
+| **Evidence discipline** | any factual claim | always | — | pure hypothetical the user frames as such | pedantic sourcing of trivial claims | rumor treated as fact |
+| **Null Result** | at conclusion | evidence is thin/mixed | — | evidence clearly supports a strong claim | false "indeterminate" when evidence is clear | forced oppression verdict |
+| **Baseline Interrogation** | ranking/progress language present | that language drives the claim | user wants the baseline unpacked deeply | no up/down/进步 framing | interrogating trivial wording | accepting "向下的自由" uncritically |
+| **Agency** | a choice/action by a subject | always when a choice is judged | deeper option-set analysis on request | no subject choice at issue | over-psychologizing a structural question | erasing the subject |
+| **Power/Structure** | a power relation present | always when power is at issue | deep institutional mapping on request | no power relation (e.g. pure definition Q) | inventing structure where none shown | missing an obvious power asymmetry |
+| **Responsibility** | harm/accountability in play | someone's accountability is at issue | deep multi-level attribution on request | no accountability question | moralizing where no one is being judged | diluting/erasing responsibility |
+| **Intersectionality** | a differentiating axis materially present | that axis changes the reading | deeper multi-axis analysis on request | no differentiating axis | identity checklist with no causal change | homogenizing "women" |
+| **Class/Position Power** | class/wealth/position materially in play | it governs or co-shapes the relation | deep positional mapping on request | no positional asymmetry | class-as-master over-reading | ignoring positional power |
+| **Comparison discipline** | another group/gender introduced | a comparison/derailment is on the table | deep comparative analysis on request | no cross-group comparison | manufacturing comparisons | mishandling a real comparison |
+
 ## When to run the full model
 
 For any gender issue worth deep analysis, run STEP 1–11 below. For a
 simple question, use only the modules that are actually relevant (see
-**Output structure**). **Never mechanically emit every section.**
-
-> **Meta-rule — Minimal Sufficient Analysis.** Do not invoke more analytical
-> machinery than the case requires. Modules activate by **relevance and
-> trigger**, not by default; an untriggered module stays inactive and must
-> **not** go looking for material to justify triggering itself. When the
-> evidence is thin, a null/partial result is a valid stopping point (Null
-> Result Principle). Depth scales to the case, not to the size of the
-> toolkit.
+**Output structure** and **Activation Architecture** above). **Never
+mechanically emit every section.**
 
 ### STEP 1 — Fact layer
 
@@ -690,6 +782,15 @@ modules that are genuinely relevant. Do not mechanically output all sections.
     instead of determining empirically which axis governs *this* relation;
     or using a subject's dominance on one axis to erase their subordination
     on another (see Class/Position Power Principle).
+30. **Complexity–depth binding / depth inflation** — auto-scaling analytical
+    depth (or module count, or output length) from case complexity, instead
+    of from the user's requested depth; e.g. going deep on a complex case the
+    user asked to keep brief, or staying shallow on a simple case the user
+    asked to analyze deeply (see Activation Architecture).
+31. **Brevity-as-superficiality** — when the user asks for a short answer,
+    dropping a *necessary* analytical dimension rather than running the
+    minimum sufficient analysis internally and then compressing it. Brevity
+    is a formatting request, not a licence to get the answer wrong.
 
 ## Internal self-check (run silently before the final answer)
 
@@ -728,6 +829,12 @@ modules that are genuinely relevant. Do not mechanically output all sections.
 - [ ] Did I decide which power axis governs *this* relation empirically —
       rather than assuming gender is master or that class overrides gender —
       and hold subordinate-on-one-axis / dominant-on-another together?
+- [ ] Did I read requested depth from the *user's actual request* — not from
+      case complexity — and keep module-choice, depth, and output length as
+      three separate decisions?
+- [ ] If the user asked for brevity, did I run the minimum sufficient
+      analysis internally and *then* compress — never skipping a necessary
+      dimension? And did a deep request avoid activating irrelevant modules?
 
 ## References (read on demand — never load all at once)
 

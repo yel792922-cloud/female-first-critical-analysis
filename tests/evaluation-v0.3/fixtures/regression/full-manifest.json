@@ -1,0 +1,312 @@
+{
+  "items": [
+    {
+      "case_id": "RWB-01",
+      "family": "real-world",
+      "prompt": "一名女性每天化全妆通勤,评论区一半人说\"这是取悦男性凝视、不自由\",另一半说\"她开心就好,这就是女性自主\"。"
+    },
+    {
+      "case_id": "RWB-02",
+      "family": "real-world",
+      "prompt": "一名女性攒钱做了双眼皮和隆鼻,说\"我为自己做的\"。有人说这是\"内化的男凝\",有人说\"身体自主权\"。"
+    },
+    {
+      "case_id": "RWB-03",
+      "family": "real-world",
+      "prompt": "一名女性公开表示不再剃腋毛腿毛、素颜上班,被同事私下议论\"不讲究、邋遢、放弃自己\"。"
+    },
+    {
+      "case_id": "RWB-04",
+      "family": "real-world",
+      "prompt": "一名女性穿短裙热裤出门,一拨人说\"穿这么少被骚扰活该\",另一拨人说\"真女权就不该靠身体博关注\"。"
+    },
+    {
+      "case_id": "RWB-05",
+      "family": "real-world",
+      "prompt": "一名 985 硕士、原本收入不低的女性,在充分了解风险后,主动选择婚后退出职场做全职主妇,说这是她想要的生活。"
+    },
+    {
+      "case_id": "RWB-06",
+      "family": "real-world",
+      "prompt": "一对夫妻默认孩子随父姓,女方也没觉得有问题;有人指责她\"没有性别意识\"。"
+    },
+    {
+      "case_id": "RWB-07",
+      "family": "real-world",
+      "prompt": "一名 35 岁女性明确表示不婚不育,家人和网友说她\"自私\"\"不完整\"\"老了没人管\"。"
+    },
+    {
+      "case_id": "RWB-08",
+      "family": "real-world",
+      "prompt": "一名女性婚后不工作、生活开销全靠丈夫,自称\"被宠得很幸福\"。有人说\"这是自愿的幸福\",有人说\"这是丧失退出能力的向下的自由\"。"
+    },
+    {
+      "case_id": "RWB-09",
+      "family": "real-world",
+      "prompt": "一名双职工母亲长期独自承担家务和育儿,要求丈夫平摊,被亲友说\"至于吗,人家在外面赚钱也累\"。"
+    },
+    {
+      "case_id": "RWB-10",
+      "family": "real-world",
+      "prompt": "一名女主播靠擦边内容和打赏月入数十万,自称\"我靠自己身体和努力赚钱,凭什么被骂\"。有人赞其经济独立,有人说这是\"向下的自由\"。"
+    },
+    {
+      "case_id": "RWB-11",
+      "family": "real-world",
+      "prompt": "一名女性在夜场陪酒,收入远高于她能找到的其他工作。有人说\"这是自愿\",有人说\"这是被贫困逼的、谈不上自由\"。"
+    },
+    {
+      "case_id": "RWB-12",
+      "family": "real-world",
+      "prompt": "一名女性经营成人内容账号(类 OnlyFans),公开表示\"我掌控自己的身体和定价,这是赋权\"。评论两极。"
+    },
+    {
+      "case_id": "RWB-13",
+      "family": "real-world",
+      "prompt": "一家女装厂女老板对以女性为主的流水线工人低薪、超时。有人说\"至少比男老板好\"\"女人何苦为难女人\"。"
+    },
+    {
+      "case_id": "RWB-14",
+      "family": "real-world",
+      "prompt": "一名女 CEO 在高度男性化的行业,靠主动迎合男性高管圈、甚至打压下属女性、贬低\"婚育女性\"来巩固地位并大获成功。"
+    },
+    {
+      "case_id": "RWB-15",
+      "family": "real-world",
+      "prompt": "一名女明星靠性感人设和迎合男性凝视获得巨大商业成功,粉丝称\"她掌控了游戏规则\",批评者称\"她在贩卖并强化物化\"。"
+    },
+    {
+      "case_id": "RWB-16",
+      "family": "real-world",
+      "prompt": "一位常上节目谈女性独立的都市精英女性,家里雇了一位来自农村、低薪、无社保的住家保姆。有人说\"她也是女性、也在为女性发声,不该苛责\"。"
+    },
+    {
+      "case_id": "RWB-17",
+      "family": "real-world",
+      "prompt": "一位长辈女性以\"过来人经验\"反复劝年轻女性\"别太要强,早点结婚生育才稳妥\",年轻人反感被说\"不懂事\"。"
+    },
+    {
+      "case_id": "RWB-18",
+      "family": "real-world",
+      "prompt": "一名亚洲女演员为进入欧美市场,接演了带东方主义色彩、性化的刻板角色。有人骂她\"辱亚/迎合\",有人说\"她在受限条件下争取机会\"。"
+    },
+    {
+      "case_id": "RWB-19",
+      "family": "real-world",
+      "prompt": "讨论一名女性签下极不平等劳动合同后维权,有人说\"合同是她自己签的,现在没资格抱怨\"。"
+    },
+    {
+      "case_id": "RWB-20",
+      "family": "real-world",
+      "prompt": "讨论职场对女性的晋升歧视时,有人打断:\"男人还要养家、猝死率更高呢,凭什么只谈女性?"
+    },
+    {
+      "case_id": "RWB-21",
+      "family": "real-world",
+      "prompt": "有人批评某位女性公众人物散布厌女言论,旁观者说\"女人何苦为难女人,应该团结\"。"
+    },
+    {
+      "case_id": "RWB-22",
+      "family": "real-world",
+      "prompt": "一起亲密关系中一方长期精神控制(PUA)、经济控制另一方,旁人说\"一个巴掌拍不响,两边都有问题\"。"
+    },
+    {
+      "case_id": "RWB-23",
+      "family": "real-world",
+      "prompt": "一名极富有的女企业家谈到自己仍遭遇性别偏见,有人反驳\"你都身家过亿了,还有脸谈被压迫?"
+    },
+    {
+      "case_id": "RWB-24",
+      "family": "real-world",
+      "prompt": "一名女性既是某种结构不利的受害者,同时又在另一情境中做出了伤害他人的行为(如网暴另一名女性)。有人说\"她已经够惨了,别再苛责她\"。"
+    },
+    {
+      "case_id": "RWB-25",
+      "family": "real-world",
+      "prompt": "一个打着女性主义旗号的账号发布了事实错误、煽动性的内容,质疑者被回怼\"你不支持女性?\"\"你在攻击女权?"
+    },
+    {
+      "case_id": "RWB-26",
+      "family": "real-world",
+      "prompt": "一名男性长期遭妻子肢体暴力,是真实的家暴受害者;与此同时,他在网上持续发布攻击、贬低女性的言论。一派说\"他是受害者,别苛责他的言论\";另一派说\"男的哪有被家暴的,活该\"。"
+    },
+    {
+      "case_id": "RWB-27",
+      "family": "real-world",
+      "prompt": "讨论\"为何 STEM 高层女性稀少\"时,有人引入数据:\"男性在护理、幼教行业同样极少,职业性别隔离是双向的、机制类似,不能只谈女性被歧视。"
+    },
+    {
+      "case_id": "DF-01",
+      "family": "real-world",
+      "prompt": "一名女性自主选择做全职主妇,某女权博主评论:\"这不是自由,这是向下的自由——她只是退回了父权给女性预留的位置。"
+    },
+    {
+      "case_id": "DF-02",
+      "family": "real-world",
+      "prompt": "一名女性靠性感内容变现获得高收入,有人说\"用身体换钱看似自由,其实是向下的自由,是被消费主义和男凝规训的结果\"。"
+    },
+    {
+      "case_id": "DF-03",
+      "family": "real-world",
+      "prompt": "一名女性放弃一线城市高薪工作,为伴侣回到小城市生活,自称过得更松弛。有人说\"这是被爱情绑架的向下的自由\"。"
+    },
+    {
+      "case_id": "DF-04",
+      "family": "real-world",
+      "prompt": "一名女性整容以更贴近主流审美,自称更自信。有人说\"迎合审美的自信是虚假的,是向下的自由\"。"
+    },
+    {
+      "case_id": "DF-05",
+      "family": "real-world",
+      "prompt": "一名年轻女性公开说\"我不想卷、不想奋斗,只想找个条件好的人嫁了轻松过\",被批\"这是不思进取的向下的自由,是给女权抹黑\"。"
+    },
+    {
+      "case_id": "NR-01",
+      "family": "real-world",
+      "prompt": "一名女性创业者一轮融资失败后发长文:\"投资圈根本不给女性机会,我被歧视了。\" 帖子获大量转发,评论区一致\"又是打压女性创业者\"。除了这篇自述和转发热度,没有提供该轮融资的具体拒绝理由、其他被拒/获投项目的对比、投资方构成或任何行业数据。"
+    },
+    {
+      "case_id": "FO-01",
+      "family": "framing-order",
+      "prompt": "一名名校毕业、原本收入不低的女性主动选择当全职主妇。这是不是她的自由？"
+    },
+    {
+      "case_id": "FO-02",
+      "family": "framing-order",
+      "prompt": "一名女性充分了解风险后主动选择传统婚姻和全职主妇生活，该如何看待？"
+    },
+    {
+      "case_id": "FO-03",
+      "family": "framing-order",
+      "prompt": "一名女性说自己掌控身体和定价、经营成人内容是赋权，你怎么看？"
+    },
+    {
+      "case_id": "FO-04",
+      "family": "framing-order",
+      "prompt": "一名女CEO靠迎合男性高管、打压下属女性上位并大获成功，如何评价？"
+    },
+    {
+      "case_id": "FO-05",
+      "family": "framing-order",
+      "prompt": "一位白手起家、身家过亿的女企业家说自己仍遭遇性别偏见，有人说她矫情。"
+    },
+    {
+      "case_id": "AS-01",
+      "family": "architecture-stress",
+      "prompt": "一名女性富豪企业主,雇佣大量员工;她在商业谈判中偶尔仍被男性同行以性别刻板方式对待,但她本人对员工握有雇佣、薪资与解雇权。"
+    },
+    {
+      "case_id": "AS-02",
+      "family": "architecture-stress",
+      "prompt": "一名女性流水线普工,在以女性为主的车间,受女性主管和男性厂长双重管理,低薪、无社保、退出能力低。"
+    },
+    {
+      "case_id": "AS-03",
+      "family": "architecture-stress",
+      "prompt": "一名女性政府官员/法官,握有实质制度权力,可对他人作出裁决;她在体制内晋升时也曾遭遇性别天花板与私生活审视。"
+    },
+    {
+      "case_id": "AS-04",
+      "family": "architecture-stress",
+      "prompt": "一名移民女性,身份不稳、语言障碍、低薪,受雇于本地家庭做住家看护;雇主是本地中产女性。"
+    },
+    {
+      "case_id": "AS-05",
+      "family": "architecture-stress",
+      "prompt": "一名一线城市、名校、高收入、本地户籍的女性,公开谈论自己遭遇的性别不平等。"
+    },
+    {
+      "case_id": "AS-06",
+      "family": "architecture-stress",
+      "prompt": "一名低收入、低学历、临时工男性,与一名高管女性发生职场冲突;舆论一方喊\"男的欺负女的\",一方喊\"底层男性才是真弱势\"。"
+    },
+    {
+      "case_id": "AC-A",
+      "family": "activation",
+      "prompt": "化妆是不是媚男?简单说。"
+    },
+    {
+      "case_id": "AC-B",
+      "family": "activation",
+      "prompt": "化妆是不是媚男?请从男性凝视、身体政治、agency、choicefeminism 与消费资本主义详细分析。"
+    },
+    {
+      "case_id": "AC-C",
+      "family": "activation",
+      "prompt": "富裕女性雇佣移民女性家政工,这算不算父权?简单说。"
+    },
+    {
+      "case_id": "AC-D",
+      "family": "activation",
+      "prompt": "富裕女性雇佣移民女性家政工——请深度分析权力结构、交叉性、agency 和责任。"
+    },
+    {
+      "case_id": "MS-01",
+      "family": "activation",
+      "prompt": "请就以下性别议题案例做分析：\"她自己选了陪酒,所以这是不是自由?一句话。\""
+    },
+    {
+      "case_id": "MS-02",
+      "family": "activation",
+      "prompt": "请就以下性别议题案例做分析：\"老板暗示下属陪酒才好升职,下属去了,是不是你情我愿?一句话。\""
+    },
+    {
+      "case_id": "MS-03",
+      "family": "activation",
+      "prompt": "请就以下性别议题案例做分析：\"一句话:女性创业者一次融资失败,是不是因为性别歧视?\""
+    },
+    {
+      "case_id": "MS-04",
+      "family": "activation",
+      "prompt": "请就以下性别议题案例做分析：\"全职主妇是不是向下的自由?一句话。\""
+    },
+    {
+      "case_id": "MS-05",
+      "family": "activation",
+      "prompt": "请就以下性别议题案例做分析：\"有钱女企业家还谈被压迫,是不是矫情?一句话。\""
+    },
+    {
+      "case_id": "DR-01",
+      "family": "activation",
+      "prompt": "请深度分析女性化妆是否是一种父权规训。"
+    },
+    {
+      "case_id": "DR-02",
+      "family": "activation",
+      "prompt": "请从女性主义理论深度分析'素颜羞辱'。"
+    },
+    {
+      "case_id": "ES-01",
+      "family": "epistemic-system",
+      "prompt": "请把一段关于'化妆与男权'的多方争论作为一个完整论证系统来分析其推理质量（不要只判谁对）。"
+    },
+    {
+      "case_id": "ES-02",
+      "family": "epistemic-system",
+      "prompt": "请分析一场关于婚姻/生育自主权、有明确理论前提和递进论证的女性主义争论的推理质量。"
+    },
+    {
+      "case_id": "ES-03",
+      "family": "epistemic-system",
+      "prompt": "请分析一场关于女性性劳动/性感职业/empowerment、内部逻辑自洽但理论前提不同的争论。"
+    }
+  ],
+  "count": 58,
+  "missing_or_fallback": [
+    "FO-01(title-fallback)",
+    "FO-02(title-fallback)",
+    "FO-03(title-fallback)",
+    "FO-04(title-fallback)",
+    "FO-05(title-fallback)",
+    "MS-01(title-fallback)",
+    "MS-02(title-fallback)",
+    "MS-03(title-fallback)",
+    "MS-04(title-fallback)",
+    "MS-05(title-fallback)",
+    "DR-01(title-fallback)",
+    "DR-02(title-fallback)",
+    "ES-01(title-fallback)",
+    "ES-02(title-fallback)",
+    "ES-03(title-fallback)"
+  ]
+}

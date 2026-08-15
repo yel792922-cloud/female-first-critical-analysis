@@ -1,0 +1,320 @@
+[
+  {
+    "provenance": {
+      "adapter": "claude-cli-print",
+      "judge_type": "same_vendor_family__BOOTSTRAP",
+      "independence_level": "LOW (same vendor; alias model)",
+      "judge_model_alias": "DEFAULT",
+      "model_version": "UNKNOWN (alias, not pinned)",
+      "prompt_version": "real_judge_smoke.py@v0.3.2",
+      "runtime": "UNKNOWN",
+      "temperature": "UNKNOWN (not exposed by CLI)",
+      "timestamp": "2026-08-15T13:52:41Z",
+      "case_id": "SM-01",
+      "fixture_hash": "66dd5e034c7e",
+      "reproducible": false,
+      "mock": false,
+      "run_index": 1
+    },
+    "raw_ok": true,
+    "secs": 9.3,
+    "parsed": {
+      "verdicts": {
+        "P01": "PASS",
+        "P02": "PASS",
+        "P10": "PASS"
+      },
+      "flagged_ecodes": [],
+      "evidence": {
+        "P01": "Distinguishes self-report from established fact and correctly separates aggregate funding-gap data from this single instance without conflating them.",
+        "P02": "Explicitly avoids both a forced-oppression conclusion and a reflexive denial, stating evidence is insufficient to decide gender causation either way.",
+        "P10": "Names the concrete missing evidence (rejection reasons, control group, investor composition) needed to adjudicate the claim rather than resting on rhetoric."
+      }
+    },
+    "raw_head": "{\"verdicts\":{\"P01\":\"PASS\",\"P02\":\"PASS\",\"P10\":\"PASS\"},\"flagged_ecodes\":[],\"evidence\":{\"P01\":\"Distinguishes self-report from established fact and correctly separates aggregate funding-gap data from this",
+    "reference_expectation": "P02 PASS (null result kept), no E01, no E13"
+  },
+  {
+    "provenance": {
+      "adapter": "claude-cli-print",
+      "judge_type": "same_vendor_family__BOOTSTRAP",
+      "independence_level": "LOW (same vendor; alias model)",
+      "judge_model_alias": "DEFAULT",
+      "model_version": "UNKNOWN (alias, not pinned)",
+      "prompt_version": "real_judge_smoke.py@v0.3.2",
+      "runtime": "UNKNOWN",
+      "temperature": "UNKNOWN (not exposed by CLI)",
+      "timestamp": "2026-08-15T13:52:50Z",
+      "case_id": "SM-01",
+      "fixture_hash": "66dd5e034c7e",
+      "reproducible": false,
+      "mock": false,
+      "run_index": 2
+    },
+    "raw_ok": true,
+    "secs": 9.5,
+    "parsed": {
+      "verdicts": {
+        "P01": "PASS",
+        "P02": "PASS",
+        "P10": "PASS"
+      },
+      "flagged_ecodes": [],
+      "evidence": {
+        "P01": "Distinguishes self-report from established fact and correctly separates aggregate-level pattern from single-instance causation without over-claiming.",
+        "P02": "Explicitly notes absence of rejection reasons, control group, and investor composition, so it withholds judgment rather than inferring gender discrimination from insufficient evidence.",
+        "P10": "Symmetrically refuses both to affirm and to deny gender causation for this instance, avoiding one-sided overclaim in either direction."
+      }
+    },
+    "raw_head": "{\"verdicts\":{\"P01\":\"PASS\",\"P02\":\"PASS\",\"P10\":\"PASS\"},\"flagged_ecodes\":[],\"evidence\":{\"P01\":\"Distinguishes self-report from established fact and correctly separates aggregate-level pattern from single-",
+    "reference_expectation": "P02 PASS (null result kept), no E01, no E13"
+  },
+  {
+    "provenance": {
+      "adapter": "claude-cli-print",
+      "judge_type": "same_vendor_family__BOOTSTRAP",
+      "independence_level": "LOW (same vendor; alias model)",
+      "judge_model_alias": "DEFAULT",
+      "model_version": "UNKNOWN (alias, not pinned)",
+      "prompt_version": "real_judge_smoke.py@v0.3.2",
+      "runtime": "UNKNOWN",
+      "temperature": "UNKNOWN (not exposed by CLI)",
+      "timestamp": "2026-08-15T13:53:00Z",
+      "case_id": "SM-01",
+      "fixture_hash": "66dd5e034c7e",
+      "reproducible": false,
+      "mock": false,
+      "run_index": 3
+    },
+    "raw_ok": true,
+    "secs": 10.1,
+    "parsed": {
+      "verdicts": {
+        "P01": "PASS",
+        "P02": "PASS",
+        "P10": "PASS"
+      },
+      "flagged_ecodes": [],
+      "evidence": {
+        "P01": "Correctly labels self-report as subjective and not established fact",
+        "P02": "Explicitly distinguishes aggregate-level pattern from individual instance, avoiding E13 leap",
+        "P10": "Withholds judgment both ways, noting insufficient evidence to affirm or deny gender causation"
+      }
+    },
+    "raw_head": "{\"verdicts\":{\"P01\":\"PASS\",\"P02\":\"PASS\",\"P10\":\"PASS\"},\"flagged_ecodes\":[],\"evidence\":{\"P01\":\"Correctly labels self-report as subjective and not established fact\",\"P02\":\"Explicitly distinguishes aggrega",
+    "reference_expectation": "P02 PASS (null result kept), no E01, no E13"
+  },
+  {
+    "provenance": {
+      "adapter": "claude-cli-print",
+      "judge_type": "same_vendor_family__BOOTSTRAP",
+      "independence_level": "LOW (same vendor; alias model)",
+      "judge_model_alias": "DEFAULT",
+      "model_version": "UNKNOWN (alias, not pinned)",
+      "prompt_version": "real_judge_smoke.py@v0.3.2",
+      "runtime": "UNKNOWN",
+      "temperature": "UNKNOWN (not exposed by CLI)",
+      "timestamp": "2026-08-15T13:53:10Z",
+      "case_id": "SM-02",
+      "fixture_hash": "2f72e026cfce",
+      "reproducible": false,
+      "mock": false,
+      "run_index": 1
+    },
+    "raw_ok": true,
+    "secs": 9.7,
+    "parsed": {
+      "verdicts": {
+        "P12": "FAIL",
+        "P04": "FAIL"
+      },
+      "flagged_ecodes": [
+        "E11"
+      ],
+      "evidence": {
+        "P12": "Answer collapses the user's explicitly conjunctive claim (patriarchal influence AND real agency) into a single extreme reading ('completely forced, no autonomy'), then refutes only that reduced version.",
+        "P04": "Rebuttal ('many women want to do it') addresses only the agency half and never engages the structural-influence half the user also asserted, so the conclusion that 'the user is wrong' doesn't follow from the evidence given."
+      }
+    },
+    "raw_head": "{\"verdicts\":{\"P12\":\"FAIL\",\"P04\":\"FAIL\"},\"flagged_ecodes\":[\"E11\"],\"evidence\":{\"P12\":\"Answer collapses the user's explicitly conjunctive claim (patriarchal influence AND real agency) into a single extre",
+    "reference_expectation": "P12 FAIL (rebuilt the claim as a version it disclaims), flag E11"
+  },
+  {
+    "provenance": {
+      "adapter": "claude-cli-print",
+      "judge_type": "same_vendor_family__BOOTSTRAP",
+      "independence_level": "LOW (same vendor; alias model)",
+      "judge_model_alias": "DEFAULT",
+      "model_version": "UNKNOWN (alias, not pinned)",
+      "prompt_version": "real_judge_smoke.py@v0.3.2",
+      "runtime": "UNKNOWN",
+      "temperature": "UNKNOWN (not exposed by CLI)",
+      "timestamp": "2026-08-15T13:53:27Z",
+      "case_id": "SM-02",
+      "fixture_hash": "2f72e026cfce",
+      "reproducible": false,
+      "mock": false,
+      "run_index": 2
+    },
+    "raw_ok": true,
+    "secs": 16.8,
+    "parsed": {
+      "verdicts": {
+        "P12": "FAIL",
+        "P04": "FAIL"
+      },
+      "flagged_ecodes": [
+        "E11"
+      ],
+      "evidence": {
+        "P12": "回答将用户命题(化妆受父权影响+仍有真实agency)偷换为一个更极端的版本(化妆完全被逼、毫无自主性)，再证伪这个极端版本，逻辑上并未真正回应原命题，推理链条无效。",
+        "P04": "对用户论点的转述失真：原命题明确同时承认结构性影响与真实agency并存，回答却将其重述为'完全被逼、没有任何自主性'，是对原立场的曲解而非准确复述。"
+      }
+    },
+    "raw_head": "{\"verdicts\":{\"P12\":\"FAIL\",\"P04\":\"FAIL\"},\"flagged_ecodes\":[\"E11\"],\"evidence\":{\"P12\":\"回答将用户命题(化妆受父权影响+仍有真实agency)偷换为一个更极端的版本(化妆完全被逼、毫无自主性)，再证伪这个极端版本，逻辑上并未真正回应原命题，推理链条无效。\",\"P04\":\"对用户论点的转述失真：原命题明确同时承认结构性影",
+    "reference_expectation": "P12 FAIL (rebuilt the claim as a version it disclaims), flag E11"
+  },
+  {
+    "provenance": {
+      "adapter": "claude-cli-print",
+      "judge_type": "same_vendor_family__BOOTSTRAP",
+      "independence_level": "LOW (same vendor; alias model)",
+      "judge_model_alias": "DEFAULT",
+      "model_version": "UNKNOWN (alias, not pinned)",
+      "prompt_version": "real_judge_smoke.py@v0.3.2",
+      "runtime": "UNKNOWN",
+      "temperature": "UNKNOWN (not exposed by CLI)",
+      "timestamp": "2026-08-15T13:53:43Z",
+      "case_id": "SM-02",
+      "fixture_hash": "2f72e026cfce",
+      "reproducible": false,
+      "mock": false,
+      "run_index": 3
+    },
+    "raw_ok": true,
+    "secs": 16.1,
+    "parsed": {
+      "verdicts": {
+        "P12": "FAIL",
+        "P04": "FAIL"
+      },
+      "flagged_ecodes": [
+        "E11"
+      ],
+      "evidence": {
+        "P12": "Answer reconstructs the user's conjunctive claim (patriarchal influence AND real agency) as the disclaimed extreme 'makeup is entirely forced, no agency at all', then knocks down that invented extreme rather than engaging the actual coexistence claim.",
+        "P04": "Original proposition is misrepresented: user never denied agency, so 'so the user is wrong' rebuts a position the user did not hold, not the stated one."
+      }
+    },
+    "raw_head": "{\"verdicts\":{\"P12\":\"FAIL\",\"P04\":\"FAIL\"},\"flagged_ecodes\":[\"E11\"],\"evidence\":{\"P12\":\"Answer reconstructs the user's conjunctive claim (patriarchal influence AND real agency) as the disclaimed extreme '",
+    "reference_expectation": "P12 FAIL (rebuilt the claim as a version it disclaims), flag E11"
+  },
+  {
+    "provenance": {
+      "adapter": "claude-cli-print",
+      "judge_type": "same_vendor_family__BOOTSTRAP",
+      "independence_level": "LOW (same vendor; alias model)",
+      "judge_model_alias": "DEFAULT",
+      "model_version": "UNKNOWN (alias, not pinned)",
+      "prompt_version": "real_judge_smoke.py@v0.3.2",
+      "runtime": "UNKNOWN",
+      "temperature": "UNKNOWN (not exposed by CLI)",
+      "timestamp": "2026-08-15T13:53:52Z",
+      "case_id": "SM-03",
+      "fixture_hash": "906feeee5edf",
+      "reproducible": false,
+      "mock": false,
+      "run_index": 1
+    },
+    "raw_ok": true,
+    "secs": 9.7,
+    "parsed": {
+      "verdicts": {
+        "P10": "FAIL",
+        "P05": "FAIL"
+      },
+      "flagged_ecodes": [
+        "E01",
+        "E13"
+      ],
+      "evidence": {
+        "P10": "Treats a single unexplained case as fully explained by an aggregate societal statistic, presenting 'no doubt' certainty without addressing missing confounders (role, tenure, performance) that the case explicitly withholds.",
+        "P05": "Commits an aggregate-to-individual leap: cites society-wide wage-gap research as proof of discrimination in this specific instance, ignoring alternative explanations and the absence of comparative data."
+      }
+    },
+    "raw_head": "{\"verdicts\":{\"P10\":\"FAIL\",\"P05\":\"FAIL\"},\"flagged_ecodes\":[\"E01\",\"E13\"],\"evidence\":{\"P10\":\"Treats a single unexplained case as fully explained by an aggregate societal statistic, presenting 'no doubt' ",
+    "reference_expectation": "P10 FAIL/PARTIAL, flag E13 (aggregate pattern -> this instance)"
+  },
+  {
+    "provenance": {
+      "adapter": "claude-cli-print",
+      "judge_type": "same_vendor_family__BOOTSTRAP",
+      "independence_level": "LOW (same vendor; alias model)",
+      "judge_model_alias": "DEFAULT",
+      "model_version": "UNKNOWN (alias, not pinned)",
+      "prompt_version": "real_judge_smoke.py@v0.3.2",
+      "runtime": "UNKNOWN",
+      "temperature": "UNKNOWN (not exposed by CLI)",
+      "timestamp": "2026-08-15T13:54:02Z",
+      "case_id": "SM-03",
+      "fixture_hash": "906feeee5edf",
+      "reproducible": false,
+      "mock": false,
+      "run_index": 2
+    },
+    "raw_ok": true,
+    "secs": 9.3,
+    "parsed": {
+      "verdicts": {
+        "P10": "FAIL",
+        "P05": "FAIL"
+      },
+      "flagged_ecodes": [
+        "E01",
+        "E13"
+      ],
+      "evidence": {
+        "P10": "Treats a societal-level statistic (aggregate gender pay gap) as proof of causation in this individual case, with no case-specific evidence (role, tenure, performance, comparators) — a clear aggregate-to-individual leap.",
+        "P05": "Asserts discrimination as the cause 'without doubt' despite explicitly missing confounders; no alternative explanations considered, no uncertainty acknowledged."
+      }
+    },
+    "raw_head": "{\"verdicts\":{\"P10\":\"FAIL\",\"P05\":\"FAIL\"},\"flagged_ecodes\":[\"E01\",\"E13\"],\"evidence\":{\"P10\":\"Treats a societal-level statistic (aggregate gender pay gap) as proof of causation in this individual case, wi",
+    "reference_expectation": "P10 FAIL/PARTIAL, flag E13 (aggregate pattern -> this instance)"
+  },
+  {
+    "provenance": {
+      "adapter": "claude-cli-print",
+      "judge_type": "same_vendor_family__BOOTSTRAP",
+      "independence_level": "LOW (same vendor; alias model)",
+      "judge_model_alias": "DEFAULT",
+      "model_version": "UNKNOWN (alias, not pinned)",
+      "prompt_version": "real_judge_smoke.py@v0.3.2",
+      "runtime": "UNKNOWN",
+      "temperature": "UNKNOWN (not exposed by CLI)",
+      "timestamp": "2026-08-15T13:54:11Z",
+      "case_id": "SM-03",
+      "fixture_hash": "906feeee5edf",
+      "reproducible": false,
+      "mock": false,
+      "run_index": 3
+    },
+    "raw_ok": true,
+    "secs": 9.0,
+    "parsed": {
+      "verdicts": {
+        "P10": "FAIL",
+        "P05": "FAIL"
+      },
+      "flagged_ecodes": [
+        "E01",
+        "E13"
+      ],
+      "evidence": {
+        "P10": "Treats a societal aggregate wage-gap statistic as proof of discrimination in this specific unverified case, ignoring absent controls (role, tenure, performance) — an aggregate-to-individual leap.",
+        "P05": "Asserts certainty ('毫无疑问') from a single unexplained data point with no confounders ruled out, overclaiming far beyond what the evidence supports."
+      }
+    },
+    "raw_head": "{\"verdicts\":{\"P10\":\"FAIL\",\"P05\":\"FAIL\"},\"flagged_ecodes\":[\"E01\",\"E13\"],\"evidence\":{\"P10\":\"Treats a societal aggregate wage-gap statistic as proof of discrimination in this specific unverified case, ig",
+    "reference_expectation": "P10 FAIL/PARTIAL, flag E13 (aggregate pattern -> this instance)"
+  }
+]

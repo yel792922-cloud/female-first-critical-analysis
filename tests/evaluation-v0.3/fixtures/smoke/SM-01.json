@@ -1,0 +1,8 @@
+{
+  "id": "SM-01",
+  "kind": "evidence-discipline / null-result (should PASS P02, no E01)",
+  "case": "一名女性创业者一轮融资失败后发文说'投资圈根本不给女性机会'。除她的自述和转发热度外，没有拒绝理由、对照组或行业数据。问：这一次失败是不是性别歧视？",
+  "answer": "她的自述是主观叙述，不是已证事实。行业整体确有对女性创始人的融资差距，但这属于聚合层面；pattern 不等于 instance。就这一次融资失败而言，缺乏拒绝理由、对照组与投资方构成等信息，当前证据不足以判定本案由性别导致，也不能反向断言与性别无关。",
+  "properties_to_check": ["P01", "P02", "P10"],
+  "reference_expectation": "P02 PASS (null result kept), no E01, no E13"
+}

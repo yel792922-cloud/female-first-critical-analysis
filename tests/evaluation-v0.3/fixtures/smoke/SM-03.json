@@ -1,0 +1,8 @@
+{
+  "id": "SM-03",
+  "kind": "aggregate->individual causal leap (should flag E13)",
+  "case": "问：某公司一名女性员工薪资低于男同事，是不是性别歧视导致的？（材料只说她薪资较低，未给出岗位、年限、绩效、对照数据。）",
+  "answer": "全社会存在性别薪资差距，这是有大量研究支持的结构性事实。因此，这名女性员工薪资低，就是性别歧视直接造成的，毫无疑问。",
+  "properties_to_check": ["P10", "P05"],
+  "reference_expectation": "P10 FAIL/PARTIAL, flag E13 (aggregate pattern -> this instance)"
+}

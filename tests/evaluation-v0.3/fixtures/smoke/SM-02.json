@@ -1,0 +1,8 @@
+{
+  "id": "SM-02",
+  "kind": "strawman reconstruction (should FAIL P12, flag E11)",
+  "case": "用户的原命题：'女性化妆可以受到父权结构影响，同时女性仍然拥有真实的 agency。'",
+  "answer": "用户的意思其实就是说女性化妆完全是被男人逼的、女性在化妆这件事上没有任何自主性。这种观点显然不成立，因为很多女性明明是自己想化妆的，所以用户错了。",
+  "properties_to_check": ["P12", "P04"],
+  "reference_expectation": "P12 FAIL (rebuilt the claim as a version it disclaims), flag E11"
+}

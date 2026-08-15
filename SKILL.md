@@ -71,6 +71,65 @@ evidence *does* support "this reinforces patriarchal power" or "formal
 consent masks structural coercion," say it plainly. The rule is symmetric:
 let the evidence, not the stance, set the strength of the claim.
 
+## Responsibility Principle (责任原则)
+
+> **Structural explanation and individual responsibility are analytically
+> distinct dimensions.** Establishing one does not raise or lower the other;
+> they are assessed separately and can both be full at the same time.
+
+This is a first-class axiom, not a rider. Three operations are **different
+acts** and must not be merged:
+
+- **Explaining** a behavior — identifying the causes/mechanisms that produced
+  it (structural, institutional, economic, interpersonal, individual).
+- **Contextualizing** a behavior — situating it in the constraints and
+  incentives the actor faced.
+- **Assigning responsibility** — judging what the actor is accountable for,
+  given the agency they actually had.
+
+You can do the first two in full and still assign responsibility in full. A
+structure that *explains* a rate does not *excuse* an instance; a real
+constraint that *contextualizes* a choice does not by itself *discharge*
+accountability for what the choice did to others.
+
+**The rule is symmetric — both shortcuts are forbidden:**
+
+- **No "disadvantaged identity → automatic reduced responsibility."**
+  Belonging to a subordinated group (including being a woman, a victim in
+  one relation, economically precarious, etc.) does **not** auto-discount
+  responsibility for harm the person causes in another relation. Sympathy is
+  not a liability shield.
+- **No "benefits from patriarchy → therefore under no structural
+  constraint."** A woman (or anyone) who gains from a patriarchal
+  arrangement is **not** thereby exempt from *all* gendered constraint, and
+  conversely holding power on one axis (class, position) does not erase
+  subordination on another. Reverse-simplification is equally banned.
+
+**Guardrail against misuse.** This principle is **not** "feminism must
+punish women." Its purpose is to keep **agency + structural explanation +
+individual responsibility all present at once** — never to strip a woman of
+structural context so she can be blamed, and never to strip her of agency so
+she can be excused. Apply the *same* responsibility standard regardless of
+the subject's gender or group membership (consistency test below).
+
+### Minimal executable step (run when responsibility is in play)
+
+1. **Separate the axes.** State the structural/contextual factors *and* the
+   individual-responsibility question as two distinct lines — do not let one
+   answer the other.
+2. **Locate agency (link to STEP 5).** What real option set / exit capacity
+   did the actor have? Responsibility scales with actual agency, not with
+   group identity.
+3. **Assign at the right level (link to STEP 7 attribution).** Name who is
+   accountable for what, at which level (individual / interpersonal /
+   organizational / institutional / structural).
+4. **Consistency test.** Would I assign the same responsibility if the
+   subject's gender or group membership were swapped, holding the power
+   relation fixed? If not, a bias — in either direction — has entered.
+5. **Both-true close.** Confirm the final answer keeps structure *and*
+   responsibility *and* agency simultaneously visible; none silently cancels
+   another.
+
 ## Corrected axioms (read carefully)
 
 This skill deliberately **replaces** several tempting-but-wrong rules. Hold
@@ -394,6 +453,12 @@ output all sections.
 22. **Accepting a ranking baseline uninterrogated** — treating "up/down/
     向下的自由/regressive" language as a settled fact instead of running
     Baseline Interrogation first.
+23. **Responsibility dilution or reverse-collapse** — using a disadvantaged
+    identity (woman, victim, precarious) as an automatic responsibility
+    discount, **or** using "she benefits from patriarchy" to declare her
+    free of all structural constraint. Either direction violates the
+    Responsibility Principle; structure and responsibility are separate
+    axes, assessed with the same standard across subjects.
 
 ## Internal self-check (run silently before the final answer)
 
@@ -415,6 +480,10 @@ output all sections.
       support (was a null/partial result the honest answer)?
 - [ ] If up/down/progress/"not real freedom" language appeared, did I run
       Baseline Interrogation (Q1–Q7) before any verdict?
+- [ ] Did I keep structural explanation and individual responsibility as
+      separate axes — no identity-based responsibility discount, no
+      "benefits from patriarchy → no constraint" reverse-collapse — and
+      would my responsibility call survive a gender/group swap?
 
 ## References (read on demand — never load all at once)
 

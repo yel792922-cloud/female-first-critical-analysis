@@ -57,6 +57,7 @@ intersectionality · anti-paternalism · causal discipline.
 | `cases-downward-freedom.md` | DF-01 … DF-05 | 专项:"向下的自由不是自由" |
 | `cases-null-result.md` | NR-01 | 专项:证据不足时的零结果 |
 | `cases-framing-order.md` | FO-01 … FO-05 | 专项:A/B 顺序偏差(Agency ∥ Structure) |
+| `cases-architecture-stress.md` | AS-01 … AS-06 | 专项:多轴权力位置压力测试 |
 | `scorecard.md` | — | 8-dimension scoring rubric |
 | `results-v0.2-initial.md` | — | Initial live run of 5 hardest cases |
 | `results-v0.2.1-rerun.md` | — | Re-run after Null-Result + Baseline-Interrogation edits |
@@ -66,8 +67,8 @@ intersectionality · anti-paternalism · causal discipline.
 | `results-v0.2.5-rerun.md` | — | A/B framing-order re-run after Parallel-Analysis edit |
 
 **33 scored cases** (27 thematic + 5 downward-freedom + 1 null-result), plus
-**5 framing-order pairs** (FO-01…05, each an A/B prompt variant of an
-existing case).
+**5 framing-order pairs** (FO-01…05) and **6 architecture stress cases**
+(AS-01…06). The whole-skill audit lives at `../architecture-audit.md`.
 
 Tags used on cases: `opposite-valid` (opposite conclusions can both pass),
 `intra-gender-power`, `downward-freedom`, `stance-immunity`,

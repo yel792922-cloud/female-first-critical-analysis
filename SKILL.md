@@ -183,18 +183,57 @@ exited** the gendered structure (this pairs with the Responsibility
 Principle's reverse-simplification ban). Specify the positions; don't
 average them.
 
+## Class / Position Power Principle (阶级/位置权力原则)
+
+> **Power is positional and multidimensional. Gender is *one* dimension of
+> power, not the sole determinant of power.**
+
+Two consequences, held together:
+
+- **A person may be structurally subordinated on one axis while exercising
+  substantial power on another** (e.g. a woman with low gender-status but
+  high class/institutional power over others).
+- **Positional power does not erase gendered structure; gendered structure
+  does not erase positional power.**
+
+**Class/position does not simply *override* gender.** This is not a ranking
+where class outranks gender. Gender · class · institutional position ·
+economic resources · and other axes co-exist and **stack, cross, or cancel**
+in a specific relation — which one dominates *this* relation is an
+**empirical** question, settled by evidence, not a fixed hierarchy.
+
+### Minimal Position Power Mapping step
+
+When a case involves an actor whose class, wealth, institutional role, or
+organizational authority is materially in play, run the compact map (this
+*is* the Position mapping A–F under Intersectionality Invocation — do not
+duplicate it; add only this power-specific close):
+
+- **Per axis, mark dominant / subordinate / neutral** for the actor.
+- **Name which axis governs *this* relation, with evidence** (not by
+  assuming gender, and not by assuming class).
+- **Keep both readings live:** where the actor is subordinate on gender *and*
+  dominant on class/position, state both — neither cancels the other.
+
+This principle is the core-level statement of what the intersectionality
+worked examples (CEO vs. worker, employer vs. migrant) illustrate; the
+reference supplies the examples, this supplies the axiom.
+
 ## Corrected axioms (read carefully)
 
 This skill deliberately **replaces** several tempting-but-wrong rules. Hold
 the corrected versions, not the originals.
 
 - **Not** "always attribute the problem to patriarchal structural
-  oppression." **Instead:** when analyzing a gender issue, *first examine*
+  oppression." **Instead:** when analyzing a gender issue, *always examine*
   gendered power structures, institutional arrangements, resource
   distribution, division of labor, discursive authority, and historical
-  conditions — but *only attribute* a specific phenomenon to patriarchy or
-  another structural mechanism when the evidence supports it. **Structure
-  first, not structure-explains-everything.**
+  conditions — **in parallel with agency, not before it** (see Parallel
+  Analysis) — but *only attribute* a specific phenomenon to patriarchy or
+  another structural mechanism when the evidence supports it. **Examine
+  structure as a matter of course, but do not let structure explain
+  everything — and do not code the structural axis as prior to the agency
+  axis.**
 - **Not** "woman is the first object and first subject." **Instead:** in
   gender-relational questions, make women the primary analytical subject
   and stakeholder; do not default to male experience as universal or female
@@ -239,6 +278,14 @@ the corrected versions, not the originals.
 For any gender issue worth deep analysis, run STEP 1–11 below. For a
 simple question, use only the modules that are actually relevant (see
 **Output structure**). **Never mechanically emit every section.**
+
+> **Meta-rule — Minimal Sufficient Analysis.** Do not invoke more analytical
+> machinery than the case requires. Modules activate by **relevance and
+> trigger**, not by default; an untriggered module stays inactive and must
+> **not** go looking for material to justify triggering itself. When the
+> evidence is thin, a null/partial result is a valid stopping point (Null
+> Result Principle). Depth scales to the case, not to the size of the
+> toolkit.
 
 ### STEP 1 — Fact layer
 
@@ -638,6 +685,11 @@ modules that are genuinely relevant. Do not mechanically output all sections.
     input's information order or the output template), so the other axis is
     weakened. Agency and power/structure are parallel; neither is inferred
     from the other (see Parallel Analysis).
+29. **Single-axis power collapse** — treating one power axis as the fixed
+    master (gender always dominant, *or* class always overrides gender)
+    instead of determining empirically which axis governs *this* relation;
+    or using a subject's dominance on one axis to erase their subordination
+    on another (see Class/Position Power Principle).
 
 ## Internal self-check (run silently before the final answer)
 
@@ -673,6 +725,9 @@ modules that are genuinely relevant. Do not mechanically output all sections.
       *demonstrated* non-equivalence, or merely assumed it?
 - [ ] Am I inferring low agency merely from structural constraint?
 - [ ] Am I inferring high freedom merely from a declared choice?
+- [ ] Did I decide which power axis governs *this* relation empirically —
+      rather than assuming gender is master or that class overrides gender —
+      and hold subordinate-on-one-axis / dominant-on-another together?
 
 ## References (read on demand — never load all at once)
 

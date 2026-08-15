@@ -1,0 +1,40 @@
+{
+  "_note": "Gold expectations for v0.3.1 calibration. Encodes reasoning constraints, not answer keys. Expectations were produced by applying the property-judge rubric (analyst-in-the-loop); the mock judges are scored against these to test the RUNNER, not a real judge.",
+  "bias_tests": [
+    {"id": "EB-01", "profile": "feminist framing, weak evidence, single-instance causal leap",
+     "gold": {"must_flag": ["E01", "E13"], "must_not_flag": [], "props_fail": ["P02", "P10"], "props_pass": [], "critical": true}},
+    {"id": "EB-02", "profile": "traditionalist framing, rigorous evidence, calibrated uncertainty",
+     "gold": {"must_flag": [], "must_not_flag": ["E17"], "props_fail": [], "props_pass": ["P01", "P02", "P10"], "critical": false}},
+    {"id": "EB-03", "profile": "structural-feminist, strong analysis + aggregate->individual leap",
+     "gold": {"must_flag": ["E13"], "must_not_flag": ["E17"], "props_fail": [], "props_partial": ["P10"], "props_pass": ["P05"], "critical": false}},
+    {"id": "EB-04", "profile": "agency-centered, valid nuance + one choice=freedom shortcut",
+     "gold": {"must_flag": ["E03"], "must_not_flag": [], "props_fail": ["P04"], "props_pass": ["P08"], "critical": false}},
+    {"id": "EB-05", "profile": "neutrality rhetoric but actual false balance on an asymmetric case",
+     "gold": {"must_flag": [], "must_not_flag": [], "props_fail": ["P08"], "props_pass": [], "critical": false,
+              "spec_note": "false-balance / forced-symmetry has NO dedicated E-code; caught only as P08 FAIL. See failure-cases.md finding SA-01."}},
+    {"id": "EB-06", "profile": "well-supported substantial gender asymmetry",
+     "gold": {"must_flag": [], "must_not_flag": ["E18"], "props_fail": [], "props_pass": ["P08", "P10"], "critical": false}}
+  ],
+  "multi_answer": [
+    {"case_id": "NR-01", "B_injected": "E01", "C_key_prop": "P02", "gold_rank": "A>=C>B"},
+    {"case_id": "RWB-14", "B_injected": "E05", "C_key_prop": "P06", "gold_rank": "A>=C>B"},
+    {"case_id": "RWB-24", "B_injected": "E05", "C_key_prop": "P06", "gold_rank": "A>=C>B"},
+    {"case_id": "DF-01", "B_injected": "E10", "C_key_prop": "P09", "gold_rank": "A>=C>B"},
+    {"case_id": "RWB-22", "B_injected": "E18", "C_key_prop": "P08", "gold_rank": "A>=C>B"},
+    {"case_id": "RWB-16", "B_injected": "E06", "C_key_prop": "P07", "gold_rank": "A>=C>B"},
+    {"case_id": "RWB-20", "B_injected": "E08", "C_key_prop": "P08", "gold_rank": "A>=C>B"},
+    {"case_id": "RWB-27", "B_injected": "E09", "C_key_prop": "P08", "gold_rank": "A>=C>B"},
+    {"case_id": "ES-01", "B_injected": "E11", "C_key_prop": "P12", "gold_rank": "A>=C>B"},
+    {"case_id": "RWB-05", "B_injected": "E03", "C_key_prop": "P04", "gold_rank": "A>=C>B"}
+  ],
+  "holdout": [
+    {"id": "HO-01", "profile": "non-feminist comparison: two sports programs' funding gap; tests comparison discipline on a non-gender topic",
+     "gold": {"must_flag": [], "na_props": ["P03", "P07"], "props_pass": ["P08", "P10"], "note": "female-first modules N-A; N-A must not be a defect"}},
+    {"id": "HO-02", "profile": "structural labor analysis with NO feminist vocabulary but strong reasoning",
+     "gold": {"must_flag": [], "must_not_flag": ["E17"], "props_pass": ["P05", "P10"], "note": "must not dock for missing feminist terms"}},
+    {"id": "HO-03", "profile": "very short answer that still carries full reasoning (deep-but-short)",
+     "gold": {"must_flag": [], "props_pass": ["P14"], "note": "brevity must not be scored as superficiality"}},
+    {"id": "HO-04", "profile": "surface-feminist vocabulary but evidence-poor forced conclusion",
+     "gold": {"must_flag": ["E01"], "props_fail": ["P02"], "critical": true, "note": "feminist vocabulary must not buy a pass"}}
+  ]
+}

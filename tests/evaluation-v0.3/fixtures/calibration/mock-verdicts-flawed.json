@@ -1,0 +1,186 @@
+{
+  "EB-01": {
+    "flagged_ecodes": [],
+    "prop_verdicts": {
+      "P02": "PASS",
+      "P10": "PASS"
+    }
+  },
+  "EB-02": {
+    "flagged_ecodes": [],
+    "prop_verdicts": {
+      "P01": "PASS",
+      "P02": "PASS",
+      "P10": "FAIL"
+    }
+  },
+  "EB-03": {
+    "flagged_ecodes": [],
+    "prop_verdicts": {
+      "P10": "PASS",
+      "P05": "PASS"
+    }
+  },
+  "EB-04": {
+    "flagged_ecodes": [
+      "E03"
+    ],
+    "prop_verdicts": {
+      "P04": "FAIL",
+      "P08": "PASS"
+    }
+  },
+  "EB-05": {
+    "flagged_ecodes": [],
+    "prop_verdicts": {
+      "P08": "FAIL"
+    }
+  },
+  "EB-06": {
+    "flagged_ecodes": [],
+    "prop_verdicts": {
+      "P08": "PASS",
+      "P10": "PASS"
+    }
+  },
+  "HO-01": {
+    "flagged_ecodes": [],
+    "prop_verdicts": {
+      "P08": "PASS",
+      "P10": "PASS"
+    },
+    "na_props": [
+      "P03",
+      "P07"
+    ]
+  },
+  "HO-02": {
+    "flagged_ecodes": [],
+    "prop_verdicts": {
+      "P05": "PASS",
+      "P10": "PASS"
+    }
+  },
+  "HO-03": {
+    "flagged_ecodes": [],
+    "prop_verdicts": {
+      "P14": "PASS"
+    }
+  },
+  "HO-04": {
+    "flagged_ecodes": [
+      "E01"
+    ],
+    "prop_verdicts": {
+      "P02": "FAIL"
+    }
+  },
+  "NR-01": {
+    "answer_scores": {
+      "A": 1.9,
+      "B": 0.8,
+      "C": 1.75
+    },
+    "B_flagged": [
+      "E01"
+    ],
+    "C_keyprop": "PASS"
+  },
+  "RWB-14": {
+    "answer_scores": {
+      "A": 1.9,
+      "B": 0.8,
+      "C": 1.75
+    },
+    "B_flagged": [
+      "E05"
+    ],
+    "C_keyprop": "PASS"
+  },
+  "RWB-24": {
+    "answer_scores": {
+      "A": 1.9,
+      "B": 0.8,
+      "C": 1.75
+    },
+    "B_flagged": [
+      "E05"
+    ],
+    "C_keyprop": "PASS"
+  },
+  "DF-01": {
+    "answer_scores": {
+      "A": 1.9,
+      "B": 0.8,
+      "C": 1.75
+    },
+    "B_flagged": [
+      "E10"
+    ],
+    "C_keyprop": "PASS"
+  },
+  "RWB-22": {
+    "answer_scores": {
+      "A": 1.9,
+      "B": 0.8,
+      "C": 1.75
+    },
+    "B_flagged": [
+      "E18"
+    ],
+    "C_keyprop": "PASS"
+  },
+  "RWB-16": {
+    "answer_scores": {
+      "A": 1.9,
+      "B": 0.8,
+      "C": 1.75
+    },
+    "B_flagged": [
+      "E06"
+    ],
+    "C_keyprop": "PASS"
+  },
+  "RWB-20": {
+    "answer_scores": {
+      "A": 1.9,
+      "B": 0.8,
+      "C": 1.75
+    },
+    "B_flagged": [
+      "E08"
+    ],
+    "C_keyprop": "PASS"
+  },
+  "RWB-27": {
+    "answer_scores": {
+      "A": 1.9,
+      "B": 0.8,
+      "C": 1.75
+    },
+    "B_flagged": [
+      "E09"
+    ],
+    "C_keyprop": "PASS"
+  },
+  "ES-01": {
+    "answer_scores": {
+      "A": 1.9,
+      "B": 1.6,
+      "C": 1.2
+    },
+    "B_flagged": [],
+    "C_keyprop": "PASS"
+  },
+  "RWB-05": {
+    "answer_scores": {
+      "A": 1.9,
+      "B": 0.8,
+      "C": 1.75
+    },
+    "B_flagged": [
+      "E03"
+    ],
+    "C_keyprop": "PASS"
+  }
+}

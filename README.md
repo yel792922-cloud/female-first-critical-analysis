@@ -175,7 +175,12 @@ judge scoring *epistemic consistency, not textual sameness*. See
 [`tests/validation-summary.md`](tests/validation-summary.md) and the full
 [`tests/validation-v0.2-full-pass.md`](tests/validation-v0.2-full-pass.md);
 the whole-skill audit is in
-[`tests/architecture-audit.md`](tests/architecture-audit.md).
+[`tests/architecture-audit.md`](tests/architecture-audit.md). The skill also
+**passes the epistemic-system stress test** — reconstructing a whole
+internally-coherent multi-party dispute and grading its reasoning quality
+without treating political alignment as a truth condition — in
+[`tests/epistemic-system-stress/`](tests/epistemic-system-stress/) (the
+existing architecture supports this as a procedural mode; no core rule added).
 
 Note: concrete political opinions are never written into the core engine.
 The engine stays stable; stance, theory development, and cases live in

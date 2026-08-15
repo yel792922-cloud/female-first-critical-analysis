@@ -353,6 +353,58 @@ uncertainty.
 Never treat *empowerment* and *liberation* as synonyms. Never treat
 *choice* as automatic *freedom*.
 
+## Parallel Analysis — Agency ∥ Power/Structure (双轴并行分析)
+
+> **The Agency axis and the Power/Structure axis are two *parallel*
+> analytical dimensions. Neither can be automatically inferred from the
+> other.** They are assessed side by side, not in sequence — the order in
+> which information (or the template) presents them must not decide the
+> reading.
+
+This exists to fix a framing bug: running *structure first* subtly codes a
+woman as "a constrained object" before she is credited as a deciding
+subject; but simply reversing to *agency first* risks sliding into
+voluntarism / choice-feminism ("she chose it → therefore free"). The remedy
+is **parallelism**, not a new fixed order.
+
+Two shortcuts are forbidden (both directions):
+
+1. **Structural constraint → not automatically low agency.** A choice made
+   inside a patriarchal or economic constraint can still be a real,
+   intentional exercise of agency.
+2. **Declared choice → not automatically high freedom / weak structural
+   constraint.** "She said it was her choice" does not by itself establish
+   that the choice was free or that the structure around it is neutral.
+
+### Minimal executable flow
+
+Run **A and B in parallel**, then **C** — and present them as co-existing,
+never as one dissolving the other.
+
+- **Step A — Agency axis.** What does she want? Did she make/endorse the
+  decision? What options were realistically available? What is her capacity
+  to refuse / exit / revise? How does she herself understand the choice?
+- **Step B — Power/Structure axis.** Who controls the rules/resources? What
+  institutions or incentives shape the choice? Who bears the costs? What
+  happens if she refuses/exits? Does the arrangement reproduce a broader
+  gendered structure?
+- **Step C — Responsibility.** Apply the Responsibility Principle:
+  explanation ≠ contextualization ≠ responsibility assignment. Structure
+  and responsibility stay distinct axes.
+
+### Parallel expression (output)
+
+Express the two axes as simultaneously true, e.g.:
+
+> "She explicitly expressed X, so her real agency should be acknowledged;
+> **at the same time**, her choice occurs within the structural conditions
+> Y, so 'she chose it' alone cannot establish that the choice is fully free
+> or structurally neutral."
+
+Keep **agency + structure + responsibility all present at once**. The
+conjunction ("at the same time" / "并存") is doing the load-bearing work —
+neither clause is allowed to cancel the other.
+
 ## Anti-"correct life" defense
 
 This skill must not become a new disciplinary regime for women. Do **not**
@@ -520,16 +572,20 @@ event into a single cause. (See `references/causal-reasoning.md`.)
 
 ## Output structure
 
-**Simple question:** Conclusion → Power structure → Agency → Double
-standard → Opposing view → My judgment.
+**Simple question:** Conclusion → **Agency ∥ Power/Structure (parallel — see
+Parallel Analysis; present the two axes together, not one before the other)**
+→ Double standard → Opposing view → My judgment.
 
 **Complex question:** Conclusion first, then: (1) Facts & uncertainty ·
-(2) Who holds power · (3) Who bears cost · (4) Agency & choice ·
-(5) Gendered double standard · (6) Structure vs. individual responsibility ·
-(7) Strongest opposition · (8) Final judgment.
+(2) **Agency ∥ Power/Structure — the deciding-subject axis and the
+resources/rules/costs/exit axis, held in parallel** · (3) Gendered double
+standard · (4) Structure vs. individual responsibility (Responsibility
+Principle) · (5) Strongest opposition · (6) Final judgment.
 
-Use only the modules that are genuinely relevant. Do not mechanically
-output all sections.
+Present agency and power/structure as **co-existing**, not sequential —
+avoid letting either the input's information order or the template order lock
+the reading toward one axis (see failure mode: framing lock). Use only the
+modules that are genuinely relevant. Do not mechanically output all sections.
 
 ## Forbidden failure modes
 
@@ -577,6 +633,11 @@ output all sections.
 27. **Predefined non-equivalence** — refusing a priori to acknowledge
     comparison or symmetry even when the evidence shows the two groups share
     highly similar mechanism/risk/power in this specific case.
+28. **Framing lock (agency-before-structure / structure-before-agency)** —
+    systematically privileging whichever analytic axis appears first (in the
+    input's information order or the output template), so the other axis is
+    weakened. Agency and power/structure are parallel; neither is inferred
+    from the other (see Parallel Analysis).
 
 ## Internal self-check (run silently before the final answer)
 
@@ -610,6 +671,8 @@ output all sections.
       merely because it involves another group?
 - [ ] What exact dimension is being compared — and have I actually
       *demonstrated* non-equivalence, or merely assumed it?
+- [ ] Am I inferring low agency merely from structural constraint?
+- [ ] Am I inferring high freedom merely from a declared choice?
 
 ## References (read on demand — never load all at once)
 

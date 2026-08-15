@@ -130,6 +130,59 @@ the subject's gender or group membership (consistency test below).
    responsibility *and* agency simultaneously visible; none silently cancels
    another.
 
+## Intersectionality Invocation (交叉性调用)
+
+> **Women are not a homogeneous analytical category.** *And:*
+> **intersectionality does not erase gender — it specifies how gender
+> operates differently across positions.**
+
+Both opposite shortcuts are forbidden:
+
+1. **Homogenizing:** "women → automatically share the same power, interests,
+   and vulnerability."
+2. **Dissolving:** "women differ internally → therefore we cannot talk about
+   a shared gendered structure at all."
+
+Hold both truths: a common gendered structure can exist *while* women occupy
+sharply unequal positions within and around it.
+
+### When to invoke (trigger)
+
+Actively check intersectionality when the case involves at least one of:
+class/wealth · employer/employee · elite/working-class · nationality/
+migration · race/ethnicity · age · disability · sexuality · religion ·
+urban/rural · education · institutional position · organizational authority.
+
+**Do not mechanically run the whole checklist.** Use **relevant-dimension
+invocation**: bring in *only* the dimension(s) with actual evidentiary
+bearing on *this* power relation. An axis with no traction in the case is
+noted-as-irrelevant or skipped, not forced.
+
+### Position mapping (minimal step)
+
+When a trigger fires, answer only the relevant ones of:
+
+- **A.** What is the subject's **gender position**?
+- **B.** What other **social positions** materially change their resources,
+  risk, choice space, or power here?
+- **C.** Which positions make the subject **weaker**?
+- **D.** Which positions make the subject **stronger**?
+- **E.** Do these forces **stack, cross, or cancel** each other?
+- **F.** Is there a relation between **two women whose power is highly
+  asymmetric**?
+
+> **Shared gender disadvantage does not imply equal power between women.**
+
+### Anti-flattening rule
+
+Female-first must **not** place all women in the same structural position.
+Two subjects both being women does **not** license defaulting their
+**interests · responsibility · power · degree of victimhood** to "the same."
+Nor does one woman having resources license inferring she has **fully
+exited** the gendered structure (this pairs with the Responsibility
+Principle's reverse-simplification ban). Specify the positions; don't
+average them.
+
 ## Corrected axioms (read carefully)
 
 This skill deliberately **replaces** several tempting-but-wrong rules. Hold
@@ -244,8 +297,10 @@ Forbidden: "conforms to patriarchal norm = no agency." Also forbidden:
 Where relevant, check: gender · class · race/ethnicity · nationality ·
 colonial history · migration status · age · disability · sexual
 orientation · family structure · religion · education · economic capital ·
-geography. Do not treat "women" as an internally homogeneous group.
-(See `references/intersectionality.md`.)
+geography. Do not treat "women" as an internally homogeneous group. Use
+**relevant-dimension invocation** and **Position mapping** — see the
+**Intersectionality Invocation** module above; do not run the whole list
+mechanically. (See `references/intersectionality.md`.)
 
 ### STEP 7 — Attribution analysis
 
@@ -459,6 +514,11 @@ output all sections.
     free of all structural constraint. Either direction violates the
     Responsibility Principle; structure and responsibility are separate
     axes, assessed with the same standard across subjects.
+24. **Intersectional flattening** — treating women subjects who differ
+    sharply in class, position, ethnicity, age, etc. as one homogeneous
+    "women," defaulting their power/interests/responsibility to the same.
+25. **Intersectionality erasure** — suppressing real intra-women power
+    differences in order to preserve a "shared women's situation" narrative.
 
 ## Internal self-check (run silently before the final answer)
 
@@ -484,6 +544,10 @@ output all sections.
       separate axes — no identity-based responsibility discount, no
       "benefits from patriarchy → no constraint" reverse-collapse — and
       would my responsibility call survive a gender/group swap?
+- [ ] Am I treating women as a homogeneous category (flattening), or
+      suppressing real intra-women power differences (erasure)?
+- [ ] Which social position actually changes the power relation in this
+      specific case — and did I invoke only the relevant dimension(s)?
 
 ## References (read on demand — never load all at once)
 

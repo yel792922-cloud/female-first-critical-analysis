@@ -60,6 +60,7 @@ intersectionality · anti-paternalism · causal discipline.
 | `results-v0.2-initial.md` | — | Initial live run of 5 hardest cases |
 | `results-v0.2.1-rerun.md` | — | Re-run after Null-Result + Baseline-Interrogation edits |
 | `results-v0.2.2-rerun.md` | — | Re-run after Responsibility-Principle edit |
+| `results-v0.2.3-rerun.md` | — | Re-run after Intersectionality-Invocation edit |
 
 **32 cases total** (26 thematic + 5 downward-freedom + 1 null-result).
 

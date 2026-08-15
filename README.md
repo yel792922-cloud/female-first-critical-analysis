@@ -158,11 +158,24 @@ correct life," all four at once.
 ## Roadmap
 
 - **v0.1** — core framework + Chinese/English language policy + 30+ tests
-  *(this release)*
-- **v0.2** — real-case benchmark suite
+- **v0.2** — real-case benchmark suite (33 cases) + iterative principle
+  hardening (Null Result, Baseline Interrogation, Responsibility,
+  Intersectionality Invocation, Comparison discipline, Class/Position Power,
+  Parallel Analysis) + Activation Architecture calibration + architecture
+  audit + **full dual-mode validation pass** *(current)*
 - **v0.3** — automated evaluation harness
 - **v0.4** — domain-specific references
 - **v1.0** — stabilized core axioms
+
+**Validation status.** The skill is **principle-complete, activation-
+calibrated, and validated**: all 33 benchmark cases were run in concise and
+deep modes (66 runs) with **0 material drift** and stable epistemic
+calibration. Verdict: **READY FOR v0.3**, contingent only on the automated
+judge scoring *epistemic consistency, not textual sameness*. See
+[`tests/validation-summary.md`](tests/validation-summary.md) and the full
+[`tests/validation-v0.2-full-pass.md`](tests/validation-v0.2-full-pass.md);
+the whole-skill audit is in
+[`tests/architecture-audit.md`](tests/architecture-audit.md).
 
 Note: concrete political opinions are never written into the core engine.
 The engine stays stable; stance, theory development, and cases live in

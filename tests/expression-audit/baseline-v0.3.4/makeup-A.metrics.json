@@ -1,0 +1,18 @@
+{
+  "chars": 346,
+  "sentences": 10,
+  "defensive_count": 0,
+  "defensive_density_per1k": 0.0,
+  "hedge_count": 2,
+  "hedge_density_per1k": 5.78,
+  "module_narration_count": 0,
+  "module_narration_per1k": 0.0,
+  "distinction_hits": {
+    "choice_neq_liberation": 0,
+    "constraint_neq_noagency": 0,
+    "structure_neq_exemption": 0,
+    "empower_neq_liberation": 0
+  },
+  "redundant_distinctions": {},
+  "redundant_distinction_rate": 0.0
+}

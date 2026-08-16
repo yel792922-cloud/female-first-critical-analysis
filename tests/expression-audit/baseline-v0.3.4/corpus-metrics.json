@@ -1,0 +1,1311 @@
+{
+  "n": 58,
+  "aggregate": {
+    "chars": {
+      "mean": 2089.53,
+      "median": 1975.5,
+      "p90": 3237,
+      "max": 4718
+    },
+    "defensive_density_per1k": {
+      "mean": 0.41,
+      "median": 0.0,
+      "p90": 0.68,
+      "max": 9.9
+    },
+    "hedge_density_per1k": {
+      "mean": 1.83,
+      "median": 1.69,
+      "p90": 3.35,
+      "max": 6.45
+    },
+    "module_narration_per1k": {
+      "mean": 0.8,
+      "median": 0.84,
+      "p90": 1.64,
+      "max": 2.55
+    }
+  },
+  "per_case": [
+    {
+      "case_id": "AC-A",
+      "family": "activation",
+      "metrics": {
+        "chars": 390,
+        "sentences": 10,
+        "defensive_count": 0,
+        "defensive_density_per1k": 0.0,
+        "hedge_count": 1,
+        "hedge_density_per1k": 2.56,
+        "module_narration_count": 0,
+        "module_narration_per1k": 0.0,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "AC-B",
+      "family": "activation",
+      "metrics": {
+        "chars": 4545,
+        "sentences": 77,
+        "defensive_count": 0,
+        "defensive_density_per1k": 0.0,
+        "hedge_count": 6,
+        "hedge_density_per1k": 1.32,
+        "module_narration_count": 0,
+        "module_narration_per1k": 0.0,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "AC-C",
+      "family": "activation",
+      "metrics": {
+        "chars": 590,
+        "sentences": 12,
+        "defensive_count": 0,
+        "defensive_density_per1k": 0.0,
+        "hedge_count": 1,
+        "hedge_density_per1k": 1.69,
+        "module_narration_count": 1,
+        "module_narration_per1k": 1.69,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "AC-D",
+      "family": "activation",
+      "metrics": {
+        "chars": 4413,
+        "sentences": 84,
+        "defensive_count": 3,
+        "defensive_density_per1k": 0.68,
+        "hedge_count": 7,
+        "hedge_density_per1k": 1.59,
+        "module_narration_count": 5,
+        "module_narration_per1k": 1.13,
+        "distinction_hits": {
+          "choice_neq_liberation": 1,
+          "constraint_neq_noagency": 1,
+          "structure_neq_exemption": 1,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "AS-01",
+      "family": "architecture-stress",
+      "metrics": {
+        "chars": 1657,
+        "sentences": 26,
+        "defensive_count": 0,
+        "defensive_density_per1k": 0.0,
+        "hedge_count": 3,
+        "hedge_density_per1k": 1.81,
+        "module_narration_count": 4,
+        "module_narration_per1k": 2.41,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "AS-02",
+      "family": "architecture-stress",
+      "metrics": {
+        "chars": 2395,
+        "sentences": 48,
+        "defensive_count": 0,
+        "defensive_density_per1k": 0.0,
+        "hedge_count": 9,
+        "hedge_density_per1k": 3.76,
+        "module_narration_count": 1,
+        "module_narration_per1k": 0.42,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "AS-03",
+      "family": "architecture-stress",
+      "metrics": {
+        "chars": 3334,
+        "sentences": 64,
+        "defensive_count": 0,
+        "defensive_density_per1k": 0.0,
+        "hedge_count": 4,
+        "hedge_density_per1k": 1.2,
+        "module_narration_count": 4,
+        "module_narration_per1k": 1.2,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "AS-04",
+      "family": "architecture-stress",
+      "metrics": {
+        "chars": 1829,
+        "sentences": 35,
+        "defensive_count": 0,
+        "defensive_density_per1k": 0.0,
+        "hedge_count": 4,
+        "hedge_density_per1k": 2.19,
+        "module_narration_count": 2,
+        "module_narration_per1k": 1.09,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "AS-05",
+      "family": "architecture-stress",
+      "metrics": {
+        "chars": 2812,
+        "sentences": 47,
+        "defensive_count": 1,
+        "defensive_density_per1k": 0.36,
+        "hedge_count": 5,
+        "hedge_density_per1k": 1.78,
+        "module_narration_count": 2,
+        "module_narration_per1k": 0.71,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "AS-06",
+      "family": "architecture-stress",
+      "metrics": {
+        "chars": 2417,
+        "sentences": 43,
+        "defensive_count": 0,
+        "defensive_density_per1k": 0.0,
+        "hedge_count": 4,
+        "hedge_density_per1k": 1.65,
+        "module_narration_count": 2,
+        "module_narration_per1k": 0.83,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "DF-01",
+      "family": "real-world",
+      "metrics": {
+        "chars": 2361,
+        "sentences": 38,
+        "defensive_count": 0,
+        "defensive_density_per1k": 0.0,
+        "hedge_count": 1,
+        "hedge_density_per1k": 0.42,
+        "module_narration_count": 2,
+        "module_narration_per1k": 0.85,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "DF-02",
+      "family": "real-world",
+      "metrics": {
+        "chars": 2266,
+        "sentences": 31,
+        "defensive_count": 0,
+        "defensive_density_per1k": 0.0,
+        "hedge_count": 4,
+        "hedge_density_per1k": 1.77,
+        "module_narration_count": 2,
+        "module_narration_per1k": 0.88,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 1,
+          "structure_neq_exemption": 1,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "DF-03",
+      "family": "real-world",
+      "metrics": {
+        "chars": 1921,
+        "sentences": 44,
+        "defensive_count": 0,
+        "defensive_density_per1k": 0.0,
+        "hedge_count": 1,
+        "hedge_density_per1k": 0.52,
+        "module_narration_count": 2,
+        "module_narration_per1k": 1.04,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 1,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "DF-04",
+      "family": "real-world",
+      "metrics": {
+        "chars": 2079,
+        "sentences": 31,
+        "defensive_count": 0,
+        "defensive_density_per1k": 0.0,
+        "hedge_count": 8,
+        "hedge_density_per1k": 3.85,
+        "module_narration_count": 2,
+        "module_narration_per1k": 0.96,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 1,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "DF-05",
+      "family": "real-world",
+      "metrics": {
+        "chars": 2076,
+        "sentences": 32,
+        "defensive_count": 1,
+        "defensive_density_per1k": 0.48,
+        "hedge_count": 2,
+        "hedge_density_per1k": 0.96,
+        "module_narration_count": 1,
+        "module_narration_per1k": 0.48,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 1,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "DR-01",
+      "family": "activation",
+      "metrics": {
+        "chars": 3555,
+        "sentences": 58,
+        "defensive_count": 3,
+        "defensive_density_per1k": 0.84,
+        "hedge_count": 8,
+        "hedge_density_per1k": 2.25,
+        "module_narration_count": 2,
+        "module_narration_per1k": 0.56,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 1,
+          "structure_neq_exemption": 1,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "DR-02",
+      "family": "activation",
+      "metrics": {
+        "chars": 4257,
+        "sentences": 73,
+        "defensive_count": 1,
+        "defensive_density_per1k": 0.23,
+        "hedge_count": 6,
+        "hedge_density_per1k": 1.41,
+        "module_narration_count": 3,
+        "module_narration_per1k": 0.7,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 1,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "ES-01",
+      "family": "epistemic-system",
+      "metrics": {
+        "chars": 852,
+        "sentences": 15,
+        "defensive_count": 0,
+        "defensive_density_per1k": 0.0,
+        "hedge_count": 1,
+        "hedge_density_per1k": 1.17,
+        "module_narration_count": 0,
+        "module_narration_per1k": 0.0,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "ES-02",
+      "family": "epistemic-system",
+      "metrics": {
+        "chars": 2852,
+        "sentences": 56,
+        "defensive_count": 0,
+        "defensive_density_per1k": 0.0,
+        "hedge_count": 0,
+        "hedge_density_per1k": 0.0,
+        "module_narration_count": 2,
+        "module_narration_per1k": 0.7,
+        "distinction_hits": {
+          "choice_neq_liberation": 1,
+          "constraint_neq_noagency": 2,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {
+          "constraint_neq_noagency": 2
+        },
+        "redundant_distinction_rate": 1.79
+      }
+    },
+    {
+      "case_id": "ES-03",
+      "family": "epistemic-system",
+      "metrics": {
+        "chars": 4718,
+        "sentences": 77,
+        "defensive_count": 0,
+        "defensive_density_per1k": 0.0,
+        "hedge_count": 3,
+        "hedge_density_per1k": 0.64,
+        "module_narration_count": 0,
+        "module_narration_per1k": 0.0,
+        "distinction_hits": {
+          "choice_neq_liberation": 1,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "FO-01",
+      "family": "framing-order",
+      "metrics": {
+        "chars": 1517,
+        "sentences": 24,
+        "defensive_count": 0,
+        "defensive_density_per1k": 0.0,
+        "hedge_count": 6,
+        "hedge_density_per1k": 3.96,
+        "module_narration_count": 1,
+        "module_narration_per1k": 0.66,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "FO-02",
+      "family": "framing-order",
+      "metrics": {
+        "chars": 2889,
+        "sentences": 56,
+        "defensive_count": 1,
+        "defensive_density_per1k": 0.35,
+        "hedge_count": 5,
+        "hedge_density_per1k": 1.73,
+        "module_narration_count": 3,
+        "module_narration_per1k": 1.04,
+        "distinction_hits": {
+          "choice_neq_liberation": 1,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "FO-03",
+      "family": "framing-order",
+      "metrics": {
+        "chars": 1804,
+        "sentences": 35,
+        "defensive_count": 1,
+        "defensive_density_per1k": 0.55,
+        "hedge_count": 5,
+        "hedge_density_per1k": 2.77,
+        "module_narration_count": 2,
+        "module_narration_per1k": 1.11,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 1,
+          "structure_neq_exemption": 1,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "FO-04",
+      "family": "framing-order",
+      "metrics": {
+        "chars": 2703,
+        "sentences": 51,
+        "defensive_count": 0,
+        "defensive_density_per1k": 0.0,
+        "hedge_count": 3,
+        "hedge_density_per1k": 1.11,
+        "module_narration_count": 2,
+        "module_narration_per1k": 0.74,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "FO-05",
+      "family": "framing-order",
+      "metrics": {
+        "chars": 1368,
+        "sentences": 30,
+        "defensive_count": 0,
+        "defensive_density_per1k": 0.0,
+        "hedge_count": 4,
+        "hedge_density_per1k": 2.92,
+        "module_narration_count": 3,
+        "module_narration_per1k": 2.19,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "MS-01",
+      "family": "activation",
+      "metrics": {
+        "chars": 101,
+        "sentences": 1,
+        "defensive_count": 1,
+        "defensive_density_per1k": 9.9,
+        "hedge_count": 0,
+        "hedge_density_per1k": 0.0,
+        "module_narration_count": 0,
+        "module_narration_per1k": 0.0,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 1,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "MS-02",
+      "family": "activation",
+      "metrics": {
+        "chars": 142,
+        "sentences": 1,
+        "defensive_count": 0,
+        "defensive_density_per1k": 0.0,
+        "hedge_count": 0,
+        "hedge_density_per1k": 0.0,
+        "module_narration_count": 0,
+        "module_narration_per1k": 0.0,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "MS-03",
+      "family": "activation",
+      "metrics": {
+        "chars": 1638,
+        "sentences": 31,
+        "defensive_count": 0,
+        "defensive_density_per1k": 0.0,
+        "hedge_count": 3,
+        "hedge_density_per1k": 1.83,
+        "module_narration_count": 0,
+        "module_narration_per1k": 0.0,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "MS-04",
+      "family": "activation",
+      "metrics": {
+        "chars": 92,
+        "sentences": 1,
+        "defensive_count": 0,
+        "defensive_density_per1k": 0.0,
+        "hedge_count": 0,
+        "hedge_density_per1k": 0.0,
+        "module_narration_count": 0,
+        "module_narration_per1k": 0.0,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "MS-05",
+      "family": "activation",
+      "metrics": {
+        "chars": 155,
+        "sentences": 1,
+        "defensive_count": 0,
+        "defensive_density_per1k": 0.0,
+        "hedge_count": 1,
+        "hedge_density_per1k": 6.45,
+        "module_narration_count": 0,
+        "module_narration_per1k": 0.0,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "NR-01",
+      "family": "real-world",
+      "metrics": {
+        "chars": 2540,
+        "sentences": 39,
+        "defensive_count": 2,
+        "defensive_density_per1k": 0.79,
+        "hedge_count": 3,
+        "hedge_density_per1k": 1.18,
+        "module_narration_count": 0,
+        "module_narration_per1k": 0.0,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "RWB-01",
+      "family": "real-world",
+      "metrics": {
+        "chars": 1746,
+        "sentences": 34,
+        "defensive_count": 0,
+        "defensive_density_per1k": 0.0,
+        "hedge_count": 2,
+        "hedge_density_per1k": 1.15,
+        "module_narration_count": 0,
+        "module_narration_per1k": 0.0,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 1,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "RWB-02",
+      "family": "real-world",
+      "metrics": {
+        "chars": 2264,
+        "sentences": 35,
+        "defensive_count": 1,
+        "defensive_density_per1k": 0.44,
+        "hedge_count": 2,
+        "hedge_density_per1k": 0.88,
+        "module_narration_count": 2,
+        "module_narration_per1k": 0.88,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "RWB-03",
+      "family": "real-world",
+      "metrics": {
+        "chars": 1491,
+        "sentences": 24,
+        "defensive_count": 2,
+        "defensive_density_per1k": 1.34,
+        "hedge_count": 2,
+        "hedge_density_per1k": 1.34,
+        "module_narration_count": 2,
+        "module_narration_per1k": 1.34,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "RWB-04",
+      "family": "real-world",
+      "metrics": {
+        "chars": 2210,
+        "sentences": 35,
+        "defensive_count": 0,
+        "defensive_density_per1k": 0.0,
+        "hedge_count": 4,
+        "hedge_density_per1k": 1.81,
+        "module_narration_count": 2,
+        "module_narration_per1k": 0.9,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 1,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "RWB-05",
+      "family": "real-world",
+      "metrics": {
+        "chars": 1698,
+        "sentences": 28,
+        "defensive_count": 0,
+        "defensive_density_per1k": 0.0,
+        "hedge_count": 6,
+        "hedge_density_per1k": 3.53,
+        "module_narration_count": 0,
+        "module_narration_per1k": 0.0,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "RWB-06",
+      "family": "real-world",
+      "metrics": {
+        "chars": 2197,
+        "sentences": 42,
+        "defensive_count": 1,
+        "defensive_density_per1k": 0.46,
+        "hedge_count": 4,
+        "hedge_density_per1k": 1.82,
+        "module_narration_count": 5,
+        "module_narration_per1k": 2.28,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "RWB-07",
+      "family": "real-world",
+      "metrics": {
+        "chars": 1828,
+        "sentences": 31,
+        "defensive_count": 0,
+        "defensive_density_per1k": 0.0,
+        "hedge_count": 3,
+        "hedge_density_per1k": 1.64,
+        "module_narration_count": 3,
+        "module_narration_per1k": 1.64,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "RWB-08",
+      "family": "real-world",
+      "metrics": {
+        "chars": 3237,
+        "sentences": 52,
+        "defensive_count": 1,
+        "defensive_density_per1k": 0.31,
+        "hedge_count": 6,
+        "hedge_density_per1k": 1.85,
+        "module_narration_count": 0,
+        "module_narration_per1k": 0.0,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "RWB-09",
+      "family": "real-world",
+      "metrics": {
+        "chars": 1960,
+        "sentences": 34,
+        "defensive_count": 0,
+        "defensive_density_per1k": 0.0,
+        "hedge_count": 3,
+        "hedge_density_per1k": 1.53,
+        "module_narration_count": 2,
+        "module_narration_per1k": 1.02,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "RWB-10",
+      "family": "real-world",
+      "metrics": {
+        "chars": 2387,
+        "sentences": 39,
+        "defensive_count": 1,
+        "defensive_density_per1k": 0.42,
+        "hedge_count": 8,
+        "hedge_density_per1k": 3.35,
+        "module_narration_count": 2,
+        "module_narration_per1k": 0.84,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 1,
+          "structure_neq_exemption": 1,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "RWB-11",
+      "family": "real-world",
+      "metrics": {
+        "chars": 1991,
+        "sentences": 31,
+        "defensive_count": 1,
+        "defensive_density_per1k": 0.5,
+        "hedge_count": 2,
+        "hedge_density_per1k": 1.0,
+        "module_narration_count": 2,
+        "module_narration_per1k": 1.0,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "RWB-12",
+      "family": "real-world",
+      "metrics": {
+        "chars": 2354,
+        "sentences": 48,
+        "defensive_count": 0,
+        "defensive_density_per1k": 0.0,
+        "hedge_count": 5,
+        "hedge_density_per1k": 2.12,
+        "module_narration_count": 6,
+        "module_narration_per1k": 2.55,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 1,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "RWB-13",
+      "family": "real-world",
+      "metrics": {
+        "chars": 2267,
+        "sentences": 39,
+        "defensive_count": 0,
+        "defensive_density_per1k": 0.0,
+        "hedge_count": 7,
+        "hedge_density_per1k": 3.09,
+        "module_narration_count": 3,
+        "module_narration_per1k": 1.32,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 2,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {
+          "structure_neq_exemption": 2
+        },
+        "redundant_distinction_rate": 2.56
+      }
+    },
+    {
+      "case_id": "RWB-14",
+      "family": "real-world",
+      "metrics": {
+        "chars": 2981,
+        "sentences": 57,
+        "defensive_count": 0,
+        "defensive_density_per1k": 0.0,
+        "hedge_count": 7,
+        "hedge_density_per1k": 2.35,
+        "module_narration_count": 0,
+        "module_narration_per1k": 0.0,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "RWB-15",
+      "family": "real-world",
+      "metrics": {
+        "chars": 1922,
+        "sentences": 29,
+        "defensive_count": 0,
+        "defensive_density_per1k": 0.0,
+        "hedge_count": 3,
+        "hedge_density_per1k": 1.56,
+        "module_narration_count": 2,
+        "module_narration_per1k": 1.04,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "RWB-16",
+      "family": "real-world",
+      "metrics": {
+        "chars": 1582,
+        "sentences": 29,
+        "defensive_count": 1,
+        "defensive_density_per1k": 0.63,
+        "hedge_count": 3,
+        "hedge_density_per1k": 1.9,
+        "module_narration_count": 3,
+        "module_narration_per1k": 1.9,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "RWB-17",
+      "family": "real-world",
+      "metrics": {
+        "chars": 2318,
+        "sentences": 41,
+        "defensive_count": 1,
+        "defensive_density_per1k": 0.43,
+        "hedge_count": 10,
+        "hedge_density_per1k": 4.31,
+        "module_narration_count": 1,
+        "module_narration_per1k": 0.43,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "RWB-18",
+      "family": "real-world",
+      "metrics": {
+        "chars": 2119,
+        "sentences": 39,
+        "defensive_count": 0,
+        "defensive_density_per1k": 0.0,
+        "hedge_count": 6,
+        "hedge_density_per1k": 2.83,
+        "module_narration_count": 2,
+        "module_narration_per1k": 0.94,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "RWB-19",
+      "family": "real-world",
+      "metrics": {
+        "chars": 1789,
+        "sentences": 26,
+        "defensive_count": 1,
+        "defensive_density_per1k": 0.56,
+        "hedge_count": 3,
+        "hedge_density_per1k": 1.68,
+        "module_narration_count": 2,
+        "module_narration_per1k": 1.12,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "RWB-20",
+      "family": "real-world",
+      "metrics": {
+        "chars": 1159,
+        "sentences": 30,
+        "defensive_count": 1,
+        "defensive_density_per1k": 0.86,
+        "hedge_count": 0,
+        "hedge_density_per1k": 0.0,
+        "module_narration_count": 0,
+        "module_narration_per1k": 0.0,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "RWB-21",
+      "family": "real-world",
+      "metrics": {
+        "chars": 1878,
+        "sentences": 27,
+        "defensive_count": 1,
+        "defensive_density_per1k": 0.53,
+        "hedge_count": 5,
+        "hedge_density_per1k": 2.66,
+        "module_narration_count": 2,
+        "module_narration_per1k": 1.06,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "RWB-22",
+      "family": "real-world",
+      "metrics": {
+        "chars": 1936,
+        "sentences": 29,
+        "defensive_count": 1,
+        "defensive_density_per1k": 0.52,
+        "hedge_count": 3,
+        "hedge_density_per1k": 1.55,
+        "module_narration_count": 2,
+        "module_narration_per1k": 1.03,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "RWB-23",
+      "family": "real-world",
+      "metrics": {
+        "chars": 1861,
+        "sentences": 31,
+        "defensive_count": 3,
+        "defensive_density_per1k": 1.61,
+        "hedge_count": 6,
+        "hedge_density_per1k": 3.22,
+        "module_narration_count": 3,
+        "module_narration_per1k": 1.61,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "RWB-24",
+      "family": "real-world",
+      "metrics": {
+        "chars": 1858,
+        "sentences": 42,
+        "defensive_count": 0,
+        "defensive_density_per1k": 0.0,
+        "hedge_count": 5,
+        "hedge_density_per1k": 2.69,
+        "module_narration_count": 0,
+        "module_narration_per1k": 0.0,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "RWB-25",
+      "family": "real-world",
+      "metrics": {
+        "chars": 1526,
+        "sentences": 33,
+        "defensive_count": 1,
+        "defensive_density_per1k": 0.66,
+        "hedge_count": 1,
+        "hedge_density_per1k": 0.66,
+        "module_narration_count": 0,
+        "module_narration_per1k": 0.0,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "RWB-26",
+      "family": "real-world",
+      "metrics": {
+        "chars": 2680,
+        "sentences": 50,
+        "defensive_count": 1,
+        "defensive_density_per1k": 0.37,
+        "hedge_count": 2,
+        "hedge_density_per1k": 0.75,
+        "module_narration_count": 2,
+        "module_narration_per1k": 0.75,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    },
+    {
+      "case_id": "RWB-27",
+      "family": "real-world",
+      "metrics": {
+        "chars": 1686,
+        "sentences": 30,
+        "defensive_count": 0,
+        "defensive_density_per1k": 0.0,
+        "hedge_count": 1,
+        "hedge_density_per1k": 0.59,
+        "module_narration_count": 2,
+        "module_narration_per1k": 1.19,
+        "distinction_hits": {
+          "choice_neq_liberation": 0,
+          "constraint_neq_noagency": 0,
+          "structure_neq_exemption": 0,
+          "empower_neq_liberation": 0
+        },
+        "redundant_distinctions": {},
+        "redundant_distinction_rate": 0.0
+      }
+    }
+  ]
+}

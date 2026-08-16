@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "research-protocol/prompt-schema.json",
+  "title": "Prompt rendering (case -> concrete prompt in a given mode)",
+  "type": "object",
+  "required": ["case_id","mode","text"],
+  "properties": {
+    "case_id": {"type":"string"},
+    "mode": {"enum":["natural-concise","deep-analytical","research-oriented","ablation"]},
+    "text": {"type":"string"},
+    "system_prompt_ref": {"type":"string","description":"SKILL.md or SKILL.ablate-AX.md"}
+  }
+}

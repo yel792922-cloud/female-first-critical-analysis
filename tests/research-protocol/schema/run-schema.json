@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "research-protocol/run-schema.json",
+  "title": "Research run record (fully re-playable)",
+  "type": "object",
+  "required": ["case_id","prompt","mode","skill_version","fixture_hash","model","model_version","judge","judge_version","timestamp","output"],
+  "properties": {
+    "case_id": {"type":"string"},
+    "prompt": {"type":"string"},
+    "mode": {"enum":["natural-concise","deep-analytical","research-oriented","ablation"]},
+    "condition": {"type":"string","description":"baseline | treatment | ablation:A1..A7"},
+    "skill_version": {"type":"string","description":"git commit or ablation variant id"},
+    "fixture_hash": {"type":"string"},
+    "model": {"type":"string"},
+    "model_version": {"type":"string","description":"UNKNOWN if alias-only"},
+    "judge": {"type":"string","description":"bootstrap | independent | none"},
+    "judge_version": {"type":"string"},
+    "judge_independence": {"enum":["LOW","HIGH","N/A"]},
+    "temperature": {"type":"string"},
+    "timestamp": {"type":"string"},
+    "output": {"type":"string"},
+    "evaluation_properties": {"type":"object"},
+    "reproducible": {"type":"boolean"}
+  }
+}

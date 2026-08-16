@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "research-protocol/output-schema.json",
+  "title": "Captured output (natural text or research-mode structured)",
+  "type": "object",
+  "required": ["case_id","mode","answer_text"],
+  "properties": {
+    "case_id": {"type":"string"},
+    "mode": {"type":"string"},
+    "answer_text": {"type":"string"},
+    "research_structured": {"$ref":"research-mode-schema.json"},
+    "provenance": {"$ref":"run-schema.json"}
+  }
+}

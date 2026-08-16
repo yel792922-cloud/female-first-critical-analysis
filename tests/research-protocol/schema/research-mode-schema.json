@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "research-protocol/research-mode-schema.json",
+  "title": "Research-mode structured output",
+  "description": "Structured output produced ONLY when the user requests research mode. Normal use returns natural language; research mode is never mixed into ordinary answers.",
+  "type": "object",
+  "required": ["question","focal_claims","conclusion","epistemic_uncertainty"],
+  "additionalProperties": false,
+  "properties": {
+    "question": {"type":"string"},
+    "focal_claims": {"type":"array","items":{
+      "type":"object","required":["id","text","claim_type","evidence_status"],
+      "properties":{
+        "id":{"type":"string"},
+        "text":{"type":"string"},
+        "claim_type":{"enum":["empirical","causal","normative","interpretive","definitional"]},
+        "evidence_status":{"enum":["well-supported","partial","contested","insufficient","not-applicable"]}
+      }}},
+    "power_structure": {"type":["string","null"]},
+    "agency": {"type":["string","null"]},
+    "responsibility": {"type":["string","null"]},
+    "alternative_explanations": {"type":"array","items":{"type":"string"}},
+    "epistemic_uncertainty": {"type":"array","items":{"type":"string"},
+      "description":"claims the material cannot settle; may be non-empty"},
+    "conclusion": {"type":"string","description":"NOT required to be unique; multiple valid interpretations allowed"},
+    "valid_alternative_interpretations": {"type":"array","items":{"type":"string"}}
+  }
+}

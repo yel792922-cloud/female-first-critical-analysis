@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "research-protocol/case-schema.json",
+  "title": "Research case (single / multi-turn / competing-models)",
+  "type": "object",
+  "required": ["case_id","kind","prompt"],
+  "properties": {
+    "case_id": {"type":"string"},
+    "kind": {"enum":["single","multi-turn","competing-epistemic-models"]},
+    "category": {"type":"string"},
+    "prompt": {"type":"string"},
+    "turns": {"type":"array","items":{"type":"string"},"description":"for multi-turn"},
+    "expected_properties": {"type":"array","items":{"type":"string"}},
+    "has_feminist_vocab": {"type":"boolean"},
+    "boundary_condition": {"type":"string"}
+  }
+}

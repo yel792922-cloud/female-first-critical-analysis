@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "research-protocol/annotation-schema.json",
+  "title": "Human annotation (properties + epistemic commitment, NOT a single correct answer)",
+  "type": "object",
+  "required": ["case_id","annotator_id","property_verdicts","epistemic_commitment"],
+  "properties": {
+    "case_id": {"type":"string"},
+    "annotator_id": {"type":"string"},
+    "property_verdicts": {"type":"object","additionalProperties":{"enum":["PASS","PARTIAL","FAIL","N-A"]}},
+    "epistemic_commitment": {"type":"string","description":"strength/direction of the conclusion"},
+    "acceptable_alternative_interpretations": {"type":"array","items":{"type":"string"}},
+    "flagged_ecodes": {"type":"array","items":{"type":"string"}},
+    "confidence": {"enum":["low","medium","high"]},
+    "notes": {"type":"string"}
+  }
+}

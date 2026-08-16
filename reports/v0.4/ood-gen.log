@@ -1,0 +1,9 @@
+[G-A1] verdicts={'P01': 'PASS', 'P05': 'PASS', 'P06': 'PASS', 'P10': 'PASS'} overgender=True gterms=8
+[G-A2] verdicts={'P04': 'PASS', 'P05': 'PASS', 'P08': 'PASS'} overgender=True gterms=5
+[G-A3] verdicts={'P01': 'PASS', 'P05': 'PASS', 'P08': 'PASS'} overgender=False gterms=2
+[G-A4] verdicts={'P05': 'PASS', 'P06': 'PASS', 'P10': 'PASS'} overgender=False gterms=2
+[G-A5] verdicts={'P04': 'PASS', 'P05': 'PASS', 'P06': 'PASS'} overgender=True gterms=21
+[G-B1] verdicts={'P01': 'PASS', 'P04': 'PASS', 'P05': 'PASS', 'P08': 'PASS'} overgender=False gterms=60
+[G-B2] verdicts={'P05': 'PASS', 'P06': 'PASS', 'P10': 'PASS'} overgender=False gterms=41
+[G-B3] verdicts={'P01': 'PASS', 'P05': 'PASS', 'P07': 'PASS', 'P08': 'PASS'} overgender=False gterms=56
+GENERALIZATION SWEEP PASS COMPLETE

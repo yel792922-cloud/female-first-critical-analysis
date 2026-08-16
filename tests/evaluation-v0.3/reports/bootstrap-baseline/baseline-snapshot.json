@@ -1,0 +1,1246 @@
+{
+  "label": "bootstrap-baseline",
+  "judge_type": "BOOTSTRAP",
+  "skill_version": "baseline",
+  "baseline_commit": "e8c3f48",
+  "n_cases": 58,
+  "items": [
+    {
+      "case_id": "AC-A",
+      "family": "activation",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P14": "PASS",
+        "P15": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "parallel-analysis",
+        "power-structure"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "AC-B",
+      "family": "activation",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P14": "PASS",
+        "P15": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "baseline-interrogation",
+        "parallel-analysis",
+        "power-structure"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "AC-C",
+      "family": "activation",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P14": "N-A",
+        "P15": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "class-position",
+        "intersectionality",
+        "parallel-analysis",
+        "power-structure",
+        "responsibility"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "AC-D",
+      "family": "activation",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P14": "PASS",
+        "P15": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "class-position",
+        "intersectionality",
+        "parallel-analysis",
+        "power-structure",
+        "responsibility"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "AS-01",
+      "family": "architecture-stress",
+      "verdicts": {
+        "P05": "PASS",
+        "P06": "PASS",
+        "P07": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "class-position",
+        "intersectionality",
+        "parallel-analysis",
+        "power-structure",
+        "responsibility"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "AS-02",
+      "family": "architecture-stress",
+      "verdicts": {
+        "P05": "PASS",
+        "P06": "PASS",
+        "P07": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "baseline-interrogation",
+        "class-position",
+        "comparison",
+        "intersectionality",
+        "parallel-analysis",
+        "power-structure",
+        "responsibility"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "AS-03",
+      "family": "architecture-stress",
+      "verdicts": {
+        "P05": "PASS",
+        "P06": "PASS",
+        "P07": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "class-position",
+        "comparison",
+        "intersectionality",
+        "null-result",
+        "parallel-analysis",
+        "power-structure",
+        "responsibility"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "AS-04",
+      "family": "architecture-stress",
+      "verdicts": {
+        "P05": "PASS",
+        "P06": "PASS",
+        "P07": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "class-position",
+        "intersectionality",
+        "parallel-analysis",
+        "power-structure",
+        "responsibility"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "AS-05",
+      "family": "architecture-stress",
+      "verdicts": {
+        "P05": "PASS",
+        "P06": "PASS",
+        "P07": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "class-position",
+        "comparison",
+        "intersectionality",
+        "parallel-analysis",
+        "power-structure"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "AS-06",
+      "family": "architecture-stress",
+      "verdicts": {
+        "P05": "PASS",
+        "P06": "PASS",
+        "P07": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "class-position",
+        "comparison",
+        "intersectionality",
+        "power-structure",
+        "responsibility"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "DF-01",
+      "family": "real-world",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P05": "PASS",
+        "P06": "PASS",
+        "P10": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "baseline-interrogation",
+        "null-result",
+        "parallel-analysis",
+        "power-structure"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "DF-02",
+      "family": "real-world",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P05": "PASS",
+        "P06": "PASS",
+        "P10": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "baseline-interrogation",
+        "parallel-analysis",
+        "power-structure"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "DF-03",
+      "family": "real-world",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P05": "PASS",
+        "P06": "PASS",
+        "P10": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "baseline-interrogation",
+        "null-result",
+        "parallel-analysis",
+        "power-structure"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "DF-04",
+      "family": "real-world",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P05": "PASS",
+        "P06": "PASS",
+        "P10": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "baseline-interrogation",
+        "null-result",
+        "parallel-analysis",
+        "power-structure"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "DF-05",
+      "family": "real-world",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P05": "PASS",
+        "P06": "PASS",
+        "P10": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "baseline-interrogation",
+        "parallel-analysis",
+        "power-structure",
+        "responsibility"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "DR-01",
+      "family": "activation",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P14": "PASS",
+        "P15": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "baseline-interrogation",
+        "intersectionality",
+        "null-result",
+        "parallel-analysis",
+        "power-structure"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "DR-02",
+      "family": "activation",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P14": "PASS",
+        "P15": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "baseline-interrogation",
+        "class-position",
+        "comparison",
+        "intersectionality",
+        "parallel-analysis",
+        "power-structure",
+        "responsibility"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "ES-01",
+      "family": "epistemic-system",
+      "verdicts": {
+        "P02": "N-A",
+        "P10": "N-A",
+        "P11": "N-A",
+        "P12": "N-A"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "baseline-interrogation",
+        "power-structure"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "ES-02",
+      "family": "epistemic-system",
+      "verdicts": {
+        "P02": "PASS",
+        "P10": "PASS",
+        "P11": "PASS",
+        "P12": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "baseline-interrogation",
+        "class-position",
+        "intersectionality",
+        "null-result",
+        "parallel-analysis",
+        "power-structure"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "ES-03",
+      "family": "epistemic-system",
+      "verdicts": {
+        "P02": "PASS",
+        "P10": "PASS",
+        "P11": "PASS",
+        "P12": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "baseline-interrogation",
+        "intersectionality",
+        "parallel-analysis",
+        "power-structure",
+        "responsibility"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "FO-01",
+      "family": "framing-order",
+      "verdicts": {
+        "P04": "PASS",
+        "P05": "PASS",
+        "P06": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "baseline-interrogation",
+        "power-structure"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "FO-02",
+      "family": "framing-order",
+      "verdicts": {
+        "P04": "PASS",
+        "P05": "PASS",
+        "P06": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "baseline-interrogation",
+        "null-result",
+        "parallel-analysis",
+        "power-structure"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "FO-03",
+      "family": "framing-order",
+      "verdicts": {
+        "P04": "PASS",
+        "P05": "PASS",
+        "P06": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "baseline-interrogation",
+        "class-position",
+        "intersectionality",
+        "parallel-analysis",
+        "power-structure"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "FO-04",
+      "family": "framing-order",
+      "verdicts": {
+        "P04": "PASS",
+        "P05": "PASS",
+        "P06": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "class-position",
+        "null-result",
+        "parallel-analysis",
+        "power-structure",
+        "responsibility"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "FO-05",
+      "family": "framing-order",
+      "verdicts": {
+        "P04": "PASS",
+        "P05": "PASS",
+        "P06": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "class-position",
+        "intersectionality",
+        "null-result",
+        "parallel-analysis",
+        "power-structure"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "MS-01",
+      "family": "activation",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P14": "PASS",
+        "P15": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "parallel-analysis",
+        "power-structure"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "MS-02",
+      "family": "activation",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P14": "PASS",
+        "P15": "PARTIAL"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "power-structure",
+        "responsibility"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "MS-03",
+      "family": "activation",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P14": "PASS",
+        "P15": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "comparison",
+        "power-structure"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "MS-04",
+      "family": "activation",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P14": "PASS",
+        "P15": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "baseline-interrogation"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "MS-05",
+      "family": "activation",
+      "verdicts": {},
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "class-position",
+        "intersectionality",
+        "parallel-analysis",
+        "power-structure"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "NR-01",
+      "family": "real-world",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P05": "PASS",
+        "P06": "PASS",
+        "P10": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "null-result",
+        "parallel-analysis",
+        "power-structure",
+        "responsibility"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "RWB-01",
+      "family": "real-world",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P05": "PASS",
+        "P06": "PASS",
+        "P10": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "baseline-interrogation",
+        "parallel-analysis",
+        "power-structure"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "RWB-02",
+      "family": "real-world",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P05": "PASS",
+        "P06": "PASS",
+        "P10": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "parallel-analysis",
+        "power-structure",
+        "responsibility"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "RWB-03",
+      "family": "real-world",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P05": "PASS",
+        "P06": "PASS",
+        "P10": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "baseline-interrogation",
+        "parallel-analysis",
+        "power-structure"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "RWB-04",
+      "family": "real-world",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P05": "PASS",
+        "P06": "PASS",
+        "P10": "PARTIAL"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "parallel-analysis",
+        "power-structure",
+        "responsibility"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "RWB-05",
+      "family": "real-world",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P05": "PASS",
+        "P06": "PASS",
+        "P10": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "null-result",
+        "power-structure"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "RWB-06",
+      "family": "real-world",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P05": "PASS",
+        "P06": "PASS",
+        "P10": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "baseline-interrogation",
+        "parallel-analysis",
+        "power-structure"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "RWB-07",
+      "family": "real-world",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P05": "PASS",
+        "P06": "PASS",
+        "P10": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "parallel-analysis",
+        "power-structure",
+        "responsibility"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "RWB-08",
+      "family": "real-world",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P05": "PASS",
+        "P06": "PASS",
+        "P10": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "baseline-interrogation",
+        "comparison",
+        "null-result",
+        "parallel-analysis",
+        "power-structure"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "RWB-09",
+      "family": "real-world",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P05": "PASS",
+        "P06": "PASS",
+        "P10": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "comparison",
+        "parallel-analysis",
+        "power-structure",
+        "responsibility"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "RWB-10",
+      "family": "real-world",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P05": "PARTIAL",
+        "P06": "PASS",
+        "P10": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "baseline-interrogation",
+        "parallel-analysis",
+        "power-structure",
+        "responsibility"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "RWB-11",
+      "family": "real-world",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P05": "PASS",
+        "P06": "PASS",
+        "P10": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "baseline-interrogation",
+        "parallel-analysis",
+        "power-structure"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "RWB-12",
+      "family": "real-world",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P05": "PASS",
+        "P06": "PASS",
+        "P10": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "baseline-interrogation",
+        "class-position",
+        "intersectionality",
+        "parallel-analysis",
+        "power-structure"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "RWB-13",
+      "family": "real-world",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P05": "PASS",
+        "P06": "PASS",
+        "P10": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "baseline-interrogation",
+        "class-position",
+        "comparison",
+        "intersectionality",
+        "null-result",
+        "parallel-analysis",
+        "power-structure",
+        "responsibility"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "RWB-14",
+      "family": "real-world",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P05": "PASS",
+        "P06": "PASS",
+        "P10": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "baseline-interrogation",
+        "class-position",
+        "intersectionality",
+        "null-result",
+        "parallel-analysis",
+        "power-structure",
+        "responsibility"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "RWB-15",
+      "family": "real-world",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P05": "PASS",
+        "P06": "PASS",
+        "P10": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "parallel-analysis",
+        "power-structure",
+        "responsibility"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "RWB-16",
+      "family": "real-world",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P05": "PASS",
+        "P06": "PASS",
+        "P10": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "class-position",
+        "intersectionality",
+        "null-result",
+        "parallel-analysis",
+        "power-structure",
+        "responsibility"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "RWB-17",
+      "family": "real-world",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P05": "PASS",
+        "P06": "PASS",
+        "P10": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "baseline-interrogation",
+        "intersectionality",
+        "parallel-analysis",
+        "power-structure",
+        "responsibility"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "RWB-18",
+      "family": "real-world",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P05": "PASS",
+        "P06": "PASS",
+        "P10": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "baseline-interrogation",
+        "comparison",
+        "intersectionality",
+        "null-result",
+        "parallel-analysis",
+        "power-structure",
+        "responsibility"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "RWB-19",
+      "family": "real-world",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P05": "PASS",
+        "P06": "PASS",
+        "P10": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "class-position",
+        "power-structure",
+        "responsibility"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "RWB-20",
+      "family": "real-world",
+      "verdicts": {
+        "P02": "PARTIAL",
+        "P04": "PASS",
+        "P05": "PASS",
+        "P06": "PASS",
+        "P10": "PASS"
+      },
+      "flagged_ecodes": [
+        "E01"
+      ],
+      "critical_flags": [
+        "E01"
+      ],
+      "module_trace_heuristic": [
+        "comparison",
+        "power-structure"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "RWB-21",
+      "family": "real-world",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P05": "PASS",
+        "P06": "PASS",
+        "P10": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "class-position",
+        "power-structure",
+        "responsibility"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "RWB-22",
+      "family": "real-world",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P05": "PASS",
+        "P06": "PASS",
+        "P10": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "null-result",
+        "power-structure",
+        "responsibility"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "RWB-23",
+      "family": "real-world",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P05": "PASS",
+        "P06": "PASS",
+        "P10": "PARTIAL"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "class-position",
+        "intersectionality",
+        "parallel-analysis",
+        "power-structure"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "RWB-24",
+      "family": "real-world",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P05": "PASS",
+        "P06": "PASS",
+        "P10": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "parallel-analysis",
+        "power-structure",
+        "responsibility"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "RWB-25",
+      "family": "real-world",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P05": "PASS",
+        "P06": "PASS",
+        "P10": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "comparison",
+        "parallel-analysis",
+        "power-structure",
+        "responsibility"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "RWB-26",
+      "family": "real-world",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P05": "PASS",
+        "P06": "PASS",
+        "P10": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "agency",
+        "null-result",
+        "parallel-analysis",
+        "power-structure",
+        "responsibility"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    },
+    {
+      "case_id": "RWB-27",
+      "family": "real-world",
+      "verdicts": {
+        "P02": "PASS",
+        "P04": "PASS",
+        "P05": "PASS",
+        "P06": "PASS",
+        "P10": "PASS"
+      },
+      "flagged_ecodes": [],
+      "critical_flags": [],
+      "module_trace_heuristic": [
+        "comparison",
+        "parallel-analysis",
+        "power-structure"
+      ],
+      "stage1_ok": true,
+      "stage2_ok": true
+    }
+  ]
+}

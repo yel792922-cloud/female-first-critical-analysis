@@ -1,0 +1,31 @@
+{
+  "case_id": "MS-02",
+  "family": "activation",
+  "prompt": "请就以下性别议题案例做分析：\"老板暗示下属陪酒才好升职,下属去了,是不是你情我愿?一句话。\"",
+  "prompt_version": "full-manifest@v0.3.3",
+  "skill_version": "current",
+  "git_commit": "e8c3f48",
+  "fixture_hash": "ec156bd7ca1b",
+  "judge_type": "BOOTSTRAP",
+  "stage1_ok": true,
+  "stage1_secs": 21.6,
+  "output": "不是你情我愿——这本质是上级借\"晋升\"这一制度性资源,对处于不对等权力关系(可拒绝即受惩罚、顺从才有出路)中的下属施加的胁迫性交换,下属的\"去了\"是在被压缩的选择空间里做出的自保性妥协,形式上的同意掩盖不了实质上的强制,主要责任在滥用职权设局的一方,而非在无实质退出能力下应对的下属。",
+  "module_trace_heuristic": [
+    "agency",
+    "power-structure",
+    "responsibility"
+  ],
+  "stage2_ok": true,
+  "verdicts": {
+    "P02": "PASS",
+    "P04": "PASS",
+    "P14": "PASS",
+    "P15": "PARTIAL"
+  },
+  "flagged_ecodes": [],
+  "critical_flags": [],
+  "judge_model_alias": "DEFAULT",
+  "model_version": "UNKNOWN (alias, not pinned)",
+  "temperature": "UNKNOWN (not exposed by CLI)",
+  "timestamp": "2026-08-15T19:33:17Z"
+}

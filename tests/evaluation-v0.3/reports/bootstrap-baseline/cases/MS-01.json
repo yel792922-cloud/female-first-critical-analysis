@@ -1,0 +1,31 @@
+{
+  "case_id": "MS-01",
+  "family": "activation",
+  "prompt": "请就以下性别议题案例做分析：\"她自己选了陪酒,所以这是不是自由?一句话。\"",
+  "prompt_version": "full-manifest@v0.3.3",
+  "skill_version": "current",
+  "git_commit": "e8c3f48",
+  "fixture_hash": "27b48b36b426",
+  "judge_type": "BOOTSTRAP",
+  "stage1_ok": true,
+  "stage1_secs": 12.1,
+  "output": "她\"自己选的\"确实体现了真实的能动性,但这并不能单独证明\"陪酒\"就是不受经济压力、可选项有限、行业结构和退出成本制约的实质自由——形式上的自愿选择与结构性约束是并存的两条轴线,不能用其中一个取消另一个。",
+  "module_trace_heuristic": [
+    "agency",
+    "parallel-analysis",
+    "power-structure"
+  ],
+  "stage2_ok": true,
+  "verdicts": {
+    "P02": "PASS",
+    "P04": "PASS",
+    "P14": "PASS",
+    "P15": "PASS"
+  },
+  "flagged_ecodes": [],
+  "critical_flags": [],
+  "judge_model_alias": "DEFAULT",
+  "model_version": "UNKNOWN (alias, not pinned)",
+  "temperature": "UNKNOWN (not exposed by CLI)",
+  "timestamp": "2026-08-15T19:32:32Z"
+}

@@ -1,0 +1,8 @@
+{
+  "n_cases": 58,
+  "fixture_manifest_hash": "309d2063e56b3bf69805b1ce7e2cb0e1d77708acd0de79a89a9335024ed1b720",
+  "output_manifest_hash": "2418a2a6949a583665fd762bf7e08723da02a9b3be9ac467b8004c18a117a31f",
+  "property_manifest_hash": "65a96b41b70ebbf5ec9a4b0f5c3e48dcd01a02a851f699f6b8094204ca597a12",
+  "ecode_manifest_hash": "fcfbc7dab2983f45acb285887bf5c65cee7f0053d1d148097adacd2cf29b902b",
+  "baseline_commit": "e8c3f48"
+}

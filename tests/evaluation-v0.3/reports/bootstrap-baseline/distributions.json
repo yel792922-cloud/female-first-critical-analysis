@@ -1,0 +1,78 @@
+{
+  "n_cases": 58,
+  "successful_execution": 58,
+  "failed_execution": 0,
+  "per_property": {
+    "P02": {
+      "PASS": 44,
+      "N-A": 1,
+      "PARTIAL": 1
+    },
+    "P04": {
+      "PASS": 48
+    },
+    "P14": {
+      "PASS": 9,
+      "N-A": 1
+    },
+    "P15": {
+      "PASS": 9,
+      "PARTIAL": 1
+    },
+    "P05": {
+      "PASS": 43,
+      "PARTIAL": 1
+    },
+    "P06": {
+      "PASS": 44
+    },
+    "P07": {
+      "PASS": 6
+    },
+    "P10": {
+      "PASS": 33,
+      "N-A": 1,
+      "PARTIAL": 2
+    },
+    "P11": {
+      "N-A": 1,
+      "PASS": 2
+    },
+    "P12": {
+      "N-A": 1,
+      "PASS": 2
+    }
+  },
+  "per_ecode": {
+    "E01": 1
+  },
+  "module_activation_heuristic": {
+    "agency": 53,
+    "parallel-analysis": 47,
+    "power-structure": 57,
+    "baseline-interrogation": 27,
+    "class-position": 21,
+    "intersectionality": 22,
+    "responsibility": 30,
+    "comparison": 13,
+    "null-result": 18
+  },
+  "critical_property_snapshot": {
+    "P02:PASS": 44,
+    "P04:PASS": 48,
+    "P06:PASS": 44,
+    "P02:N-A": 1,
+    "P11:N-A": 1,
+    "P12:N-A": 1,
+    "P11:PASS": 2,
+    "P12:PASS": 2,
+    "P02:PARTIAL": 1
+  },
+  "families": {
+    "activation": 11,
+    "architecture-stress": 6,
+    "real-world": 33,
+    "epistemic-system": 3,
+    "framing-order": 5
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "case_id": "AC-A",
+  "family": "activation",
+  "prompt": "化妆是不是媚男?简单说。",
+  "prompt_version": "full-manifest@v0.3.3",
+  "skill_version": "current",
+  "git_commit": "e8c3f48",
+  "fixture_hash": "63619b58efc4",
+  "judge_type": "BOOTSTRAP",
+  "stage1_ok": true,
+  "stage1_secs": 23.5,
+  "output": "**不是,或者说这个问题本身问错了方向。**\n\n- **个体层面(agency):** 化妆常常是自我表达、职业形象、单纯审美愉悦——并不必然指向\"讨好男性\"这个动机。把\"化妆\"直接等同于\"媚男\",是用单一解释覆盖了多种真实动机。\n- **结构层面(structure):** 但主流审美标准(白幼瘦、精致妆容等)确实历史上受男性凝视和消费市场塑造,职场也存在对女性外貌的隐性要求。这是真实的结构性压力,不能否认。\n- **两者不互相取消:** 个人可能真心喜欢化妆,同时这个\"喜欢\"本身也是在被结构塑造的审美环境里形成的——这两件事同时成立,不矛盾。\n- **双重标准提示:** 男性打理形象很少被问\"是不是媚女\",这个问题只对女性提出,本身就值得留意。\n\n一句话总结:**化妆是不是媚男,取决于具体动机和语境,不能一概而论;但用这个词去评判所有化妆女性,本身就是一种规训。**",
+  "module_trace_heuristic": [
+    "agency",
+    "parallel-analysis",
+    "power-structure"
+  ],
+  "stage2_ok": true,
+  "verdicts": {
+    "P02": "PASS",
+    "P04": "PASS",
+    "P14": "PASS",
+    "P15": "PASS"
+  },
+  "flagged_ecodes": [],
+  "critical_flags": [],
+  "judge_model_alias": "DEFAULT",
+  "model_version": "UNKNOWN (alias, not pinned)",
+  "temperature": "UNKNOWN (not exposed by CLI)",
+  "timestamp": "2026-08-15T19:16:16Z"
+}

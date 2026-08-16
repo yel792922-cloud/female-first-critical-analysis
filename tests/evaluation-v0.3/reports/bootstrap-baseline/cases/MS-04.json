@@ -1,0 +1,30 @@
+{
+  "case_id": "MS-04",
+  "family": "activation",
+  "prompt": "请就以下性别议题案例做分析：\"全职主妇是不是向下的自由?一句话。\"",
+  "prompt_version": "full-manifest@v0.3.3",
+  "skill_version": "current",
+  "git_commit": "e8c3f48",
+  "fixture_hash": "0acdbdc85a5e",
+  "judge_type": "BOOTSTRAP",
+  "stage1_ok": true,
+  "stage1_secs": 15.2,
+  "output": "全职主妇本身无所谓\"向上\"或\"向下\"——这个提法预设了\"有偿就业=进步\"的单一基准,真正决定其自由含金量的是她有没有退出能力、独立经济资源、选择是否可逆,而非\"主妇\"这个身份标签本身。",
+  "module_trace_heuristic": [
+    "agency",
+    "baseline-interrogation"
+  ],
+  "stage2_ok": true,
+  "verdicts": {
+    "P02": "PASS",
+    "P04": "PASS",
+    "P14": "PASS",
+    "P15": "PASS"
+  },
+  "flagged_ecodes": [],
+  "critical_flags": [],
+  "judge_model_alias": "DEFAULT",
+  "model_version": "UNKNOWN (alias, not pinned)",
+  "temperature": "UNKNOWN (not exposed by CLI)",
+  "timestamp": "2026-08-15T19:35:14Z"
+}

@@ -1,0 +1,27 @@
+{
+  "case_id": "MS-05",
+  "family": "activation",
+  "prompt": "请就以下性别议题案例做分析：\"有钱女企业家还谈被压迫,是不是矫情?一句话。\"",
+  "prompt_version": "full-manifest@v0.3.3",
+  "skill_version": "current",
+  "git_commit": "e8c3f48",
+  "fixture_hash": "2d2f3f44c474",
+  "judge_type": "BOOTSTRAP",
+  "stage1_ok": true,
+  "stage1_secs": 19.2,
+  "output": "不是矫情——她在阶级/资源轴上占优并不能自动抵消她在性别轴上可能遭遇的结构性制约(如资本市场对女性创业者的信任折扣、\"霸道女强人\"式舆论双标、婚育年龄压力等),这是两个独立维度、可以同时成立,但具体是否\"被压迫\"仍要看她所指的内容有没有实证支撑,不能仅凭\"有钱\"就一概否定,也不能仅凭\"是女企业家\"就一概坐实。",
+  "module_trace_heuristic": [
+    "class-position",
+    "intersectionality",
+    "parallel-analysis",
+    "power-structure"
+  ],
+  "stage2_ok": true,
+  "verdicts": {},
+  "flagged_ecodes": [],
+  "critical_flags": [],
+  "judge_model_alias": "DEFAULT",
+  "model_version": "UNKNOWN (alias, not pinned)",
+  "temperature": "UNKNOWN (not exposed by CLI)",
+  "timestamp": "2026-08-15T19:35:54Z"
+}

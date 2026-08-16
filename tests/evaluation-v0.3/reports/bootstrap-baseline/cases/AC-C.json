@@ -1,0 +1,34 @@
+{
+  "case_id": "AC-C",
+  "family": "activation",
+  "prompt": "富裕女性雇佣移民女性家政工,这算不算父权?简单说。",
+  "prompt_version": "full-manifest@v0.3.3",
+  "skill_version": "current",
+  "git_commit": "e8c3f48",
+  "fixture_hash": "c583d894235d",
+  "judge_type": "BOOTSTRAP",
+  "stage1_ok": true,
+  "stage1_secs": 36.2,
+  "output": "**简单说:不完全算,但也不是无关。**\n\n这里要分两层,别混在一起说：\n\n**1. 雇主↔家政工的直接关系**：主要是**阶级/移民身份权力**在起作用,不是\"共享性别\"。两人都是女性,但雇主在经济资源、雇佣决定权、国籍/身份合法性上占绝对优势,家政工处于从属位置——这是阶级/位置权力轴,不能因为\"都是女性\"就假设她们权力对等,也不能说雇主\"作为女性也弱势\"所以没有支配关系。\n\n**2. 更深一层的结构问题**：真正带父权色彩的,是**为什么家务/照护劳动本来就被默认是\"女性的活\"**,以至于富裕家庭要外包时,首先想到雇一个女人来做,而不是家里的男性成员分担。这形成所谓\"全球照护链\"——性别化分工没消失,只是被转移、外包、阶级化了。这一层,父权结构依然在场。\n\n**3. 责任上不能各打五十大板**：家政工通常是在有限选项(经济落差、移民政策、家庭生计压力)下主动进入劳务市场的——有真实agency,不是\"被拐骗\"式无主体性；但她的选择空间明显比雇主窄很多,这是结构性不平等,不是\"你情我愿\"就能抹平的。雇主的女性身份也不能自动让她免责——她在这段雇佣关系里享有的是阶级权力,不是\"姐妹情谊\"。\n\n**一句话结论**:雇主-雇工这段关系本身,是阶级/移民权力问题；但这段关系为何存在、为何指向女性劳动力,是父权制性别分工在全球资本流动下的延伸。两者并存,不能互相取消。",
+  "module_trace_heuristic": [
+    "agency",
+    "class-position",
+    "intersectionality",
+    "parallel-analysis",
+    "power-structure",
+    "responsibility"
+  ],
+  "stage2_ok": true,
+  "verdicts": {
+    "P02": "PASS",
+    "P04": "PASS",
+    "P14": "N-A",
+    "P15": "PASS"
+  },
+  "flagged_ecodes": [],
+  "critical_flags": [],
+  "judge_model_alias": "DEFAULT",
+  "model_version": "UNKNOWN (alias, not pinned)",
+  "temperature": "UNKNOWN (not exposed by CLI)",
+  "timestamp": "2026-08-15T19:26:22Z"
+}

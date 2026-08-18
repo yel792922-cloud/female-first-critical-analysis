@@ -1,6 +1,0 @@
-[BND-1] verdicts={'P02': 'PASS', 'P05': 'PASS', 'P06': 'PASS', 'P10': 'PASS'} overgender=False gterms=33
-[BND-2] verdicts={'P02': 'PASS', 'P05': 'PASS', 'P06': 'PASS', 'P10': 'PASS'} overgender=False gterms=40
-[BND-3] verdicts={'P02': 'PASS', 'P05': 'PASS', 'P06': 'PASS', 'P10': 'PASS'} overgender=False gterms=52
-[BND-4] verdicts={'P02': 'PASS', 'P05': 'PASS', 'P06': 'PASS', 'P10': 'PASS'} overgender=False gterms=33
-[BND-5] verdicts={'P02': 'PASS', 'P05': 'PASS', 'P06': 'PASS', 'P10': 'PASS'} overgender=False gterms=40
-BOUNDARY SWEEP PASS COMPLETE

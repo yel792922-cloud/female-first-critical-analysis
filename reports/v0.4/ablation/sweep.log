@@ -1,8 +1,0 @@
-[A1__NR-01] delta={'P02': {'baseline': 'PASS', 'ablated': 'PASS'}} new_ecodes=[]
-[A2__DF-01] delta={'P09': {'baseline': None, 'ablated': 'PASS'}} new_ecodes=['E13']
-[A3__RWB-24] delta={'P06': {'baseline': None, 'ablated': None}} new_ecodes=[]
-[A4__RWB-16] delta={'P07': {'baseline': 'PASS', 'ablated': 'PASS'}} new_ecodes=[]
-[A5__RWB-22] delta={'P08': {'baseline': 'PASS', 'ablated': 'PASS'}} new_ecodes=[]
-[A6__FO-01] delta={'P04': {'baseline': 'PASS', 'ablated': 'PASS'}, 'P05': {'baseline': 'PASS', 'ablated': 'PASS'}} new_ecodes=[]
-[A7__AS-01] delta={'P07': {'baseline': 'PASS', 'ablated': 'PASS'}, 'P05': {'baseline': 'PASS', 'ablated': 'PASS'}} new_ecodes=[]
-ABLATION SWEEP PASS COMPLETE

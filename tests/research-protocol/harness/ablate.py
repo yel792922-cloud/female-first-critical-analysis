@@ -22,6 +22,7 @@ MODULES = {
     "A5": "## Comparison discipline",
     "A6": "## Parallel Analysis",
     "A7": "## Class / Position Power Principle",
+    "AF": "## Agency framework",
 }
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -59,6 +60,27 @@ def make_variant(module_id, outdir):
     return {"module": module_id, "removed_heading": heading, "path": path,
             "orig_chars": orig_len, "variant_chars": new_len,
             "removed_chars": orig_len - new_len}
+
+def make_multi_variant(module_ids, outdir):
+    """Remove several ## sections at once (cluster ablation). Single-variable
+    discipline is relaxed on purpose here to study joint dependence; all OTHER
+    modules stay byte-identical. Canonical SKILL.md is never modified."""
+    text = open(SKILL, encoding="utf-8").read()
+    removed = []
+    for mid in module_ids:
+        text, n = remove_section(text, MODULES[mid])
+        if n != 1:
+            raise SystemExit(f"expected to remove exactly 1 section for {mid}, removed {n}")
+        removed.append(mid)
+    os.makedirs(outdir, exist_ok=True)
+    tag = "+".join(module_ids)
+    path = os.path.join(outdir, f"SKILL.ablate-{tag}.md")
+    banner = (f"<!-- CLUSTER ABLATION {tag}: removed {[MODULES[m] for m in module_ids]}. "
+              f"all other modules unchanged. NOT the canonical SKILL.md. -->\n")
+    open(path, "w", encoding="utf-8").write(banner + text)
+    return {"modules": module_ids, "path": path,
+            "orig_chars": len(open(SKILL, encoding="utf-8").read()), "variant_chars": len(text)}
+
 
 def main():
     ap = argparse.ArgumentParser()

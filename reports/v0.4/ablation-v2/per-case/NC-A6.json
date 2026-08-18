@@ -1,0 +1,22 @@
+{
+  "case_id": "NC-A6",
+  "module": "A6",
+  "target_property": "P04",
+  "type": "negative",
+  "difficulty_note": "definitional, no agency/structure tension",
+  "full_state": "PASS",
+  "ablated_state": "MISSING",
+  "effect_level": "UNRESOLVED",
+  "full_verdicts": {
+    "P04": "PASS"
+  },
+  "ablated_verdicts": {
+    "P02": "N-A"
+  },
+  "full_ecodes": [],
+  "ablated_ecodes": [],
+  "judge_type": "BOOTSTRAP",
+  "independence": "LOW",
+  "label": "EXPLORATORY",
+  "ablated_output_head": "\"男性凝视\"（male gaze）是英国电影理论家劳拉·穆尔维（Laura Mulvey）在1975年论文《视觉快感与叙事电影》（*Visual Pleasure and Narrative Cinema*）中提出的概念，源自精神分析（尤其是拉康）与女性主义电影批评的结合。\n\n**核心含义**\n\n- **谁在看，谁被看**：在多数主流叙事电影（穆尔维分析的是好莱坞经典时期）中，摄影机镜头、叙事视角、乃至观众的观看位置，默认被设定为**异性恋男性**的视角。女性角色则被建构为\"被观看的对象\"（to-be-looked-at-ness），而非拥有主动观看能力和叙事驱动力的主体。\n- **三重凝视叠加**：穆尔维区分了(1)摄影机拍摄时的凝视、(2)片中男性角色看女性角色的凝视、(3)观众看银幕的凝视——三者通常被叙事技巧缝合在一起，让观众\"自然地\"代入男性视角。\n- **视觉快感的机制**：女性形象在片中常服务于两个功能——推动情节的\"性对象\"，以及满足观看快感的\"景观\"（spectacle），她的身体、姿态、着装往往被镜头以碎片化、展示性的方式呈现（例如特写腿部、胸部而非面部或整体行动）。\n\n**后续延伸与应用**\n\n这个概念后来被扩展到广告、摄影、时尚、文学、游戏等领域，用来分析：某个媒介文本是否把女性主要呈现为\"被看的客体\"而非\"有主体性的行动者\"；镜头/叙事是否默认以男性欲望为"
+}

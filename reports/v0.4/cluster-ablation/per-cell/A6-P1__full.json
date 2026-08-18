@@ -1,0 +1,16 @@
+{
+  "case_id": "A6-P1",
+  "condition": "full",
+  "cluster": "clusterB",
+  "target_property": "P04",
+  "state": "PASS",
+  "verdicts": {
+    "P04": "PASS"
+  },
+  "flagged_ecodes": [],
+  "judge_type": "BOOTSTRAP",
+  "independence": "LOW",
+  "label": "EXPLORATORY",
+  "conclusion_layer": "Level A behavioral only",
+  "output_head": "不完全认同——你这段话其实把两件不同的事捆在一起了,中间跳了一步。\n\n**先说哪部分成立、哪部分不成立**\n\n- \"签了字、是成年人、要为自己的选择负责\"——这部分我认可,这是主体性(agency)的正常体现,不该被一句\"她是被洗脑/被PUA的\"轻易抹掉。\n- \"所以事后喊不公平就是矫情\"——这一步是逻辑跳跃,不成立。\"自愿签署\"只是**程序性同意**(procedural consent),不等于内容本身**实质公平**(substantive fairness),更不等于\"讨论这份合同公不公平\"这件事本身失去正当性。这点连合同法自己都不这么认为:胁迫、欺诈、显失公平、格式条款、缔约双方地位/信息严重不对等,都是可以让\"她自己签的\"这个理由失效或部分失效的法定事由。换句话说,\"成年人自愿签字\"从来都不是讨论到此为止的万能挡箭牌,这不是女权话语强加的标准,是契约伦理本身的常识。\n\n**Agency 和 权力/结构要并行看,不能互相取消**\n\n- Agency 这条线:她确实做出了决定,这个决定应该被严肃对待,不能因为\"结构存在\"就推定她没有主体性。\n- 权力/结构这条线:但要问——签这"
+}

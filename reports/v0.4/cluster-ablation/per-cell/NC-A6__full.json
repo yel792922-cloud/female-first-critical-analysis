@@ -1,0 +1,16 @@
+{
+  "case_id": "NC-A6",
+  "condition": "full",
+  "cluster": "clusterB",
+  "target_property": "P04",
+  "state": "MISSING",
+  "verdicts": {
+    "P02": "N-A"
+  },
+  "flagged_ecodes": [],
+  "judge_type": "BOOTSTRAP",
+  "independence": "LOW",
+  "label": "EXPLORATORY",
+  "conclusion_layer": "Level A behavioral only",
+  "output_head": "## \"男性凝视\"（Male Gaze）是什么\n\n**核心定义**：这个术语由英国电影理论家 **劳拉·穆尔维（Laura Mulvey）** 在 1975 年的论文《视觉快感与叙事电影》（*Visual Pleasure and Narrative Cinema*）中提出。她指的是：在主流叙事电影（她当时具体分析的是好莱坞经典电影）中，**摄影机的视角、叙事结构和观众的观看位置被默认设定为异性恋男性的视角**，女性角色因此被建构为\"被看\"的对象（object to be looked at），而非拥有主动观看权、叙事驱动权的主体。\n\n穆尔维用了三层\"凝视\"来说明这个机制：\n1. **摄影机的凝视**——镜头本身如何取景、聚焦女性身体\n2. **片中男性角色的凝视**——叙事内男性角色如何看女性角色\n3. **观众的凝视**——观影位置被引导去认同男性视角\n\n三者叠加，产生她所说的\"to-be-looked-at-ness\"（\"被看性\"）——女性在影像中的功能从叙事主体降格为视觉奇观/快感对象。\n\n## 后续演变\n\n这个概念后来从电影理论扩展到更广的文化批评领域：\n- **广告、时尚摄"
+}

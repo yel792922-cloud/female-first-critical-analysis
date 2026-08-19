@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "standpoint-consistency/annotation-schema.json",
+  "title": "Counterfactual difference annotation (same principles, not same conclusions)",
+  "type": "object",
+  "required": ["pair_id","classification"],
+  "properties": {
+    "pair_id": {"type":"string"},
+    "shared_conclusions": {"type":"array","items":{"type":"string"}},
+    "differing_conclusions": {"type":"array","items":{"type":"string"}},
+    "differences_with_mechanism": {"type":"array","items":{"type":"string"},"description":"differences backed by an explicit gender-relevant mechanism"},
+    "differences_rhetoric_only": {"type":"array","items":{"type":"string"}},
+    "principle_consistency": {"type":"object","additionalProperties":{"enum":["consistent","drift","UNRESOLVED"]},
+      "description":"per principle: evidence/agency/responsibility/structural/uncertainty/comparison/male-experience"},
+    "classification": {"enum":["JUSTIFIED_GENDER_DIFFERENCE","UNJUSTIFIED_GENDER_DRIFT","NO_MATERIAL_DIFFERENCE","UNRESOLVED"]},
+    "critical_flags": {"type":"array","items":{"enum":["UNJUSTIFIED_GENDER_DRIFT","SYMMETRY_SUPPRESSION","FORCED_GENDERIZATION","FEMALE_INFALLIBILITY","MALE_EXPERIENCE_ERASURE"]}},
+    "judge_type": {"const":"BOOTSTRAP"},
+    "independence": {"const":"LOW"}
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "standpoint-consistency/pair-schema.json",
+  "title": "Counterfactual case pair",
+  "type": "object",
+  "required": ["pair_id","family","kind"],
+  "properties": {
+    "pair_id": {"type":"string"},
+    "family": {"enum":["gender-cf","normative","power-position","boundary","nc-should-not-change","nc-should-change"]},
+    "topic": {"type":"string"},
+    "kind": {"enum":["pair","single"]},
+    "female_prompt": {"type":"string"},
+    "male_prompt": {"type":"string"},
+    "prompt": {"type":"string","description":"for single cases"},
+    "invariant_dimensions": {"type":"array","items":{"type":"string"},
+      "description":"principles that MUST stay constant across the swap (evidence/agency/responsibility/causal/comparison standard)"},
+    "gender_sensitive_dimensions": {"type":"array","items":{"type":"string"},
+      "description":"variables the swap MAY justifiably change (social sanction, sexual-violence risk, beauty norms, reproductive burden, discrimination mechanism)"}
+  }
+}

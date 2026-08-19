@@ -1,0 +1,13 @@
+{
+  "case_id": "A4-P1",
+  "module": "A4",
+  "type": "positive",
+  "target_property": "P07",
+  "C0_bare": "MISSING",
+  "C1_generic": "MISSING",
+  "C2_fullskill": "PASS",
+  "pattern": "UNRESOLVED",
+  "judge_type": "BOOTSTRAP",
+  "independence": "LOW",
+  "label": "EXPLORATORY"
+}

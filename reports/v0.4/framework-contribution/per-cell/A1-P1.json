@@ -1,0 +1,13 @@
+{
+  "case_id": "A1-P1",
+  "module": "A1",
+  "type": "positive",
+  "target_property": "P02",
+  "C0_bare": "PASS",
+  "C1_generic": "PASS",
+  "C2_fullskill": "PASS",
+  "pattern": "PATTERN1_BASE_SUFFICIENT",
+  "judge_type": "BOOTSTRAP",
+  "independence": "LOW",
+  "label": "EXPLORATORY"
+}

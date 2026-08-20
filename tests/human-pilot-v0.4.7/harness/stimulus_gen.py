@@ -88,6 +88,11 @@ def main():
     ap.add_argument("--cases", default="")
     ap.add_argument("--conditions", default="C0,C1,C2")
     ap.add_argument("--all", action="store_true")
+    ap.add_argument("--reuse", action="store_true",
+                    help="reuse v0.4.6 captures where mapped. OFF by default: those "
+                         "captures were NOT length-capped, so reusing them mixes a "
+                         "~2500-char C0/C2 with a length-capped C1 and re-introduces "
+                         "the verbosity confound. Use only if you accept/flag that.")
     a = ap.parse_args()
     cases = list(CASES) if a.all else [c.strip() for c in a.cases.split(",") if c.strip()]
     conds = [c.strip() for c in a.conditions.split(",")]
@@ -99,8 +104,8 @@ def main():
             if os.path.exists(fn) and os.path.getsize(fn) > 0:
                 print(f"[{case}/{cond}] SKIP", file=sys.stderr)
                 continue
-            # reuse a v0.4.6 capture if mapped
-            if cond in reuse:
+            # reuse a v0.4.6 capture only when explicitly requested (length caveat)
+            if a.reuse and cond in reuse:
                 src = os.path.join(V046, reuse[cond])
                 if os.path.exists(src) and os.path.getsize(src) > 0:
                     write(case, cond, open(src, encoding="utf-8").read().strip(),

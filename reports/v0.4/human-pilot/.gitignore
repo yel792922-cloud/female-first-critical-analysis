@@ -1,2 +1,4 @@
 stimgen.log
 packets/manifest.json
+# in-flight generation (committed as one unit with -f on completion)
+stimuli/

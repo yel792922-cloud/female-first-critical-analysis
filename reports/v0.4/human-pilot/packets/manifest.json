@@ -1,0 +1,3456 @@
+{
+  "seed": 42,
+  "participants": 18,
+  "packets": [
+    {
+      "participant_id": "P001",
+      "cases": [
+        {
+          "case_id": "HP01",
+          "condition_to_label": {
+            "C2": "A",
+            "C1": "B",
+            "C0": "C"
+          },
+          "presentation_order": [
+            "A",
+            "C",
+            "B"
+          ],
+          "shown": [
+            {
+              "label": "A",
+              "sha256": "6aeda551b55a4f94af5a7a45fd8cbb64afc542a651c9965ab89381b79406bdf0",
+              "char_count": 674
+            },
+            {
+              "label": "C",
+              "sha256": "ee5afa4496af324a97394632accca3a942a8140e32b7f91f90e077054fa4ad45",
+              "char_count": 767
+            },
+            {
+              "label": "B",
+              "sha256": "a9dbda6d5888ab3d09bddba593096a57d279b8538d5e5ad0d4e0391b2112c9df",
+              "char_count": 730
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP10",
+          "condition_to_label": {
+            "C2": "A",
+            "C1": "B",
+            "C0": "C"
+          },
+          "presentation_order": [
+            "B",
+            "C",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "d73dc0aaee5b33138ab3bd187bdf52a6d242e4837c930e1d21361a02c63fd1ca",
+              "char_count": 661
+            },
+            {
+              "label": "C",
+              "sha256": "9d41826227b7b4714539ebaa6d46fb6749949a596b90c1aae34e77ace11a7d22",
+              "char_count": 744
+            },
+            {
+              "label": "A",
+              "sha256": "74254659e5db0b7157f0729860cd729198add0a10ba324ea39b054bc468356cf",
+              "char_count": 778
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP02",
+          "condition_to_label": {
+            "C0": "A",
+            "C1": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "A",
+            "B",
+            "C"
+          ],
+          "shown": [
+            {
+              "label": "A",
+              "sha256": "578a37a07bed03d544c799b9decefbfe8b0043cc2018f498ffbb98d159d907de",
+              "char_count": 732
+            },
+            {
+              "label": "B",
+              "sha256": "a47e6408f0deb8465340367ac57ed9b5977c91ad86bce494dbce95b53ed112fe",
+              "char_count": 670
+            },
+            {
+              "label": "C",
+              "sha256": "8fc1e0f1bb86f2c5a0efcaf497090590bfccaa378a98f75058fd0257b892d430",
+              "char_count": 689
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP05",
+          "condition_to_label": {
+            "C0": "A",
+            "C1": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "C",
+            "A",
+            "B"
+          ],
+          "shown": [
+            {
+              "label": "C",
+              "sha256": "7631f4e1bb4971894a5982340c2079ddcc75db62a647413411531927b5fdb482",
+              "char_count": 688
+            },
+            {
+              "label": "A",
+              "sha256": "8500bc7fec9d76862112f8ab3ffc4dcdaa0a839d0a840d8ba37107d5845fb4b2",
+              "char_count": 835
+            },
+            {
+              "label": "B",
+              "sha256": "889dfb1fb777e53ee5fe97070cd26f9154bc3842cc1f5ce6c782ab9cc490f7ab",
+              "char_count": 729
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP07",
+          "condition_to_label": {
+            "C2": "A",
+            "C1": "B",
+            "C0": "C"
+          },
+          "presentation_order": [
+            "B",
+            "C",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "80a6098d23001ab114ecba8af17e5d27231aa831b15bc1fee93c00daf0e2d4af",
+              "char_count": 774
+            },
+            {
+              "label": "C",
+              "sha256": "1d971e004368379d6c666ca5f8a8e09e88749caf3ea84ac7ce1ba38559960e79",
+              "char_count": 809
+            },
+            {
+              "label": "A",
+              "sha256": "f361b1ce7ba24e4dc3bdf40b69cce4a452be206cc1a04c97e5b79bdc2aeefba0",
+              "char_count": 669
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP03",
+          "condition_to_label": {
+            "C1": "A",
+            "C2": "B",
+            "C0": "C"
+          },
+          "presentation_order": [
+            "B",
+            "A",
+            "C"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "0d88d228cb5cd8e242b6880d23216c8f2a426a4a395364a58659379d203f27e7",
+              "char_count": 719
+            },
+            {
+              "label": "A",
+              "sha256": "a8cf6d0bfa2ec0e4efb0b45cb4478819f706dfae84d8a44210542d3c50754d99",
+              "char_count": 696
+            },
+            {
+              "label": "C",
+              "sha256": "91baa8b36ddaac6cb6fd8695bd59c8034bb84f3cc304043dca33a85a736689f2",
+              "char_count": 722
+            }
+          ],
+          "length_confound_flag": false
+        }
+      ]
+    },
+    {
+      "participant_id": "P002",
+      "cases": [
+        {
+          "case_id": "HP10",
+          "condition_to_label": {
+            "C0": "A",
+            "C1": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "B",
+            "A",
+            "C"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "d73dc0aaee5b33138ab3bd187bdf52a6d242e4837c930e1d21361a02c63fd1ca",
+              "char_count": 661
+            },
+            {
+              "label": "A",
+              "sha256": "9d41826227b7b4714539ebaa6d46fb6749949a596b90c1aae34e77ace11a7d22",
+              "char_count": 744
+            },
+            {
+              "label": "C",
+              "sha256": "74254659e5db0b7157f0729860cd729198add0a10ba324ea39b054bc468356cf",
+              "char_count": 778
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP09",
+          "condition_to_label": {
+            "C0": "A",
+            "C2": "B",
+            "C1": "C"
+          },
+          "presentation_order": [
+            "A",
+            "B",
+            "C"
+          ],
+          "shown": [
+            {
+              "label": "A",
+              "sha256": "e873463789e575db38d6b47c8934d9829cc0555e4522fccef7406ddbc2a7af94",
+              "char_count": 680
+            },
+            {
+              "label": "B",
+              "sha256": "3b7ce92e388e08be1a5bb10b6a54a5cf092dd91a5ba5688bba2db1eeab4ed7ee",
+              "char_count": 657
+            },
+            {
+              "label": "C",
+              "sha256": "7d72a4f46f7b29310ef13730045a82b2423172bc6b4cbddb20a6d852e562c605",
+              "char_count": 726
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP08",
+          "condition_to_label": {
+            "C0": "A",
+            "C1": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "B",
+            "A",
+            "C"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "445f91bed28c3c620b8981f18643150ef8420a4c01a4314354bcd937a2db950c",
+              "char_count": 827
+            },
+            {
+              "label": "A",
+              "sha256": "c0739d5d188555a4938f80b220266e73ab61387644a8c947d8092c00843e389f",
+              "char_count": 926
+            },
+            {
+              "label": "C",
+              "sha256": "5d3ec4fa5da30c8ff9a3cf7904cdb22b1016001eef43c8c15ab751cb32f9ce0c",
+              "char_count": 706
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP06",
+          "condition_to_label": {
+            "C1": "A",
+            "C0": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "A",
+            "B",
+            "C"
+          ],
+          "shown": [
+            {
+              "label": "A",
+              "sha256": "58c3015c3d3587b9ae80f51a12857e22fe44de3fb1ec10f2ca6107d4cfa9df8f",
+              "char_count": 830
+            },
+            {
+              "label": "B",
+              "sha256": "71781e12817deaa4bf2efa7290917f2925f205c2ac469b3ae22a9dc3d90d6450",
+              "char_count": 692
+            },
+            {
+              "label": "C",
+              "sha256": "e383e54697955c63a676ba2032ffe88a63553aa28cb93fde7191b81fec8d434b",
+              "char_count": 740
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP04",
+          "condition_to_label": {
+            "C0": "A",
+            "C1": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "C",
+            "B",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "C",
+              "sha256": "63c0eae7904e28f306b633e02a80924ba7648e9b3d984b9ed092aba73c22c936",
+              "char_count": 732
+            },
+            {
+              "label": "B",
+              "sha256": "59876597acdc9df728f489b23503207678537870186c98b43b12e3bcb6ba2e4b",
+              "char_count": 763
+            },
+            {
+              "label": "A",
+              "sha256": "0826cd6b381b5be29507d5c6c8a9f2235ec51bfbe26e17936adbabbd5d584310",
+              "char_count": 744
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP05",
+          "condition_to_label": {
+            "C2": "A",
+            "C0": "B",
+            "C1": "C"
+          },
+          "presentation_order": [
+            "C",
+            "A",
+            "B"
+          ],
+          "shown": [
+            {
+              "label": "C",
+              "sha256": "889dfb1fb777e53ee5fe97070cd26f9154bc3842cc1f5ce6c782ab9cc490f7ab",
+              "char_count": 729
+            },
+            {
+              "label": "A",
+              "sha256": "7631f4e1bb4971894a5982340c2079ddcc75db62a647413411531927b5fdb482",
+              "char_count": 688
+            },
+            {
+              "label": "B",
+              "sha256": "8500bc7fec9d76862112f8ab3ffc4dcdaa0a839d0a840d8ba37107d5845fb4b2",
+              "char_count": 835
+            }
+          ],
+          "length_confound_flag": false
+        }
+      ]
+    },
+    {
+      "participant_id": "P003",
+      "cases": [
+        {
+          "case_id": "HP10",
+          "condition_to_label": {
+            "C0": "A",
+            "C1": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "B",
+            "A",
+            "C"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "d73dc0aaee5b33138ab3bd187bdf52a6d242e4837c930e1d21361a02c63fd1ca",
+              "char_count": 661
+            },
+            {
+              "label": "A",
+              "sha256": "9d41826227b7b4714539ebaa6d46fb6749949a596b90c1aae34e77ace11a7d22",
+              "char_count": 744
+            },
+            {
+              "label": "C",
+              "sha256": "74254659e5db0b7157f0729860cd729198add0a10ba324ea39b054bc468356cf",
+              "char_count": 778
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP01",
+          "condition_to_label": {
+            "C1": "A",
+            "C0": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "A",
+            "B",
+            "C"
+          ],
+          "shown": [
+            {
+              "label": "A",
+              "sha256": "a9dbda6d5888ab3d09bddba593096a57d279b8538d5e5ad0d4e0391b2112c9df",
+              "char_count": 730
+            },
+            {
+              "label": "B",
+              "sha256": "ee5afa4496af324a97394632accca3a942a8140e32b7f91f90e077054fa4ad45",
+              "char_count": 767
+            },
+            {
+              "label": "C",
+              "sha256": "6aeda551b55a4f94af5a7a45fd8cbb64afc542a651c9965ab89381b79406bdf0",
+              "char_count": 674
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP02",
+          "condition_to_label": {
+            "C1": "A",
+            "C0": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "C",
+            "B",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "C",
+              "sha256": "8fc1e0f1bb86f2c5a0efcaf497090590bfccaa378a98f75058fd0257b892d430",
+              "char_count": 689
+            },
+            {
+              "label": "B",
+              "sha256": "578a37a07bed03d544c799b9decefbfe8b0043cc2018f498ffbb98d159d907de",
+              "char_count": 732
+            },
+            {
+              "label": "A",
+              "sha256": "a47e6408f0deb8465340367ac57ed9b5977c91ad86bce494dbce95b53ed112fe",
+              "char_count": 670
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP05",
+          "condition_to_label": {
+            "C1": "A",
+            "C2": "B",
+            "C0": "C"
+          },
+          "presentation_order": [
+            "A",
+            "B",
+            "C"
+          ],
+          "shown": [
+            {
+              "label": "A",
+              "sha256": "889dfb1fb777e53ee5fe97070cd26f9154bc3842cc1f5ce6c782ab9cc490f7ab",
+              "char_count": 729
+            },
+            {
+              "label": "B",
+              "sha256": "7631f4e1bb4971894a5982340c2079ddcc75db62a647413411531927b5fdb482",
+              "char_count": 688
+            },
+            {
+              "label": "C",
+              "sha256": "8500bc7fec9d76862112f8ab3ffc4dcdaa0a839d0a840d8ba37107d5845fb4b2",
+              "char_count": 835
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP03",
+          "condition_to_label": {
+            "C2": "A",
+            "C0": "B",
+            "C1": "C"
+          },
+          "presentation_order": [
+            "C",
+            "B",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "C",
+              "sha256": "a8cf6d0bfa2ec0e4efb0b45cb4478819f706dfae84d8a44210542d3c50754d99",
+              "char_count": 696
+            },
+            {
+              "label": "B",
+              "sha256": "91baa8b36ddaac6cb6fd8695bd59c8034bb84f3cc304043dca33a85a736689f2",
+              "char_count": 722
+            },
+            {
+              "label": "A",
+              "sha256": "0d88d228cb5cd8e242b6880d23216c8f2a426a4a395364a58659379d203f27e7",
+              "char_count": 719
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP07",
+          "condition_to_label": {
+            "C2": "A",
+            "C0": "B",
+            "C1": "C"
+          },
+          "presentation_order": [
+            "B",
+            "C",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "1d971e004368379d6c666ca5f8a8e09e88749caf3ea84ac7ce1ba38559960e79",
+              "char_count": 809
+            },
+            {
+              "label": "C",
+              "sha256": "80a6098d23001ab114ecba8af17e5d27231aa831b15bc1fee93c00daf0e2d4af",
+              "char_count": 774
+            },
+            {
+              "label": "A",
+              "sha256": "f361b1ce7ba24e4dc3bdf40b69cce4a452be206cc1a04c97e5b79bdc2aeefba0",
+              "char_count": 669
+            }
+          ],
+          "length_confound_flag": false
+        }
+      ]
+    },
+    {
+      "participant_id": "P004",
+      "cases": [
+        {
+          "case_id": "HP09",
+          "condition_to_label": {
+            "C1": "A",
+            "C0": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "C",
+            "B",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "C",
+              "sha256": "3b7ce92e388e08be1a5bb10b6a54a5cf092dd91a5ba5688bba2db1eeab4ed7ee",
+              "char_count": 657
+            },
+            {
+              "label": "B",
+              "sha256": "e873463789e575db38d6b47c8934d9829cc0555e4522fccef7406ddbc2a7af94",
+              "char_count": 680
+            },
+            {
+              "label": "A",
+              "sha256": "7d72a4f46f7b29310ef13730045a82b2423172bc6b4cbddb20a6d852e562c605",
+              "char_count": 726
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP10",
+          "condition_to_label": {
+            "C1": "A",
+            "C2": "B",
+            "C0": "C"
+          },
+          "presentation_order": [
+            "C",
+            "B",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "C",
+              "sha256": "9d41826227b7b4714539ebaa6d46fb6749949a596b90c1aae34e77ace11a7d22",
+              "char_count": 744
+            },
+            {
+              "label": "B",
+              "sha256": "74254659e5db0b7157f0729860cd729198add0a10ba324ea39b054bc468356cf",
+              "char_count": 778
+            },
+            {
+              "label": "A",
+              "sha256": "d73dc0aaee5b33138ab3bd187bdf52a6d242e4837c930e1d21361a02c63fd1ca",
+              "char_count": 661
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP05",
+          "condition_to_label": {
+            "C1": "A",
+            "C0": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "A",
+            "C",
+            "B"
+          ],
+          "shown": [
+            {
+              "label": "A",
+              "sha256": "889dfb1fb777e53ee5fe97070cd26f9154bc3842cc1f5ce6c782ab9cc490f7ab",
+              "char_count": 729
+            },
+            {
+              "label": "C",
+              "sha256": "7631f4e1bb4971894a5982340c2079ddcc75db62a647413411531927b5fdb482",
+              "char_count": 688
+            },
+            {
+              "label": "B",
+              "sha256": "8500bc7fec9d76862112f8ab3ffc4dcdaa0a839d0a840d8ba37107d5845fb4b2",
+              "char_count": 835
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP08",
+          "condition_to_label": {
+            "C1": "A",
+            "C2": "B",
+            "C0": "C"
+          },
+          "presentation_order": [
+            "A",
+            "B",
+            "C"
+          ],
+          "shown": [
+            {
+              "label": "A",
+              "sha256": "445f91bed28c3c620b8981f18643150ef8420a4c01a4314354bcd937a2db950c",
+              "char_count": 827
+            },
+            {
+              "label": "B",
+              "sha256": "5d3ec4fa5da30c8ff9a3cf7904cdb22b1016001eef43c8c15ab751cb32f9ce0c",
+              "char_count": 706
+            },
+            {
+              "label": "C",
+              "sha256": "c0739d5d188555a4938f80b220266e73ab61387644a8c947d8092c00843e389f",
+              "char_count": 926
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP06",
+          "condition_to_label": {
+            "C0": "A",
+            "C2": "B",
+            "C1": "C"
+          },
+          "presentation_order": [
+            "A",
+            "C",
+            "B"
+          ],
+          "shown": [
+            {
+              "label": "A",
+              "sha256": "71781e12817deaa4bf2efa7290917f2925f205c2ac469b3ae22a9dc3d90d6450",
+              "char_count": 692
+            },
+            {
+              "label": "C",
+              "sha256": "58c3015c3d3587b9ae80f51a12857e22fe44de3fb1ec10f2ca6107d4cfa9df8f",
+              "char_count": 830
+            },
+            {
+              "label": "B",
+              "sha256": "e383e54697955c63a676ba2032ffe88a63553aa28cb93fde7191b81fec8d434b",
+              "char_count": 740
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP04",
+          "condition_to_label": {
+            "C1": "A",
+            "C2": "B",
+            "C0": "C"
+          },
+          "presentation_order": [
+            "B",
+            "C",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "63c0eae7904e28f306b633e02a80924ba7648e9b3d984b9ed092aba73c22c936",
+              "char_count": 732
+            },
+            {
+              "label": "C",
+              "sha256": "0826cd6b381b5be29507d5c6c8a9f2235ec51bfbe26e17936adbabbd5d584310",
+              "char_count": 744
+            },
+            {
+              "label": "A",
+              "sha256": "59876597acdc9df728f489b23503207678537870186c98b43b12e3bcb6ba2e4b",
+              "char_count": 763
+            }
+          ],
+          "length_confound_flag": false
+        }
+      ]
+    },
+    {
+      "participant_id": "P005",
+      "cases": [
+        {
+          "case_id": "HP03",
+          "condition_to_label": {
+            "C2": "A",
+            "C0": "B",
+            "C1": "C"
+          },
+          "presentation_order": [
+            "B",
+            "A",
+            "C"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "91baa8b36ddaac6cb6fd8695bd59c8034bb84f3cc304043dca33a85a736689f2",
+              "char_count": 722
+            },
+            {
+              "label": "A",
+              "sha256": "0d88d228cb5cd8e242b6880d23216c8f2a426a4a395364a58659379d203f27e7",
+              "char_count": 719
+            },
+            {
+              "label": "C",
+              "sha256": "a8cf6d0bfa2ec0e4efb0b45cb4478819f706dfae84d8a44210542d3c50754d99",
+              "char_count": 696
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP10",
+          "condition_to_label": {
+            "C1": "A",
+            "C0": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "B",
+            "C",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "9d41826227b7b4714539ebaa6d46fb6749949a596b90c1aae34e77ace11a7d22",
+              "char_count": 744
+            },
+            {
+              "label": "C",
+              "sha256": "74254659e5db0b7157f0729860cd729198add0a10ba324ea39b054bc468356cf",
+              "char_count": 778
+            },
+            {
+              "label": "A",
+              "sha256": "d73dc0aaee5b33138ab3bd187bdf52a6d242e4837c930e1d21361a02c63fd1ca",
+              "char_count": 661
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP01",
+          "condition_to_label": {
+            "C1": "A",
+            "C0": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "B",
+            "C",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "ee5afa4496af324a97394632accca3a942a8140e32b7f91f90e077054fa4ad45",
+              "char_count": 767
+            },
+            {
+              "label": "C",
+              "sha256": "6aeda551b55a4f94af5a7a45fd8cbb64afc542a651c9965ab89381b79406bdf0",
+              "char_count": 674
+            },
+            {
+              "label": "A",
+              "sha256": "a9dbda6d5888ab3d09bddba593096a57d279b8538d5e5ad0d4e0391b2112c9df",
+              "char_count": 730
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP05",
+          "condition_to_label": {
+            "C2": "A",
+            "C1": "B",
+            "C0": "C"
+          },
+          "presentation_order": [
+            "B",
+            "C",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "889dfb1fb777e53ee5fe97070cd26f9154bc3842cc1f5ce6c782ab9cc490f7ab",
+              "char_count": 729
+            },
+            {
+              "label": "C",
+              "sha256": "8500bc7fec9d76862112f8ab3ffc4dcdaa0a839d0a840d8ba37107d5845fb4b2",
+              "char_count": 835
+            },
+            {
+              "label": "A",
+              "sha256": "7631f4e1bb4971894a5982340c2079ddcc75db62a647413411531927b5fdb482",
+              "char_count": 688
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP02",
+          "condition_to_label": {
+            "C0": "A",
+            "C2": "B",
+            "C1": "C"
+          },
+          "presentation_order": [
+            "B",
+            "C",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "8fc1e0f1bb86f2c5a0efcaf497090590bfccaa378a98f75058fd0257b892d430",
+              "char_count": 689
+            },
+            {
+              "label": "C",
+              "sha256": "a47e6408f0deb8465340367ac57ed9b5977c91ad86bce494dbce95b53ed112fe",
+              "char_count": 670
+            },
+            {
+              "label": "A",
+              "sha256": "578a37a07bed03d544c799b9decefbfe8b0043cc2018f498ffbb98d159d907de",
+              "char_count": 732
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP07",
+          "condition_to_label": {
+            "C0": "A",
+            "C1": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "C",
+            "B",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "C",
+              "sha256": "f361b1ce7ba24e4dc3bdf40b69cce4a452be206cc1a04c97e5b79bdc2aeefba0",
+              "char_count": 669
+            },
+            {
+              "label": "B",
+              "sha256": "80a6098d23001ab114ecba8af17e5d27231aa831b15bc1fee93c00daf0e2d4af",
+              "char_count": 774
+            },
+            {
+              "label": "A",
+              "sha256": "1d971e004368379d6c666ca5f8a8e09e88749caf3ea84ac7ce1ba38559960e79",
+              "char_count": 809
+            }
+          ],
+          "length_confound_flag": false
+        }
+      ]
+    },
+    {
+      "participant_id": "P006",
+      "cases": [
+        {
+          "case_id": "HP06",
+          "condition_to_label": {
+            "C2": "A",
+            "C0": "B",
+            "C1": "C"
+          },
+          "presentation_order": [
+            "B",
+            "C",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "71781e12817deaa4bf2efa7290917f2925f205c2ac469b3ae22a9dc3d90d6450",
+              "char_count": 692
+            },
+            {
+              "label": "C",
+              "sha256": "58c3015c3d3587b9ae80f51a12857e22fe44de3fb1ec10f2ca6107d4cfa9df8f",
+              "char_count": 830
+            },
+            {
+              "label": "A",
+              "sha256": "e383e54697955c63a676ba2032ffe88a63553aa28cb93fde7191b81fec8d434b",
+              "char_count": 740
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP08",
+          "condition_to_label": {
+            "C0": "A",
+            "C1": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "A",
+            "C",
+            "B"
+          ],
+          "shown": [
+            {
+              "label": "A",
+              "sha256": "c0739d5d188555a4938f80b220266e73ab61387644a8c947d8092c00843e389f",
+              "char_count": 926
+            },
+            {
+              "label": "C",
+              "sha256": "5d3ec4fa5da30c8ff9a3cf7904cdb22b1016001eef43c8c15ab751cb32f9ce0c",
+              "char_count": 706
+            },
+            {
+              "label": "B",
+              "sha256": "445f91bed28c3c620b8981f18643150ef8420a4c01a4314354bcd937a2db950c",
+              "char_count": 827
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP05",
+          "condition_to_label": {
+            "C0": "A",
+            "C2": "B",
+            "C1": "C"
+          },
+          "presentation_order": [
+            "B",
+            "A",
+            "C"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "7631f4e1bb4971894a5982340c2079ddcc75db62a647413411531927b5fdb482",
+              "char_count": 688
+            },
+            {
+              "label": "A",
+              "sha256": "8500bc7fec9d76862112f8ab3ffc4dcdaa0a839d0a840d8ba37107d5845fb4b2",
+              "char_count": 835
+            },
+            {
+              "label": "C",
+              "sha256": "889dfb1fb777e53ee5fe97070cd26f9154bc3842cc1f5ce6c782ab9cc490f7ab",
+              "char_count": 729
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP10",
+          "condition_to_label": {
+            "C1": "A",
+            "C0": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "C",
+            "B",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "C",
+              "sha256": "74254659e5db0b7157f0729860cd729198add0a10ba324ea39b054bc468356cf",
+              "char_count": 778
+            },
+            {
+              "label": "B",
+              "sha256": "9d41826227b7b4714539ebaa6d46fb6749949a596b90c1aae34e77ace11a7d22",
+              "char_count": 744
+            },
+            {
+              "label": "A",
+              "sha256": "d73dc0aaee5b33138ab3bd187bdf52a6d242e4837c930e1d21361a02c63fd1ca",
+              "char_count": 661
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP04",
+          "condition_to_label": {
+            "C0": "A",
+            "C1": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "B",
+            "C",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "59876597acdc9df728f489b23503207678537870186c98b43b12e3bcb6ba2e4b",
+              "char_count": 763
+            },
+            {
+              "label": "C",
+              "sha256": "63c0eae7904e28f306b633e02a80924ba7648e9b3d984b9ed092aba73c22c936",
+              "char_count": 732
+            },
+            {
+              "label": "A",
+              "sha256": "0826cd6b381b5be29507d5c6c8a9f2235ec51bfbe26e17936adbabbd5d584310",
+              "char_count": 744
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP09",
+          "condition_to_label": {
+            "C1": "A",
+            "C2": "B",
+            "C0": "C"
+          },
+          "presentation_order": [
+            "A",
+            "B",
+            "C"
+          ],
+          "shown": [
+            {
+              "label": "A",
+              "sha256": "7d72a4f46f7b29310ef13730045a82b2423172bc6b4cbddb20a6d852e562c605",
+              "char_count": 726
+            },
+            {
+              "label": "B",
+              "sha256": "3b7ce92e388e08be1a5bb10b6a54a5cf092dd91a5ba5688bba2db1eeab4ed7ee",
+              "char_count": 657
+            },
+            {
+              "label": "C",
+              "sha256": "e873463789e575db38d6b47c8934d9829cc0555e4522fccef7406ddbc2a7af94",
+              "char_count": 680
+            }
+          ],
+          "length_confound_flag": false
+        }
+      ]
+    },
+    {
+      "participant_id": "P007",
+      "cases": [
+        {
+          "case_id": "HP02",
+          "condition_to_label": {
+            "C2": "A",
+            "C1": "B",
+            "C0": "C"
+          },
+          "presentation_order": [
+            "C",
+            "B",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "C",
+              "sha256": "578a37a07bed03d544c799b9decefbfe8b0043cc2018f498ffbb98d159d907de",
+              "char_count": 732
+            },
+            {
+              "label": "B",
+              "sha256": "a47e6408f0deb8465340367ac57ed9b5977c91ad86bce494dbce95b53ed112fe",
+              "char_count": 670
+            },
+            {
+              "label": "A",
+              "sha256": "8fc1e0f1bb86f2c5a0efcaf497090590bfccaa378a98f75058fd0257b892d430",
+              "char_count": 689
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP10",
+          "condition_to_label": {
+            "C2": "A",
+            "C0": "B",
+            "C1": "C"
+          },
+          "presentation_order": [
+            "C",
+            "B",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "C",
+              "sha256": "d73dc0aaee5b33138ab3bd187bdf52a6d242e4837c930e1d21361a02c63fd1ca",
+              "char_count": 661
+            },
+            {
+              "label": "B",
+              "sha256": "9d41826227b7b4714539ebaa6d46fb6749949a596b90c1aae34e77ace11a7d22",
+              "char_count": 744
+            },
+            {
+              "label": "A",
+              "sha256": "74254659e5db0b7157f0729860cd729198add0a10ba324ea39b054bc468356cf",
+              "char_count": 778
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP07",
+          "condition_to_label": {
+            "C1": "A",
+            "C0": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "B",
+            "C",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "1d971e004368379d6c666ca5f8a8e09e88749caf3ea84ac7ce1ba38559960e79",
+              "char_count": 809
+            },
+            {
+              "label": "C",
+              "sha256": "f361b1ce7ba24e4dc3bdf40b69cce4a452be206cc1a04c97e5b79bdc2aeefba0",
+              "char_count": 669
+            },
+            {
+              "label": "A",
+              "sha256": "80a6098d23001ab114ecba8af17e5d27231aa831b15bc1fee93c00daf0e2d4af",
+              "char_count": 774
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP01",
+          "condition_to_label": {
+            "C1": "A",
+            "C2": "B",
+            "C0": "C"
+          },
+          "presentation_order": [
+            "C",
+            "B",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "C",
+              "sha256": "ee5afa4496af324a97394632accca3a942a8140e32b7f91f90e077054fa4ad45",
+              "char_count": 767
+            },
+            {
+              "label": "B",
+              "sha256": "6aeda551b55a4f94af5a7a45fd8cbb64afc542a651c9965ab89381b79406bdf0",
+              "char_count": 674
+            },
+            {
+              "label": "A",
+              "sha256": "a9dbda6d5888ab3d09bddba593096a57d279b8538d5e5ad0d4e0391b2112c9df",
+              "char_count": 730
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP03",
+          "condition_to_label": {
+            "C0": "A",
+            "C2": "B",
+            "C1": "C"
+          },
+          "presentation_order": [
+            "C",
+            "B",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "C",
+              "sha256": "a8cf6d0bfa2ec0e4efb0b45cb4478819f706dfae84d8a44210542d3c50754d99",
+              "char_count": 696
+            },
+            {
+              "label": "B",
+              "sha256": "0d88d228cb5cd8e242b6880d23216c8f2a426a4a395364a58659379d203f27e7",
+              "char_count": 719
+            },
+            {
+              "label": "A",
+              "sha256": "91baa8b36ddaac6cb6fd8695bd59c8034bb84f3cc304043dca33a85a736689f2",
+              "char_count": 722
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP05",
+          "condition_to_label": {
+            "C1": "A",
+            "C2": "B",
+            "C0": "C"
+          },
+          "presentation_order": [
+            "C",
+            "A",
+            "B"
+          ],
+          "shown": [
+            {
+              "label": "C",
+              "sha256": "8500bc7fec9d76862112f8ab3ffc4dcdaa0a839d0a840d8ba37107d5845fb4b2",
+              "char_count": 835
+            },
+            {
+              "label": "A",
+              "sha256": "889dfb1fb777e53ee5fe97070cd26f9154bc3842cc1f5ce6c782ab9cc490f7ab",
+              "char_count": 729
+            },
+            {
+              "label": "B",
+              "sha256": "7631f4e1bb4971894a5982340c2079ddcc75db62a647413411531927b5fdb482",
+              "char_count": 688
+            }
+          ],
+          "length_confound_flag": false
+        }
+      ]
+    },
+    {
+      "participant_id": "P008",
+      "cases": [
+        {
+          "case_id": "HP08",
+          "condition_to_label": {
+            "C0": "A",
+            "C2": "B",
+            "C1": "C"
+          },
+          "presentation_order": [
+            "A",
+            "C",
+            "B"
+          ],
+          "shown": [
+            {
+              "label": "A",
+              "sha256": "c0739d5d188555a4938f80b220266e73ab61387644a8c947d8092c00843e389f",
+              "char_count": 926
+            },
+            {
+              "label": "C",
+              "sha256": "445f91bed28c3c620b8981f18643150ef8420a4c01a4314354bcd937a2db950c",
+              "char_count": 827
+            },
+            {
+              "label": "B",
+              "sha256": "5d3ec4fa5da30c8ff9a3cf7904cdb22b1016001eef43c8c15ab751cb32f9ce0c",
+              "char_count": 706
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP10",
+          "condition_to_label": {
+            "C0": "A",
+            "C2": "B",
+            "C1": "C"
+          },
+          "presentation_order": [
+            "B",
+            "C",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "74254659e5db0b7157f0729860cd729198add0a10ba324ea39b054bc468356cf",
+              "char_count": 778
+            },
+            {
+              "label": "C",
+              "sha256": "d73dc0aaee5b33138ab3bd187bdf52a6d242e4837c930e1d21361a02c63fd1ca",
+              "char_count": 661
+            },
+            {
+              "label": "A",
+              "sha256": "9d41826227b7b4714539ebaa6d46fb6749949a596b90c1aae34e77ace11a7d22",
+              "char_count": 744
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP05",
+          "condition_to_label": {
+            "C2": "A",
+            "C0": "B",
+            "C1": "C"
+          },
+          "presentation_order": [
+            "B",
+            "C",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "8500bc7fec9d76862112f8ab3ffc4dcdaa0a839d0a840d8ba37107d5845fb4b2",
+              "char_count": 835
+            },
+            {
+              "label": "C",
+              "sha256": "889dfb1fb777e53ee5fe97070cd26f9154bc3842cc1f5ce6c782ab9cc490f7ab",
+              "char_count": 729
+            },
+            {
+              "label": "A",
+              "sha256": "7631f4e1bb4971894a5982340c2079ddcc75db62a647413411531927b5fdb482",
+              "char_count": 688
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP04",
+          "condition_to_label": {
+            "C0": "A",
+            "C1": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "B",
+            "C",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "59876597acdc9df728f489b23503207678537870186c98b43b12e3bcb6ba2e4b",
+              "char_count": 763
+            },
+            {
+              "label": "C",
+              "sha256": "63c0eae7904e28f306b633e02a80924ba7648e9b3d984b9ed092aba73c22c936",
+              "char_count": 732
+            },
+            {
+              "label": "A",
+              "sha256": "0826cd6b381b5be29507d5c6c8a9f2235ec51bfbe26e17936adbabbd5d584310",
+              "char_count": 744
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP06",
+          "condition_to_label": {
+            "C0": "A",
+            "C1": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "B",
+            "A",
+            "C"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "58c3015c3d3587b9ae80f51a12857e22fe44de3fb1ec10f2ca6107d4cfa9df8f",
+              "char_count": 830
+            },
+            {
+              "label": "A",
+              "sha256": "71781e12817deaa4bf2efa7290917f2925f205c2ac469b3ae22a9dc3d90d6450",
+              "char_count": 692
+            },
+            {
+              "label": "C",
+              "sha256": "e383e54697955c63a676ba2032ffe88a63553aa28cb93fde7191b81fec8d434b",
+              "char_count": 740
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP09",
+          "condition_to_label": {
+            "C1": "A",
+            "C2": "B",
+            "C0": "C"
+          },
+          "presentation_order": [
+            "B",
+            "C",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "3b7ce92e388e08be1a5bb10b6a54a5cf092dd91a5ba5688bba2db1eeab4ed7ee",
+              "char_count": 657
+            },
+            {
+              "label": "C",
+              "sha256": "e873463789e575db38d6b47c8934d9829cc0555e4522fccef7406ddbc2a7af94",
+              "char_count": 680
+            },
+            {
+              "label": "A",
+              "sha256": "7d72a4f46f7b29310ef13730045a82b2423172bc6b4cbddb20a6d852e562c605",
+              "char_count": 726
+            }
+          ],
+          "length_confound_flag": false
+        }
+      ]
+    },
+    {
+      "participant_id": "P009",
+      "cases": [
+        {
+          "case_id": "HP02",
+          "condition_to_label": {
+            "C1": "A",
+            "C0": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "B",
+            "A",
+            "C"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "578a37a07bed03d544c799b9decefbfe8b0043cc2018f498ffbb98d159d907de",
+              "char_count": 732
+            },
+            {
+              "label": "A",
+              "sha256": "a47e6408f0deb8465340367ac57ed9b5977c91ad86bce494dbce95b53ed112fe",
+              "char_count": 670
+            },
+            {
+              "label": "C",
+              "sha256": "8fc1e0f1bb86f2c5a0efcaf497090590bfccaa378a98f75058fd0257b892d430",
+              "char_count": 689
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP10",
+          "condition_to_label": {
+            "C2": "A",
+            "C0": "B",
+            "C1": "C"
+          },
+          "presentation_order": [
+            "B",
+            "A",
+            "C"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "9d41826227b7b4714539ebaa6d46fb6749949a596b90c1aae34e77ace11a7d22",
+              "char_count": 744
+            },
+            {
+              "label": "A",
+              "sha256": "74254659e5db0b7157f0729860cd729198add0a10ba324ea39b054bc468356cf",
+              "char_count": 778
+            },
+            {
+              "label": "C",
+              "sha256": "d73dc0aaee5b33138ab3bd187bdf52a6d242e4837c930e1d21361a02c63fd1ca",
+              "char_count": 661
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP03",
+          "condition_to_label": {
+            "C1": "A",
+            "C0": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "B",
+            "A",
+            "C"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "91baa8b36ddaac6cb6fd8695bd59c8034bb84f3cc304043dca33a85a736689f2",
+              "char_count": 722
+            },
+            {
+              "label": "A",
+              "sha256": "a8cf6d0bfa2ec0e4efb0b45cb4478819f706dfae84d8a44210542d3c50754d99",
+              "char_count": 696
+            },
+            {
+              "label": "C",
+              "sha256": "0d88d228cb5cd8e242b6880d23216c8f2a426a4a395364a58659379d203f27e7",
+              "char_count": 719
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP01",
+          "condition_to_label": {
+            "C0": "A",
+            "C2": "B",
+            "C1": "C"
+          },
+          "presentation_order": [
+            "C",
+            "A",
+            "B"
+          ],
+          "shown": [
+            {
+              "label": "C",
+              "sha256": "a9dbda6d5888ab3d09bddba593096a57d279b8538d5e5ad0d4e0391b2112c9df",
+              "char_count": 730
+            },
+            {
+              "label": "A",
+              "sha256": "ee5afa4496af324a97394632accca3a942a8140e32b7f91f90e077054fa4ad45",
+              "char_count": 767
+            },
+            {
+              "label": "B",
+              "sha256": "6aeda551b55a4f94af5a7a45fd8cbb64afc542a651c9965ab89381b79406bdf0",
+              "char_count": 674
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP05",
+          "condition_to_label": {
+            "C0": "A",
+            "C1": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "C",
+            "B",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "C",
+              "sha256": "7631f4e1bb4971894a5982340c2079ddcc75db62a647413411531927b5fdb482",
+              "char_count": 688
+            },
+            {
+              "label": "B",
+              "sha256": "889dfb1fb777e53ee5fe97070cd26f9154bc3842cc1f5ce6c782ab9cc490f7ab",
+              "char_count": 729
+            },
+            {
+              "label": "A",
+              "sha256": "8500bc7fec9d76862112f8ab3ffc4dcdaa0a839d0a840d8ba37107d5845fb4b2",
+              "char_count": 835
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP07",
+          "condition_to_label": {
+            "C2": "A",
+            "C0": "B",
+            "C1": "C"
+          },
+          "presentation_order": [
+            "A",
+            "B",
+            "C"
+          ],
+          "shown": [
+            {
+              "label": "A",
+              "sha256": "f361b1ce7ba24e4dc3bdf40b69cce4a452be206cc1a04c97e5b79bdc2aeefba0",
+              "char_count": 669
+            },
+            {
+              "label": "B",
+              "sha256": "1d971e004368379d6c666ca5f8a8e09e88749caf3ea84ac7ce1ba38559960e79",
+              "char_count": 809
+            },
+            {
+              "label": "C",
+              "sha256": "80a6098d23001ab114ecba8af17e5d27231aa831b15bc1fee93c00daf0e2d4af",
+              "char_count": 774
+            }
+          ],
+          "length_confound_flag": false
+        }
+      ]
+    },
+    {
+      "participant_id": "P010",
+      "cases": [
+        {
+          "case_id": "HP10",
+          "condition_to_label": {
+            "C0": "A",
+            "C2": "B",
+            "C1": "C"
+          },
+          "presentation_order": [
+            "B",
+            "C",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "74254659e5db0b7157f0729860cd729198add0a10ba324ea39b054bc468356cf",
+              "char_count": 778
+            },
+            {
+              "label": "C",
+              "sha256": "d73dc0aaee5b33138ab3bd187bdf52a6d242e4837c930e1d21361a02c63fd1ca",
+              "char_count": 661
+            },
+            {
+              "label": "A",
+              "sha256": "9d41826227b7b4714539ebaa6d46fb6749949a596b90c1aae34e77ace11a7d22",
+              "char_count": 744
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP05",
+          "condition_to_label": {
+            "C2": "A",
+            "C0": "B",
+            "C1": "C"
+          },
+          "presentation_order": [
+            "B",
+            "C",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "8500bc7fec9d76862112f8ab3ffc4dcdaa0a839d0a840d8ba37107d5845fb4b2",
+              "char_count": 835
+            },
+            {
+              "label": "C",
+              "sha256": "889dfb1fb777e53ee5fe97070cd26f9154bc3842cc1f5ce6c782ab9cc490f7ab",
+              "char_count": 729
+            },
+            {
+              "label": "A",
+              "sha256": "7631f4e1bb4971894a5982340c2079ddcc75db62a647413411531927b5fdb482",
+              "char_count": 688
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP08",
+          "condition_to_label": {
+            "C0": "A",
+            "C1": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "C",
+            "B",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "C",
+              "sha256": "5d3ec4fa5da30c8ff9a3cf7904cdb22b1016001eef43c8c15ab751cb32f9ce0c",
+              "char_count": 706
+            },
+            {
+              "label": "B",
+              "sha256": "445f91bed28c3c620b8981f18643150ef8420a4c01a4314354bcd937a2db950c",
+              "char_count": 827
+            },
+            {
+              "label": "A",
+              "sha256": "c0739d5d188555a4938f80b220266e73ab61387644a8c947d8092c00843e389f",
+              "char_count": 926
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP09",
+          "condition_to_label": {
+            "C1": "A",
+            "C2": "B",
+            "C0": "C"
+          },
+          "presentation_order": [
+            "A",
+            "C",
+            "B"
+          ],
+          "shown": [
+            {
+              "label": "A",
+              "sha256": "7d72a4f46f7b29310ef13730045a82b2423172bc6b4cbddb20a6d852e562c605",
+              "char_count": 726
+            },
+            {
+              "label": "C",
+              "sha256": "e873463789e575db38d6b47c8934d9829cc0555e4522fccef7406ddbc2a7af94",
+              "char_count": 680
+            },
+            {
+              "label": "B",
+              "sha256": "3b7ce92e388e08be1a5bb10b6a54a5cf092dd91a5ba5688bba2db1eeab4ed7ee",
+              "char_count": 657
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP06",
+          "condition_to_label": {
+            "C2": "A",
+            "C1": "B",
+            "C0": "C"
+          },
+          "presentation_order": [
+            "A",
+            "B",
+            "C"
+          ],
+          "shown": [
+            {
+              "label": "A",
+              "sha256": "e383e54697955c63a676ba2032ffe88a63553aa28cb93fde7191b81fec8d434b",
+              "char_count": 740
+            },
+            {
+              "label": "B",
+              "sha256": "58c3015c3d3587b9ae80f51a12857e22fe44de3fb1ec10f2ca6107d4cfa9df8f",
+              "char_count": 830
+            },
+            {
+              "label": "C",
+              "sha256": "71781e12817deaa4bf2efa7290917f2925f205c2ac469b3ae22a9dc3d90d6450",
+              "char_count": 692
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP04",
+          "condition_to_label": {
+            "C1": "A",
+            "C0": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "A",
+            "B",
+            "C"
+          ],
+          "shown": [
+            {
+              "label": "A",
+              "sha256": "59876597acdc9df728f489b23503207678537870186c98b43b12e3bcb6ba2e4b",
+              "char_count": 763
+            },
+            {
+              "label": "B",
+              "sha256": "0826cd6b381b5be29507d5c6c8a9f2235ec51bfbe26e17936adbabbd5d584310",
+              "char_count": 744
+            },
+            {
+              "label": "C",
+              "sha256": "63c0eae7904e28f306b633e02a80924ba7648e9b3d984b9ed092aba73c22c936",
+              "char_count": 732
+            }
+          ],
+          "length_confound_flag": false
+        }
+      ]
+    },
+    {
+      "participant_id": "P011",
+      "cases": [
+        {
+          "case_id": "HP10",
+          "condition_to_label": {
+            "C1": "A",
+            "C0": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "C",
+            "B",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "C",
+              "sha256": "74254659e5db0b7157f0729860cd729198add0a10ba324ea39b054bc468356cf",
+              "char_count": 778
+            },
+            {
+              "label": "B",
+              "sha256": "9d41826227b7b4714539ebaa6d46fb6749949a596b90c1aae34e77ace11a7d22",
+              "char_count": 744
+            },
+            {
+              "label": "A",
+              "sha256": "d73dc0aaee5b33138ab3bd187bdf52a6d242e4837c930e1d21361a02c63fd1ca",
+              "char_count": 661
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP01",
+          "condition_to_label": {
+            "C1": "A",
+            "C2": "B",
+            "C0": "C"
+          },
+          "presentation_order": [
+            "B",
+            "A",
+            "C"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "6aeda551b55a4f94af5a7a45fd8cbb64afc542a651c9965ab89381b79406bdf0",
+              "char_count": 674
+            },
+            {
+              "label": "A",
+              "sha256": "a9dbda6d5888ab3d09bddba593096a57d279b8538d5e5ad0d4e0391b2112c9df",
+              "char_count": 730
+            },
+            {
+              "label": "C",
+              "sha256": "ee5afa4496af324a97394632accca3a942a8140e32b7f91f90e077054fa4ad45",
+              "char_count": 767
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP02",
+          "condition_to_label": {
+            "C0": "A",
+            "C2": "B",
+            "C1": "C"
+          },
+          "presentation_order": [
+            "B",
+            "A",
+            "C"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "8fc1e0f1bb86f2c5a0efcaf497090590bfccaa378a98f75058fd0257b892d430",
+              "char_count": 689
+            },
+            {
+              "label": "A",
+              "sha256": "578a37a07bed03d544c799b9decefbfe8b0043cc2018f498ffbb98d159d907de",
+              "char_count": 732
+            },
+            {
+              "label": "C",
+              "sha256": "a47e6408f0deb8465340367ac57ed9b5977c91ad86bce494dbce95b53ed112fe",
+              "char_count": 670
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP07",
+          "condition_to_label": {
+            "C0": "A",
+            "C1": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "C",
+            "B",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "C",
+              "sha256": "f361b1ce7ba24e4dc3bdf40b69cce4a452be206cc1a04c97e5b79bdc2aeefba0",
+              "char_count": 669
+            },
+            {
+              "label": "B",
+              "sha256": "80a6098d23001ab114ecba8af17e5d27231aa831b15bc1fee93c00daf0e2d4af",
+              "char_count": 774
+            },
+            {
+              "label": "A",
+              "sha256": "1d971e004368379d6c666ca5f8a8e09e88749caf3ea84ac7ce1ba38559960e79",
+              "char_count": 809
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP05",
+          "condition_to_label": {
+            "C0": "A",
+            "C1": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "C",
+            "A",
+            "B"
+          ],
+          "shown": [
+            {
+              "label": "C",
+              "sha256": "7631f4e1bb4971894a5982340c2079ddcc75db62a647413411531927b5fdb482",
+              "char_count": 688
+            },
+            {
+              "label": "A",
+              "sha256": "8500bc7fec9d76862112f8ab3ffc4dcdaa0a839d0a840d8ba37107d5845fb4b2",
+              "char_count": 835
+            },
+            {
+              "label": "B",
+              "sha256": "889dfb1fb777e53ee5fe97070cd26f9154bc3842cc1f5ce6c782ab9cc490f7ab",
+              "char_count": 729
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP03",
+          "condition_to_label": {
+            "C2": "A",
+            "C1": "B",
+            "C0": "C"
+          },
+          "presentation_order": [
+            "C",
+            "A",
+            "B"
+          ],
+          "shown": [
+            {
+              "label": "C",
+              "sha256": "91baa8b36ddaac6cb6fd8695bd59c8034bb84f3cc304043dca33a85a736689f2",
+              "char_count": 722
+            },
+            {
+              "label": "A",
+              "sha256": "0d88d228cb5cd8e242b6880d23216c8f2a426a4a395364a58659379d203f27e7",
+              "char_count": 719
+            },
+            {
+              "label": "B",
+              "sha256": "a8cf6d0bfa2ec0e4efb0b45cb4478819f706dfae84d8a44210542d3c50754d99",
+              "char_count": 696
+            }
+          ],
+          "length_confound_flag": false
+        }
+      ]
+    },
+    {
+      "participant_id": "P012",
+      "cases": [
+        {
+          "case_id": "HP04",
+          "condition_to_label": {
+            "C2": "A",
+            "C1": "B",
+            "C0": "C"
+          },
+          "presentation_order": [
+            "C",
+            "B",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "C",
+              "sha256": "0826cd6b381b5be29507d5c6c8a9f2235ec51bfbe26e17936adbabbd5d584310",
+              "char_count": 744
+            },
+            {
+              "label": "B",
+              "sha256": "59876597acdc9df728f489b23503207678537870186c98b43b12e3bcb6ba2e4b",
+              "char_count": 763
+            },
+            {
+              "label": "A",
+              "sha256": "63c0eae7904e28f306b633e02a80924ba7648e9b3d984b9ed092aba73c22c936",
+              "char_count": 732
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP08",
+          "condition_to_label": {
+            "C2": "A",
+            "C1": "B",
+            "C0": "C"
+          },
+          "presentation_order": [
+            "A",
+            "B",
+            "C"
+          ],
+          "shown": [
+            {
+              "label": "A",
+              "sha256": "5d3ec4fa5da30c8ff9a3cf7904cdb22b1016001eef43c8c15ab751cb32f9ce0c",
+              "char_count": 706
+            },
+            {
+              "label": "B",
+              "sha256": "445f91bed28c3c620b8981f18643150ef8420a4c01a4314354bcd937a2db950c",
+              "char_count": 827
+            },
+            {
+              "label": "C",
+              "sha256": "c0739d5d188555a4938f80b220266e73ab61387644a8c947d8092c00843e389f",
+              "char_count": 926
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP06",
+          "condition_to_label": {
+            "C1": "A",
+            "C0": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "B",
+            "C",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "71781e12817deaa4bf2efa7290917f2925f205c2ac469b3ae22a9dc3d90d6450",
+              "char_count": 692
+            },
+            {
+              "label": "C",
+              "sha256": "e383e54697955c63a676ba2032ffe88a63553aa28cb93fde7191b81fec8d434b",
+              "char_count": 740
+            },
+            {
+              "label": "A",
+              "sha256": "58c3015c3d3587b9ae80f51a12857e22fe44de3fb1ec10f2ca6107d4cfa9df8f",
+              "char_count": 830
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP10",
+          "condition_to_label": {
+            "C1": "A",
+            "C0": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "B",
+            "A",
+            "C"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "9d41826227b7b4714539ebaa6d46fb6749949a596b90c1aae34e77ace11a7d22",
+              "char_count": 744
+            },
+            {
+              "label": "A",
+              "sha256": "d73dc0aaee5b33138ab3bd187bdf52a6d242e4837c930e1d21361a02c63fd1ca",
+              "char_count": 661
+            },
+            {
+              "label": "C",
+              "sha256": "74254659e5db0b7157f0729860cd729198add0a10ba324ea39b054bc468356cf",
+              "char_count": 778
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP05",
+          "condition_to_label": {
+            "C2": "A",
+            "C0": "B",
+            "C1": "C"
+          },
+          "presentation_order": [
+            "C",
+            "A",
+            "B"
+          ],
+          "shown": [
+            {
+              "label": "C",
+              "sha256": "889dfb1fb777e53ee5fe97070cd26f9154bc3842cc1f5ce6c782ab9cc490f7ab",
+              "char_count": 729
+            },
+            {
+              "label": "A",
+              "sha256": "7631f4e1bb4971894a5982340c2079ddcc75db62a647413411531927b5fdb482",
+              "char_count": 688
+            },
+            {
+              "label": "B",
+              "sha256": "8500bc7fec9d76862112f8ab3ffc4dcdaa0a839d0a840d8ba37107d5845fb4b2",
+              "char_count": 835
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP09",
+          "condition_to_label": {
+            "C2": "A",
+            "C1": "B",
+            "C0": "C"
+          },
+          "presentation_order": [
+            "C",
+            "A",
+            "B"
+          ],
+          "shown": [
+            {
+              "label": "C",
+              "sha256": "e873463789e575db38d6b47c8934d9829cc0555e4522fccef7406ddbc2a7af94",
+              "char_count": 680
+            },
+            {
+              "label": "A",
+              "sha256": "3b7ce92e388e08be1a5bb10b6a54a5cf092dd91a5ba5688bba2db1eeab4ed7ee",
+              "char_count": 657
+            },
+            {
+              "label": "B",
+              "sha256": "7d72a4f46f7b29310ef13730045a82b2423172bc6b4cbddb20a6d852e562c605",
+              "char_count": 726
+            }
+          ],
+          "length_confound_flag": false
+        }
+      ]
+    },
+    {
+      "participant_id": "P013",
+      "cases": [
+        {
+          "case_id": "HP07",
+          "condition_to_label": {
+            "C2": "A",
+            "C0": "B",
+            "C1": "C"
+          },
+          "presentation_order": [
+            "B",
+            "A",
+            "C"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "1d971e004368379d6c666ca5f8a8e09e88749caf3ea84ac7ce1ba38559960e79",
+              "char_count": 809
+            },
+            {
+              "label": "A",
+              "sha256": "f361b1ce7ba24e4dc3bdf40b69cce4a452be206cc1a04c97e5b79bdc2aeefba0",
+              "char_count": 669
+            },
+            {
+              "label": "C",
+              "sha256": "80a6098d23001ab114ecba8af17e5d27231aa831b15bc1fee93c00daf0e2d4af",
+              "char_count": 774
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP10",
+          "condition_to_label": {
+            "C1": "A",
+            "C0": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "A",
+            "C",
+            "B"
+          ],
+          "shown": [
+            {
+              "label": "A",
+              "sha256": "d73dc0aaee5b33138ab3bd187bdf52a6d242e4837c930e1d21361a02c63fd1ca",
+              "char_count": 661
+            },
+            {
+              "label": "C",
+              "sha256": "74254659e5db0b7157f0729860cd729198add0a10ba324ea39b054bc468356cf",
+              "char_count": 778
+            },
+            {
+              "label": "B",
+              "sha256": "9d41826227b7b4714539ebaa6d46fb6749949a596b90c1aae34e77ace11a7d22",
+              "char_count": 744
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP05",
+          "condition_to_label": {
+            "C1": "A",
+            "C0": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "B",
+            "C",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "8500bc7fec9d76862112f8ab3ffc4dcdaa0a839d0a840d8ba37107d5845fb4b2",
+              "char_count": 835
+            },
+            {
+              "label": "C",
+              "sha256": "7631f4e1bb4971894a5982340c2079ddcc75db62a647413411531927b5fdb482",
+              "char_count": 688
+            },
+            {
+              "label": "A",
+              "sha256": "889dfb1fb777e53ee5fe97070cd26f9154bc3842cc1f5ce6c782ab9cc490f7ab",
+              "char_count": 729
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP03",
+          "condition_to_label": {
+            "C2": "A",
+            "C1": "B",
+            "C0": "C"
+          },
+          "presentation_order": [
+            "B",
+            "C",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "a8cf6d0bfa2ec0e4efb0b45cb4478819f706dfae84d8a44210542d3c50754d99",
+              "char_count": 696
+            },
+            {
+              "label": "C",
+              "sha256": "91baa8b36ddaac6cb6fd8695bd59c8034bb84f3cc304043dca33a85a736689f2",
+              "char_count": 722
+            },
+            {
+              "label": "A",
+              "sha256": "0d88d228cb5cd8e242b6880d23216c8f2a426a4a395364a58659379d203f27e7",
+              "char_count": 719
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP01",
+          "condition_to_label": {
+            "C0": "A",
+            "C1": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "C",
+            "A",
+            "B"
+          ],
+          "shown": [
+            {
+              "label": "C",
+              "sha256": "6aeda551b55a4f94af5a7a45fd8cbb64afc542a651c9965ab89381b79406bdf0",
+              "char_count": 674
+            },
+            {
+              "label": "A",
+              "sha256": "ee5afa4496af324a97394632accca3a942a8140e32b7f91f90e077054fa4ad45",
+              "char_count": 767
+            },
+            {
+              "label": "B",
+              "sha256": "a9dbda6d5888ab3d09bddba593096a57d279b8538d5e5ad0d4e0391b2112c9df",
+              "char_count": 730
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP02",
+          "condition_to_label": {
+            "C2": "A",
+            "C0": "B",
+            "C1": "C"
+          },
+          "presentation_order": [
+            "B",
+            "A",
+            "C"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "578a37a07bed03d544c799b9decefbfe8b0043cc2018f498ffbb98d159d907de",
+              "char_count": 732
+            },
+            {
+              "label": "A",
+              "sha256": "8fc1e0f1bb86f2c5a0efcaf497090590bfccaa378a98f75058fd0257b892d430",
+              "char_count": 689
+            },
+            {
+              "label": "C",
+              "sha256": "a47e6408f0deb8465340367ac57ed9b5977c91ad86bce494dbce95b53ed112fe",
+              "char_count": 670
+            }
+          ],
+          "length_confound_flag": false
+        }
+      ]
+    },
+    {
+      "participant_id": "P014",
+      "cases": [
+        {
+          "case_id": "HP06",
+          "condition_to_label": {
+            "C2": "A",
+            "C0": "B",
+            "C1": "C"
+          },
+          "presentation_order": [
+            "C",
+            "A",
+            "B"
+          ],
+          "shown": [
+            {
+              "label": "C",
+              "sha256": "58c3015c3d3587b9ae80f51a12857e22fe44de3fb1ec10f2ca6107d4cfa9df8f",
+              "char_count": 830
+            },
+            {
+              "label": "A",
+              "sha256": "e383e54697955c63a676ba2032ffe88a63553aa28cb93fde7191b81fec8d434b",
+              "char_count": 740
+            },
+            {
+              "label": "B",
+              "sha256": "71781e12817deaa4bf2efa7290917f2925f205c2ac469b3ae22a9dc3d90d6450",
+              "char_count": 692
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP05",
+          "condition_to_label": {
+            "C2": "A",
+            "C1": "B",
+            "C0": "C"
+          },
+          "presentation_order": [
+            "A",
+            "C",
+            "B"
+          ],
+          "shown": [
+            {
+              "label": "A",
+              "sha256": "7631f4e1bb4971894a5982340c2079ddcc75db62a647413411531927b5fdb482",
+              "char_count": 688
+            },
+            {
+              "label": "C",
+              "sha256": "8500bc7fec9d76862112f8ab3ffc4dcdaa0a839d0a840d8ba37107d5845fb4b2",
+              "char_count": 835
+            },
+            {
+              "label": "B",
+              "sha256": "889dfb1fb777e53ee5fe97070cd26f9154bc3842cc1f5ce6c782ab9cc490f7ab",
+              "char_count": 729
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP08",
+          "condition_to_label": {
+            "C1": "A",
+            "C2": "B",
+            "C0": "C"
+          },
+          "presentation_order": [
+            "B",
+            "C",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "5d3ec4fa5da30c8ff9a3cf7904cdb22b1016001eef43c8c15ab751cb32f9ce0c",
+              "char_count": 706
+            },
+            {
+              "label": "C",
+              "sha256": "c0739d5d188555a4938f80b220266e73ab61387644a8c947d8092c00843e389f",
+              "char_count": 926
+            },
+            {
+              "label": "A",
+              "sha256": "445f91bed28c3c620b8981f18643150ef8420a4c01a4314354bcd937a2db950c",
+              "char_count": 827
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP04",
+          "condition_to_label": {
+            "C0": "A",
+            "C2": "B",
+            "C1": "C"
+          },
+          "presentation_order": [
+            "C",
+            "A",
+            "B"
+          ],
+          "shown": [
+            {
+              "label": "C",
+              "sha256": "59876597acdc9df728f489b23503207678537870186c98b43b12e3bcb6ba2e4b",
+              "char_count": 763
+            },
+            {
+              "label": "A",
+              "sha256": "0826cd6b381b5be29507d5c6c8a9f2235ec51bfbe26e17936adbabbd5d584310",
+              "char_count": 744
+            },
+            {
+              "label": "B",
+              "sha256": "63c0eae7904e28f306b633e02a80924ba7648e9b3d984b9ed092aba73c22c936",
+              "char_count": 732
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP10",
+          "condition_to_label": {
+            "C0": "A",
+            "C2": "B",
+            "C1": "C"
+          },
+          "presentation_order": [
+            "A",
+            "B",
+            "C"
+          ],
+          "shown": [
+            {
+              "label": "A",
+              "sha256": "9d41826227b7b4714539ebaa6d46fb6749949a596b90c1aae34e77ace11a7d22",
+              "char_count": 744
+            },
+            {
+              "label": "B",
+              "sha256": "74254659e5db0b7157f0729860cd729198add0a10ba324ea39b054bc468356cf",
+              "char_count": 778
+            },
+            {
+              "label": "C",
+              "sha256": "d73dc0aaee5b33138ab3bd187bdf52a6d242e4837c930e1d21361a02c63fd1ca",
+              "char_count": 661
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP09",
+          "condition_to_label": {
+            "C0": "A",
+            "C1": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "B",
+            "C",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "7d72a4f46f7b29310ef13730045a82b2423172bc6b4cbddb20a6d852e562c605",
+              "char_count": 726
+            },
+            {
+              "label": "C",
+              "sha256": "3b7ce92e388e08be1a5bb10b6a54a5cf092dd91a5ba5688bba2db1eeab4ed7ee",
+              "char_count": 657
+            },
+            {
+              "label": "A",
+              "sha256": "e873463789e575db38d6b47c8934d9829cc0555e4522fccef7406ddbc2a7af94",
+              "char_count": 680
+            }
+          ],
+          "length_confound_flag": false
+        }
+      ]
+    },
+    {
+      "participant_id": "P015",
+      "cases": [
+        {
+          "case_id": "HP02",
+          "condition_to_label": {
+            "C2": "A",
+            "C0": "B",
+            "C1": "C"
+          },
+          "presentation_order": [
+            "A",
+            "B",
+            "C"
+          ],
+          "shown": [
+            {
+              "label": "A",
+              "sha256": "8fc1e0f1bb86f2c5a0efcaf497090590bfccaa378a98f75058fd0257b892d430",
+              "char_count": 689
+            },
+            {
+              "label": "B",
+              "sha256": "578a37a07bed03d544c799b9decefbfe8b0043cc2018f498ffbb98d159d907de",
+              "char_count": 732
+            },
+            {
+              "label": "C",
+              "sha256": "a47e6408f0deb8465340367ac57ed9b5977c91ad86bce494dbce95b53ed112fe",
+              "char_count": 670
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP01",
+          "condition_to_label": {
+            "C1": "A",
+            "C2": "B",
+            "C0": "C"
+          },
+          "presentation_order": [
+            "A",
+            "B",
+            "C"
+          ],
+          "shown": [
+            {
+              "label": "A",
+              "sha256": "a9dbda6d5888ab3d09bddba593096a57d279b8538d5e5ad0d4e0391b2112c9df",
+              "char_count": 730
+            },
+            {
+              "label": "B",
+              "sha256": "6aeda551b55a4f94af5a7a45fd8cbb64afc542a651c9965ab89381b79406bdf0",
+              "char_count": 674
+            },
+            {
+              "label": "C",
+              "sha256": "ee5afa4496af324a97394632accca3a942a8140e32b7f91f90e077054fa4ad45",
+              "char_count": 767
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP05",
+          "condition_to_label": {
+            "C0": "A",
+            "C2": "B",
+            "C1": "C"
+          },
+          "presentation_order": [
+            "C",
+            "A",
+            "B"
+          ],
+          "shown": [
+            {
+              "label": "C",
+              "sha256": "889dfb1fb777e53ee5fe97070cd26f9154bc3842cc1f5ce6c782ab9cc490f7ab",
+              "char_count": 729
+            },
+            {
+              "label": "A",
+              "sha256": "8500bc7fec9d76862112f8ab3ffc4dcdaa0a839d0a840d8ba37107d5845fb4b2",
+              "char_count": 835
+            },
+            {
+              "label": "B",
+              "sha256": "7631f4e1bb4971894a5982340c2079ddcc75db62a647413411531927b5fdb482",
+              "char_count": 688
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP03",
+          "condition_to_label": {
+            "C2": "A",
+            "C0": "B",
+            "C1": "C"
+          },
+          "presentation_order": [
+            "C",
+            "A",
+            "B"
+          ],
+          "shown": [
+            {
+              "label": "C",
+              "sha256": "a8cf6d0bfa2ec0e4efb0b45cb4478819f706dfae84d8a44210542d3c50754d99",
+              "char_count": 696
+            },
+            {
+              "label": "A",
+              "sha256": "0d88d228cb5cd8e242b6880d23216c8f2a426a4a395364a58659379d203f27e7",
+              "char_count": 719
+            },
+            {
+              "label": "B",
+              "sha256": "91baa8b36ddaac6cb6fd8695bd59c8034bb84f3cc304043dca33a85a736689f2",
+              "char_count": 722
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP10",
+          "condition_to_label": {
+            "C0": "A",
+            "C1": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "B",
+            "C",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "d73dc0aaee5b33138ab3bd187bdf52a6d242e4837c930e1d21361a02c63fd1ca",
+              "char_count": 661
+            },
+            {
+              "label": "C",
+              "sha256": "74254659e5db0b7157f0729860cd729198add0a10ba324ea39b054bc468356cf",
+              "char_count": 778
+            },
+            {
+              "label": "A",
+              "sha256": "9d41826227b7b4714539ebaa6d46fb6749949a596b90c1aae34e77ace11a7d22",
+              "char_count": 744
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP07",
+          "condition_to_label": {
+            "C0": "A",
+            "C2": "B",
+            "C1": "C"
+          },
+          "presentation_order": [
+            "C",
+            "B",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "C",
+              "sha256": "80a6098d23001ab114ecba8af17e5d27231aa831b15bc1fee93c00daf0e2d4af",
+              "char_count": 774
+            },
+            {
+              "label": "B",
+              "sha256": "f361b1ce7ba24e4dc3bdf40b69cce4a452be206cc1a04c97e5b79bdc2aeefba0",
+              "char_count": 669
+            },
+            {
+              "label": "A",
+              "sha256": "1d971e004368379d6c666ca5f8a8e09e88749caf3ea84ac7ce1ba38559960e79",
+              "char_count": 809
+            }
+          ],
+          "length_confound_flag": false
+        }
+      ]
+    },
+    {
+      "participant_id": "P016",
+      "cases": [
+        {
+          "case_id": "HP05",
+          "condition_to_label": {
+            "C0": "A",
+            "C1": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "B",
+            "A",
+            "C"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "889dfb1fb777e53ee5fe97070cd26f9154bc3842cc1f5ce6c782ab9cc490f7ab",
+              "char_count": 729
+            },
+            {
+              "label": "A",
+              "sha256": "8500bc7fec9d76862112f8ab3ffc4dcdaa0a839d0a840d8ba37107d5845fb4b2",
+              "char_count": 835
+            },
+            {
+              "label": "C",
+              "sha256": "7631f4e1bb4971894a5982340c2079ddcc75db62a647413411531927b5fdb482",
+              "char_count": 688
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP04",
+          "condition_to_label": {
+            "C0": "A",
+            "C1": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "A",
+            "B",
+            "C"
+          ],
+          "shown": [
+            {
+              "label": "A",
+              "sha256": "0826cd6b381b5be29507d5c6c8a9f2235ec51bfbe26e17936adbabbd5d584310",
+              "char_count": 744
+            },
+            {
+              "label": "B",
+              "sha256": "59876597acdc9df728f489b23503207678537870186c98b43b12e3bcb6ba2e4b",
+              "char_count": 763
+            },
+            {
+              "label": "C",
+              "sha256": "63c0eae7904e28f306b633e02a80924ba7648e9b3d984b9ed092aba73c22c936",
+              "char_count": 732
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP06",
+          "condition_to_label": {
+            "C0": "A",
+            "C1": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "A",
+            "C",
+            "B"
+          ],
+          "shown": [
+            {
+              "label": "A",
+              "sha256": "71781e12817deaa4bf2efa7290917f2925f205c2ac469b3ae22a9dc3d90d6450",
+              "char_count": 692
+            },
+            {
+              "label": "C",
+              "sha256": "e383e54697955c63a676ba2032ffe88a63553aa28cb93fde7191b81fec8d434b",
+              "char_count": 740
+            },
+            {
+              "label": "B",
+              "sha256": "58c3015c3d3587b9ae80f51a12857e22fe44de3fb1ec10f2ca6107d4cfa9df8f",
+              "char_count": 830
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP10",
+          "condition_to_label": {
+            "C0": "A",
+            "C1": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "B",
+            "A",
+            "C"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "d73dc0aaee5b33138ab3bd187bdf52a6d242e4837c930e1d21361a02c63fd1ca",
+              "char_count": 661
+            },
+            {
+              "label": "A",
+              "sha256": "9d41826227b7b4714539ebaa6d46fb6749949a596b90c1aae34e77ace11a7d22",
+              "char_count": 744
+            },
+            {
+              "label": "C",
+              "sha256": "74254659e5db0b7157f0729860cd729198add0a10ba324ea39b054bc468356cf",
+              "char_count": 778
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP09",
+          "condition_to_label": {
+            "C2": "A",
+            "C1": "B",
+            "C0": "C"
+          },
+          "presentation_order": [
+            "A",
+            "B",
+            "C"
+          ],
+          "shown": [
+            {
+              "label": "A",
+              "sha256": "3b7ce92e388e08be1a5bb10b6a54a5cf092dd91a5ba5688bba2db1eeab4ed7ee",
+              "char_count": 657
+            },
+            {
+              "label": "B",
+              "sha256": "7d72a4f46f7b29310ef13730045a82b2423172bc6b4cbddb20a6d852e562c605",
+              "char_count": 726
+            },
+            {
+              "label": "C",
+              "sha256": "e873463789e575db38d6b47c8934d9829cc0555e4522fccef7406ddbc2a7af94",
+              "char_count": 680
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP08",
+          "condition_to_label": {
+            "C1": "A",
+            "C0": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "A",
+            "B",
+            "C"
+          ],
+          "shown": [
+            {
+              "label": "A",
+              "sha256": "445f91bed28c3c620b8981f18643150ef8420a4c01a4314354bcd937a2db950c",
+              "char_count": 827
+            },
+            {
+              "label": "B",
+              "sha256": "c0739d5d188555a4938f80b220266e73ab61387644a8c947d8092c00843e389f",
+              "char_count": 926
+            },
+            {
+              "label": "C",
+              "sha256": "5d3ec4fa5da30c8ff9a3cf7904cdb22b1016001eef43c8c15ab751cb32f9ce0c",
+              "char_count": 706
+            }
+          ],
+          "length_confound_flag": false
+        }
+      ]
+    },
+    {
+      "participant_id": "P017",
+      "cases": [
+        {
+          "case_id": "HP01",
+          "condition_to_label": {
+            "C2": "A",
+            "C0": "B",
+            "C1": "C"
+          },
+          "presentation_order": [
+            "A",
+            "C",
+            "B"
+          ],
+          "shown": [
+            {
+              "label": "A",
+              "sha256": "6aeda551b55a4f94af5a7a45fd8cbb64afc542a651c9965ab89381b79406bdf0",
+              "char_count": 674
+            },
+            {
+              "label": "C",
+              "sha256": "a9dbda6d5888ab3d09bddba593096a57d279b8538d5e5ad0d4e0391b2112c9df",
+              "char_count": 730
+            },
+            {
+              "label": "B",
+              "sha256": "ee5afa4496af324a97394632accca3a942a8140e32b7f91f90e077054fa4ad45",
+              "char_count": 767
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP02",
+          "condition_to_label": {
+            "C2": "A",
+            "C1": "B",
+            "C0": "C"
+          },
+          "presentation_order": [
+            "A",
+            "B",
+            "C"
+          ],
+          "shown": [
+            {
+              "label": "A",
+              "sha256": "8fc1e0f1bb86f2c5a0efcaf497090590bfccaa378a98f75058fd0257b892d430",
+              "char_count": 689
+            },
+            {
+              "label": "B",
+              "sha256": "a47e6408f0deb8465340367ac57ed9b5977c91ad86bce494dbce95b53ed112fe",
+              "char_count": 670
+            },
+            {
+              "label": "C",
+              "sha256": "578a37a07bed03d544c799b9decefbfe8b0043cc2018f498ffbb98d159d907de",
+              "char_count": 732
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP07",
+          "condition_to_label": {
+            "C0": "A",
+            "C2": "B",
+            "C1": "C"
+          },
+          "presentation_order": [
+            "C",
+            "A",
+            "B"
+          ],
+          "shown": [
+            {
+              "label": "C",
+              "sha256": "80a6098d23001ab114ecba8af17e5d27231aa831b15bc1fee93c00daf0e2d4af",
+              "char_count": 774
+            },
+            {
+              "label": "A",
+              "sha256": "1d971e004368379d6c666ca5f8a8e09e88749caf3ea84ac7ce1ba38559960e79",
+              "char_count": 809
+            },
+            {
+              "label": "B",
+              "sha256": "f361b1ce7ba24e4dc3bdf40b69cce4a452be206cc1a04c97e5b79bdc2aeefba0",
+              "char_count": 669
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP03",
+          "condition_to_label": {
+            "C0": "A",
+            "C1": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "B",
+            "A",
+            "C"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "a8cf6d0bfa2ec0e4efb0b45cb4478819f706dfae84d8a44210542d3c50754d99",
+              "char_count": 696
+            },
+            {
+              "label": "A",
+              "sha256": "91baa8b36ddaac6cb6fd8695bd59c8034bb84f3cc304043dca33a85a736689f2",
+              "char_count": 722
+            },
+            {
+              "label": "C",
+              "sha256": "0d88d228cb5cd8e242b6880d23216c8f2a426a4a395364a58659379d203f27e7",
+              "char_count": 719
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP10",
+          "condition_to_label": {
+            "C1": "A",
+            "C0": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "A",
+            "C",
+            "B"
+          ],
+          "shown": [
+            {
+              "label": "A",
+              "sha256": "d73dc0aaee5b33138ab3bd187bdf52a6d242e4837c930e1d21361a02c63fd1ca",
+              "char_count": 661
+            },
+            {
+              "label": "C",
+              "sha256": "74254659e5db0b7157f0729860cd729198add0a10ba324ea39b054bc468356cf",
+              "char_count": 778
+            },
+            {
+              "label": "B",
+              "sha256": "9d41826227b7b4714539ebaa6d46fb6749949a596b90c1aae34e77ace11a7d22",
+              "char_count": 744
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP05",
+          "condition_to_label": {
+            "C1": "A",
+            "C2": "B",
+            "C0": "C"
+          },
+          "presentation_order": [
+            "A",
+            "B",
+            "C"
+          ],
+          "shown": [
+            {
+              "label": "A",
+              "sha256": "889dfb1fb777e53ee5fe97070cd26f9154bc3842cc1f5ce6c782ab9cc490f7ab",
+              "char_count": 729
+            },
+            {
+              "label": "B",
+              "sha256": "7631f4e1bb4971894a5982340c2079ddcc75db62a647413411531927b5fdb482",
+              "char_count": 688
+            },
+            {
+              "label": "C",
+              "sha256": "8500bc7fec9d76862112f8ab3ffc4dcdaa0a839d0a840d8ba37107d5845fb4b2",
+              "char_count": 835
+            }
+          ],
+          "length_confound_flag": false
+        }
+      ]
+    },
+    {
+      "participant_id": "P018",
+      "cases": [
+        {
+          "case_id": "HP06",
+          "condition_to_label": {
+            "C1": "A",
+            "C2": "B",
+            "C0": "C"
+          },
+          "presentation_order": [
+            "B",
+            "C",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "e383e54697955c63a676ba2032ffe88a63553aa28cb93fde7191b81fec8d434b",
+              "char_count": 740
+            },
+            {
+              "label": "C",
+              "sha256": "71781e12817deaa4bf2efa7290917f2925f205c2ac469b3ae22a9dc3d90d6450",
+              "char_count": 692
+            },
+            {
+              "label": "A",
+              "sha256": "58c3015c3d3587b9ae80f51a12857e22fe44de3fb1ec10f2ca6107d4cfa9df8f",
+              "char_count": 830
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP08",
+          "condition_to_label": {
+            "C1": "A",
+            "C2": "B",
+            "C0": "C"
+          },
+          "presentation_order": [
+            "C",
+            "A",
+            "B"
+          ],
+          "shown": [
+            {
+              "label": "C",
+              "sha256": "c0739d5d188555a4938f80b220266e73ab61387644a8c947d8092c00843e389f",
+              "char_count": 926
+            },
+            {
+              "label": "A",
+              "sha256": "445f91bed28c3c620b8981f18643150ef8420a4c01a4314354bcd937a2db950c",
+              "char_count": 827
+            },
+            {
+              "label": "B",
+              "sha256": "5d3ec4fa5da30c8ff9a3cf7904cdb22b1016001eef43c8c15ab751cb32f9ce0c",
+              "char_count": 706
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP04",
+          "condition_to_label": {
+            "C0": "A",
+            "C2": "B",
+            "C1": "C"
+          },
+          "presentation_order": [
+            "B",
+            "A",
+            "C"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "63c0eae7904e28f306b633e02a80924ba7648e9b3d984b9ed092aba73c22c936",
+              "char_count": 732
+            },
+            {
+              "label": "A",
+              "sha256": "0826cd6b381b5be29507d5c6c8a9f2235ec51bfbe26e17936adbabbd5d584310",
+              "char_count": 744
+            },
+            {
+              "label": "C",
+              "sha256": "59876597acdc9df728f489b23503207678537870186c98b43b12e3bcb6ba2e4b",
+              "char_count": 763
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP10",
+          "condition_to_label": {
+            "C0": "A",
+            "C1": "B",
+            "C2": "C"
+          },
+          "presentation_order": [
+            "A",
+            "C",
+            "B"
+          ],
+          "shown": [
+            {
+              "label": "A",
+              "sha256": "9d41826227b7b4714539ebaa6d46fb6749949a596b90c1aae34e77ace11a7d22",
+              "char_count": 744
+            },
+            {
+              "label": "C",
+              "sha256": "74254659e5db0b7157f0729860cd729198add0a10ba324ea39b054bc468356cf",
+              "char_count": 778
+            },
+            {
+              "label": "B",
+              "sha256": "d73dc0aaee5b33138ab3bd187bdf52a6d242e4837c930e1d21361a02c63fd1ca",
+              "char_count": 661
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP05",
+          "condition_to_label": {
+            "C1": "A",
+            "C2": "B",
+            "C0": "C"
+          },
+          "presentation_order": [
+            "B",
+            "A",
+            "C"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "7631f4e1bb4971894a5982340c2079ddcc75db62a647413411531927b5fdb482",
+              "char_count": 688
+            },
+            {
+              "label": "A",
+              "sha256": "889dfb1fb777e53ee5fe97070cd26f9154bc3842cc1f5ce6c782ab9cc490f7ab",
+              "char_count": 729
+            },
+            {
+              "label": "C",
+              "sha256": "8500bc7fec9d76862112f8ab3ffc4dcdaa0a839d0a840d8ba37107d5845fb4b2",
+              "char_count": 835
+            }
+          ],
+          "length_confound_flag": false
+        },
+        {
+          "case_id": "HP09",
+          "condition_to_label": {
+            "C2": "A",
+            "C1": "B",
+            "C0": "C"
+          },
+          "presentation_order": [
+            "B",
+            "C",
+            "A"
+          ],
+          "shown": [
+            {
+              "label": "B",
+              "sha256": "7d72a4f46f7b29310ef13730045a82b2423172bc6b4cbddb20a6d852e562c605",
+              "char_count": 726
+            },
+            {
+              "label": "C",
+              "sha256": "e873463789e575db38d6b47c8934d9829cc0555e4522fccef7406ddbc2a7af94",
+              "char_count": 680
+            },
+            {
+              "label": "A",
+              "sha256": "3b7ce92e388e08be1a5bb10b6a54a5cf092dd91a5ba5688bba2db1eeab4ed7ee",
+              "char_count": 657
+            }
+          ],
+          "length_confound_flag": false
+        }
+      ]
+    }
+  ],
+  "exposure": {
+    "HP01": 9,
+    "HP02": 9,
+    "HP03": 9,
+    "HP04": 9,
+    "HP05": 18,
+    "HP06": 9,
+    "HP07": 9,
+    "HP08": 9,
+    "HP09": 9,
+    "HP10": 18
+  }
+}

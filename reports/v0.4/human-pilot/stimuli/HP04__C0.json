@@ -1,0 +1,11 @@
+{
+  "case_id": "HP04",
+  "condition": "C0",
+  "model": "claude-opus-4-8",
+  "temperature": 0.0,
+  "system_prompt_file": null,
+  "char_count": 744,
+  "sha256": "0826cd6b381b5be29507d5c6c8a9f2235ec51bfbe26e17936adbabbd5d584310",
+  "generated_at": "2026-08-20T13:06:43.655986Z",
+  "reused_from": null
+}

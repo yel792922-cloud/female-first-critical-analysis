@@ -1,0 +1,11 @@
+{
+  "case_id": "HP03",
+  "condition": "C2",
+  "model": "claude-opus-4-8",
+  "temperature": 0.0,
+  "system_prompt_file": "SKILL.md",
+  "char_count": 719,
+  "sha256": "0d88d228cb5cd8e242b6880d23216c8f2a426a4a395364a58659379d203f27e7",
+  "generated_at": "2026-08-20T13:06:11.635024Z",
+  "reused_from": null
+}

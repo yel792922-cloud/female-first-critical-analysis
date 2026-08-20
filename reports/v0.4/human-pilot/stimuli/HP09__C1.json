@@ -1,0 +1,11 @@
+{
+  "case_id": "HP09",
+  "condition": "C1",
+  "model": "claude-opus-4-8",
+  "temperature": 0.0,
+  "system_prompt_file": "GENERIC-SCAFFOLD.md",
+  "char_count": 726,
+  "sha256": "7d72a4f46f7b29310ef13730045a82b2423172bc6b4cbddb20a6d852e562c605",
+  "generated_at": "2026-08-20T13:17:01.528016Z",
+  "reused_from": null
+}

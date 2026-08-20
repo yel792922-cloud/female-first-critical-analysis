@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "female-first/human-pilot-v0.4.7/annotation-schema",
+  "title": "Blind open-response coding (>= 2 human annotators per open explanation)",
+  "description": "Each participant open_explanation is coded independently by >=2 real annotators who do NOT know the condition->label map. If <2 real annotators are available, record HUMAN_CODING_BLOCKED; do not substitute an LLM coder and report it as human agreement.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["annotation_id", "record_id", "annotator_id", "blind", "codes", "reasoning_quality"],
+  "properties": {
+    "annotation_id": { "type": "string" },
+    "record_id": { "type": "string", "description": "links to the survey record being coded" },
+    "annotator_id": { "type": "string", "description": "de-identified; must be a real human" },
+    "blind": {
+      "type": "boolean",
+      "const": true,
+      "description": "annotator must be blind to which label is C0/C1/C2"
+    },
+    "codes": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "presence codes on the participant's free-text explanation",
+      "required": [
+        "standpoint_recognized", "agency_recognized", "structure_recognized",
+        "overreach_identified", "double_standard_recognized", "male_experience_retained"
+      ],
+      "properties": {
+        "standpoint_recognized":     { "$ref": "#/$defs/code" },
+        "agency_recognized":         { "$ref": "#/$defs/code" },
+        "structure_recognized":      { "$ref": "#/$defs/code" },
+        "overreach_identified":      { "$ref": "#/$defs/code" },
+        "double_standard_recognized":{ "$ref": "#/$defs/code" },
+        "male_experience_retained":  { "$ref": "#/$defs/code" }
+      }
+    },
+    "reasoning_quality": {
+      "type": "string",
+      "enum": ["reasoning_difference", "preference_only", "mixed", "uncodable"],
+      "description": "RQ4: did the participant articulate a real reasoning difference, or only express a phrasing/style preference?"
+    },
+    "notes": { "type": "string" }
+  },
+  "$defs": {
+    "code": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["present"],
+      "properties": {
+        "present": { "type": "boolean" },
+        "target_label": {
+          "type": "string",
+          "enum": ["A", "B", "C", "none", "unclear"],
+          "description": "which answer the participant attributes this to (if stated)"
+        },
+        "span": { "type": "string", "description": "optional quoted evidence span" }
+      }
+    }
+  },
+  "reliability_outputs": {
+    "description": "Computed AFTER >=2 annotators code each record; not part of a single annotation object.",
+    "per_code": {
+      "agreement_rate": "proportion of records where annotators agree on present/absent",
+      "cohens_kappa": "computed where applicable (>=2 annotators, sufficient marginal variance); report 'undefined' when a code is near-constant",
+      "disagreement_records": "list of record_ids requiring adjudication"
+    },
+    "reasoning_quality": {
+      "agreement_rate": "on the 4-way reasoning_quality label",
+      "cohens_kappa": "weighted or unweighted, stated explicitly"
+    },
+    "blocked_state": "if <2 real annotators: HUMAN_CODING_BLOCKED (no LLM substitution)"
+  }
+}

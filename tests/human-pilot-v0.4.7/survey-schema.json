@@ -1,0 +1,142 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "female-first/human-pilot-v0.4.7/survey-schema",
+  "title": "Participant response record (one row per participant x case)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "record_id", "participant_id", "case_id", "condition_label_map",
+    "presentation_order", "ratings", "recognition", "anti_persuasion",
+    "open_explanation", "provenance", "meta"
+  ],
+  "properties": {
+    "record_id": { "type": "string", "description": "unique per participant x case" },
+    "participant_id": { "type": "string", "description": "de-identified/hashed" },
+    "case_id": { "type": "string", "pattern": "^HP(0[1-9]|10)$" },
+    "mode": { "type": "string", "enum": ["three_condition", "two_condition"] },
+    "condition_label_map": {
+      "type": "object",
+      "description": "TRUE mapping label->condition, hidden from participant, kept server-side",
+      "additionalProperties": { "type": "string", "enum": ["C0", "C1", "C2", "C3"] },
+      "propertyNames": { "enum": ["A", "B", "C"] }
+    },
+    "presentation_order": {
+      "type": "array", "items": { "type": "string", "enum": ["A", "B", "C"] },
+      "minItems": 2, "maxItems": 3
+    },
+    "ratings": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "each comparative item: which label chosen + 1-7 confidence",
+      "required": ["helpfulness", "fairness", "power_recognition", "agency_respect", "overreach", "readability", "evidence_calibration"],
+      "properties": {
+        "helpfulness":        { "$ref": "#/$defs/comparative" },
+        "fairness":           { "$ref": "#/$defs/comparative" },
+        "power_recognition":  { "$ref": "#/$defs/comparative" },
+        "agency_respect":     { "$ref": "#/$defs/comparative" },
+        "overreach":          { "$ref": "#/$defs/comparative" },
+        "readability":        { "$ref": "#/$defs/comparative" },
+        "evidence_calibration": { "$ref": "#/$defs/comparative" }
+      }
+    },
+    "recognition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["selected_properties", "attributions", "free_text"],
+      "properties": {
+        "selected_properties": {
+          "type": "array",
+          "items": { "type": "string", "enum": [
+            "emphasizes_individual_choice", "emphasizes_structure",
+            "attends_women_experience", "attends_power_position",
+            "attends_symmetry_double_standard", "no_clear_difference", "other"
+          ] }
+        },
+        "attributions": {
+          "type": "array",
+          "description": "for each selected property, which label the participant assigns it to",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["property", "label"],
+            "properties": {
+              "property": { "type": "string" },
+              "label": { "type": "string", "enum": ["A", "B", "C", "none"] }
+            }
+          }
+        },
+        "free_text": { "type": "string" }
+      }
+    },
+    "anti_persuasion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["predecided_conclusion", "values_as_facts"],
+      "properties": {
+        "predecided_conclusion": { "$ref": "#/$defs/comparative" },
+        "values_as_facts":       { "$ref": "#/$defs/comparative" }
+      }
+    },
+    "boundary": {
+      "type": "object",
+      "description": "present only for HP05 and HP10",
+      "additionalProperties": false,
+      "properties": {
+        "male_victim_empathy":        { "$ref": "#/$defs/comparative" },
+        "keeps_standpoint_no_erasure": { "$ref": "#/$defs/comparative" },
+        "power_captured":             { "$ref": "#/$defs/comparative" },
+        "forced_genderization":       { "$ref": "#/$defs/comparative" }
+      }
+    },
+    "open_explanation": { "type": "string", "minLength": 0 },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["stimulus_hashes", "model", "temperature"],
+      "properties": {
+        "stimulus_hashes": {
+          "type": "object",
+          "additionalProperties": { "type": "string" },
+          "description": "label -> sha256 of the exact shown text"
+        },
+        "model": { "type": "string" },
+        "temperature": { "type": "number" },
+        "generated_at": { "type": "string" }
+      }
+    },
+    "meta": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["subgroup", "seconds_on_case"],
+      "properties": {
+        "subgroup": { "type": "string", "enum": ["G1", "G2", "G3"] },
+        "covariates": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "gender_studies_familiarity": { "type": "string", "enum": ["none", "some", "formal"] },
+            "prior_feminist_reading": { "type": "string", "enum": ["none", "casual", "substantial"] },
+            "ai_usage": { "type": "string", "enum": ["never", "occasional", "daily"] },
+            "education": { "type": "string", "enum": ["secondary", "undergrad", "postgrad"] },
+            "critical_reading_self_rating": { "type": "integer", "minimum": 1, "maximum": 5 },
+            "self_gender": { "type": "string" }
+          }
+        },
+        "seconds_on_case": { "type": "number" },
+        "low_effort_flag": { "type": "boolean" },
+        "length_confound_flag": { "type": "boolean" }
+      }
+    }
+  },
+  "$defs": {
+    "comparative": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["choice", "confidence"],
+      "properties": {
+        "choice": { "type": "string", "enum": ["A", "B", "C", "tie", "cannot_tell"] },
+        "confidence": { "type": "integer", "minimum": 1, "maximum": 7 }
+      }
+    }
+  }
+}

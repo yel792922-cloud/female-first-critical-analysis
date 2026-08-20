@@ -1,12 +1,16 @@
 # Human Pilot & Standpoint Annotation (v0.4.7)
 
-**Status: `HUMAN PILOT EXECUTION PENDING`** — this round delivers the *protocol,
-instruments, stimulus plan, randomization, analysis plan, and blind-coding
-scheme*. It does **not** contain participant data. This environment cannot
-recruit real humans; per the round constraints, **no LLM-generated "participants"
-are used and no fake human data is produced.** When ≥15 real participants and ≥2
-real annotators are available, the pipeline runs unchanged and results drop into
-`results-template.md`.
+**Status: materials `HUMAN PILOT READY`; execution `HUMAN PILOT EXECUTION
+PENDING`.** The *protocol, instruments, randomization, analysis plan, and
+blind-coding scheme* are complete **and** the stimuli are now generated and
+blinded: all 10 cases × C0/C1/C2 under a shared length cap (parity clean, worst
+ratio 1.31 < 1.8, zero confound flags), plus a real blinded packet manifest
+(`reports/v0.4/human-pilot/packets/manifest.json`, seed 42, N=18, condition↔label
+decoupled and order-randomized, every stimulus hashed). What is **missing is only
+real humans** — this environment cannot recruit them, and per the round
+constraints **no LLM-generated "participants" are used and no fake human data is
+produced.** When ≥15 real participants and ≥2 real annotators are available, the
+pipeline runs unchanged and results drop into `results-template.md`.
 
 ## Why this round exists
 
